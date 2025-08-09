@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejraa - Medical Licensing & Tax Services</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Tajawal:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar" id="mainNav">
+        <div class="container">
+            <!-- Logo on the left -->
+            <a class="navbar-brand" href="#home">
+                <img src="logo.png" alt="Ejraa Logo" class="navbar-logo">
+            </a>
+            
+            <!-- Navigation in the center (desktop) -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="#home" data-en="Home" data-ar="الرئيسية">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="#about" data-en="About" data-ar="عن الشركة">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="#payment" data-en="Payment Methods" data-ar="طرق الدفع">Payment Methods</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="#faq" data-en="Questions" data-ar="الأسئلة">Questions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="#contact" data-en="Contact" data-ar="تواصل معنا">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Buttons on the right (always visible) -->
+            <div class="d-flex align-items-center gap-2">
+                <!-- Language Toggle -->
+                <button class="custom-lang-btn" id="langToggle">
+                    <i class="fas fa-globe"></i>
+                    <span id="langText">العربية</span>
+                </button>
+                
+                <!-- Dark Mode Toggle -->
+                <button class="custom-dark-btn" id="darkModeToggle">
+                    <i class="fas fa-moon" id="darkModeIcon"></i>
+                </button>
+                
+                <!-- Hamburger Menu Button (mobile only) -->
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="hero-title glow-text" data-en="Ejraa — Your Trusted Partner in Medical Licensing & Taxes" data-ar="إجراء – شريكك الموثوق في التراخيص الطبية والضرائب">
+                            Ejraa — Your Trusted Partner in Medical Licensing & Taxes
+                        </h1>
+                        <p class="hero-subtitle" data-en="Providing comprehensive legal services for doctors and clinics since 2015." data-ar="نقدم خدمات قانونية شاملة للأطباء والعيادات منذ عام 2015.">
+                            Providing comprehensive legal services for doctors and clinics since 2015.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#packages" class="btn btn-dark btn-lg glow-button me-3">
+                                <i class="fas fa-box me-2"></i>
+                                <span data-en="Choose Your Package" data-ar="اختر باقتك">Choose Your Package</span>
+                            </a>
+                            <a href="#contact" class="btn btn-outline-dark btn-lg glow-button">
+                                <i class="fas fa-phone me-2"></i>
+                                <span data-en="Contact Us" data-ar="تواصل معنا">Contact Us</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <img src="https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Medical Services" class="img-fluid rounded-4 shadow-lg glow-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title glow-text" data-en="Our Services & Packages" data-ar="خدماتنا وباقاتنا">Our Services & Packages</h2>
+                    <p class="section-subtitle" data-en="Choose the perfect package for your medical practice" data-ar="اختر الباقة المثالية لممارستك الطبية">Choose the perfect package for your medical practice</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Private Clinic Package -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card glow-card" data-bs-toggle="modal" data-bs-target="#packageModal" 
+                         data-package="private-clinic" 
+                         data-title-en="Private Clinic" 
+                         data-title-ar="العيادة الخاصة"
+                         data-price-en="12,000 - 16,000 EGP" 
+                         data-price-ar="12,000 - 16,000 جنيه">
+                        <div class="package-icon">
+                            <i class="fas fa-clinic-medical"></i>
+                        </div>
+                        <h4 data-en="Private Clinic" data-ar="العيادة الخاصة">Private Clinic</h4>
+                        <p class="package-price" data-en="12,000 - 16,000 EGP" data-ar="12,000 - 16,000 جنيه">12,000 - 16,000 EGP</p>
+                        <ul class="package-features">
+                            <li data-en="Medical Practice License" data-ar="ترخيص مزاولة المهنة">Medical Practice License</li>
+                            <li data-en="Professional ID Card" data-ar="بطاقة الهوية المهنية">Professional ID Card</li>
+                            <li data-en="Legal Documentation" data-ar="الوثائق القانونية">Legal Documentation</li>
+                        </ul>
+                        <div class="package-button">
+                            <span data-en="Select Package" data-ar="اختر الباقة">Select Package</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polyclinic Package -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card glow-card featured" data-bs-toggle="modal" data-bs-target="#packageModal"
+                         data-package="specialized-clinic"
+                         data-title-en="Polyclinic" 
+                         data-title-ar="العيادات المتخصصة"
+                         data-price-en="25,000 - 35,000 EGP" 
+                         data-price-ar="25,000 - 35,000 جنيه">
+                        <div class="featured-badge" data-en="Popular" data-ar="الأكثر طلباً">Popular</div>
+                        <div class="package-icon">
+                            <i class="fas fa-hospital-alt"></i>
+                        </div>
+                        <h4 data-en="Polyclinic" data-ar="العيادات المتخصصة">Polyclinic</h4>
+                        <p class="package-price" data-en="25,000 - 35,000 EGP" data-ar="25,000 - 35,000 جنيه">25,000 - 35,000 EGP</p>
+                        <ul class="package-features">
+                            <li data-en="2-5 Specialties" data-ar="2-5 تخصصات">2-5 Specialties</li>
+                            <li data-en="Advanced Licensing" data-ar="التراخيص المتقدمة">Advanced Licensing</li>
+                            <li data-en="Complete Documentation" data-ar="الوثائق الكاملة">Complete Documentation</li>
+                        </ul>
+                        <div class="package-button">
+                            <span data-en="Select Package" data-ar="اختر الباقة">Select Package</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Medical Center Package -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card glow-card" data-bs-toggle="modal" data-bs-target="#packageModal"
+                         data-package="medical-center"
+                         data-title-en="Medical Center" 
+                         data-title-ar="المركز الطبي"
+                         data-price-en="Starts at 25,000 EGP" 
+                         data-price-ar="يبدأ من 25,000 جنيه">
+                        <div class="package-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h4 data-en="Medical Center" data-ar="المركز الطبي">Medical Center</h4>
+                        <p class="package-price" data-en="Starts at 25,000 EGP" data-ar="يبدأ من 25,000 جنيه">Starts at 25,000 EGP</p>
+                        <ul class="package-features">
+                            <li data-en="One Specialty" data-ar="تخصص واحد فقط">One Specialty</li>
+                            <li data-en="Comprehensive Services" data-ar="خدمات شاملة">Comprehensive Services</li>
+                            <li data-en="Full Legal Support" data-ar="دعم قانوني كامل">Full Legal Support</li>
+                        </ul>
+                        <div class="package-button">
+                            <span data-en="Select Package" data-ar="اختر الباقة">Select Package</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tax File for Doctor -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card glow-card" data-bs-toggle="modal" data-bs-target="#packageModal"
+                         data-package="tax-doctor"
+                         data-title-en="Tax File for Doctor" 
+                         data-title-ar="الملف الضريبي للطبيب"
+                         data-price-en="From 5,000 EGP" 
+                         data-price-ar="من 5,000 جنيه">
+                        <div class="package-icon">
+                            <i class="fas fa-file-invoice-dollar"></i>
+                        </div>
+                        <h4 data-en="Tax File for Doctor" data-ar="الملف الضريبي للطبيب">Tax File for Doctor</h4>
+                        <p class="package-price" data-en="From 5,000 EGP" data-ar="من 5,000 جنيه">From 5,000 EGP</p>
+                        <ul class="package-features">
+                            <li data-en="Tax Registration" data-ar="التسجيل الضريبي">Tax Registration</li>
+                            <li data-en="Compliance Documentation" data-ar="وثائق الامتثال">Compliance Documentation</li>
+                            <li data-en="Expert Guidance" data-ar="الإرشاد المتخصص">Expert Guidance</li>
+                        </ul>
+                        <div class="package-button">
+                            <span data-en="Select Package" data-ar="اختر الباقة">Select Package</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tax File for Company -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card glow-card" data-bs-toggle="modal" data-bs-target="#packageModal"
+                         data-package="tax-company"
+                         data-title-en="Tax File for Company" 
+                         data-title-ar="الملف الضريبي للشركة"
+                         data-price-en="From 6,000 EGP" 
+                         data-price-ar="من 6,000 جنيه">
+                        <div class="package-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h4 data-en="Tax File for Company" data-ar="الملف الضريبي للشركة">Tax File for Company</h4>
+                        <p class="package-price" data-en="From 6,000 EGP" data-ar="من 6,000 جنيه">From 6,000 EGP</p>
+                        <ul class="package-features">
+                            <li data-en="Corporate Tax Setup" data-ar="إعداد الضرائب الشركات">Corporate Tax Setup</li>
+                            <li data-en="Legal Compliance" data-ar="الامتثال القانوني">Legal Compliance</li>
+                            <li data-en="Professional Support" data-ar="الدعم المتخصص">Professional Support</li>
+                        </ul>
+                        <div class="package-button">
+                            <span data-en="Select Package" data-ar="اختر الباقة">Select Package</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Laser Device Add-on -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="package-card glow-card addon" data-bs-toggle="modal" data-bs-target="#packageModal"
+                         data-package="laser-addon"
+                         data-title-en="Laser Device License" 
+                         data-title-ar="ترخيص جهاز الليزر"
+                         data-price-en="11,000 EGP" 
+                         data-price-ar="11,000 جنيه">
+                        <div class="addon-badge" data-en="Add-on" data-ar="إضافة">Add-on</div>
+                        <div class="package-icon">
+                            <i class="fas fa-laser"></i>
+                        </div>
+                        <h4 data-en="Laser Device License" data-ar="ترخيص جهاز الليزر">Laser Device License</h4>
+                        <p class="package-price" data-en="11,000 EGP" data-ar="11,000 جنيه">11,000 EGP</p>
+                        <ul class="package-features">
+                            <li data-en="Device Registration" data-ar="تسجيل الجهاز">Device Registration</li>
+                            <li data-en="Safety Compliance" data-ar="امتثال السلامة">Safety Compliance</li>
+                            <li data-en="Operation License" data-ar="ترخيص التشغيل">Operation License</li>
+                        </ul>
+                        <div class="package-button">
+                            <span data-en="Select Package" data-ar="اختر الباقة">Select Package</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sub-services Section -->
+    <section id="sub-services" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title glow-text" data-en="Sub-services" data-ar="خدمات تكميلية">Sub-services</h2>
+                <p class="section-subtitle" data-en="Additional services to complement your medical practice" data-ar="خدمات إضافية لتكملة ممارستك الطبية">Additional services to complement your medical practice</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <!-- Contracts Service -->
+                <div class="col-lg-5 col-md-6 mb-4">
+                    <div class="sub-service-card glow-card h-100">
+                        <div class="sub-service-icon">
+                            <i class="fas fa-file-contract"></i>
+                        </div>
+                        <h4 data-en="Contracts" data-ar="التعاقدات">Contracts</h4>
+                        <p class="sub-service-description" data-en="Professional contract drafting and legal documentation services for medical practices and partnerships." data-ar="خدمات صياغة العقود المهنية والوثائق القانونية للممارسات الطبية والشراكات.">
+                            Professional contract drafting and legal documentation services for medical practices and partnerships.
+                        </p>
+                        <ul class="sub-service-features">
+                            <li data-en="Contract Drafting" data-ar="صياغة العقود">Contract Drafting</li>
+                            <li data-en="Legal Review" data-ar="المراجعة القانونية">Legal Review</li>
+                            <li data-en="Partnership Agreements" data-ar="اتفاقيات الشراكة">Partnership Agreements</li>
+                            <li data-en="Employment Contracts" data-ar="عقود العمل">Employment Contracts</li>
+                        </ul>
+                        <div class="sub-service-button">
+                            <a href="javascript:void(0)" class="btn btn-outline-primary" onclick="sendSubServiceToWhatsApp('contracts')">
+                                <span data-en="Learn More" data-ar="اعرف أكثر">Learn More</span>
+                                <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional License Extraction Service -->
+                <div class="col-lg-5 col-md-6 mb-4">
+                    <div class="sub-service-card glow-card h-100">
+                        <div class="sub-service-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h4 data-en="Extracting a Professional License" data-ar="استخراج الترخيص المهني">Extracting a Professional License</h4>
+                        <p class="sub-service-description" data-en="Complete assistance in obtaining professional medical licenses and certifications from relevant authorities." data-ar="مساعدة كاملة في الحصول على التراخيص والشهادات الطبية المهنية من السلطات المختصة.">
+                            Complete assistance in obtaining professional medical licenses and certifications from relevant authorities.
+                        </p>
+                        <ul class="sub-service-features">
+                            <li data-en="License Application" data-ar="طلب الترخيص">License Application</li>
+                            <li data-en="Document Preparation" data-ar="إعداد الوثائق">Document Preparation</li>
+                            <li data-en="Authority Coordination" data-ar="التنسيق مع السلطات">Authority Coordination</li>
+                            <li data-en="Follow-up Services" data-ar="خدمات المتابعة">Follow-up Services</li>
+                        </ul>
+                        <div class="sub-service-button">
+                            <a href="javascript:void(0)" class="btn btn-outline-primary" onclick="sendSubServiceToWhatsApp('license')">
+                                <span data-en="Learn More" data-ar="اعرف أكثر">Learn More</span>
+                                <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light-green">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="about-image">
+                        <img src="https://images.pexels.com/photos/7659564/pexels-photo-7659564.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="About Ejraa" class="img-fluid rounded-4 shadow-lg glow-image">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h2 class="section-title glow-text" data-en="About Ejraa" data-ar="عن إجراء">About Ejraa</h2>
+                        <p class="about-text" data-en="We are Ejraa, specialized in the medical field for 8 years, working on legal procedures to regularize doctors' statuses in licensing, taxes, insurance, contracts, and other dealings." data-ar="نحن شركة إجراء، متخصصون في المجال الطبي منذ 8 سنوات، نعمل على الإجراءات القانونية لتنظيم أوضاع الأطباء في التراخيص والضرائب والتأمين والعقود والتعاملات الأخرى.">
+                            We are Ejraa, specialized in the medical field for 8 years, working on legal procedures to regularize doctors' statuses in licensing, taxes, insurance, contracts, and other dealings.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <div class="stat-number glow-text">8+</div>
+                                <div class="stat-label" data-en="Years of Experience" data-ar="سنوات من الخبرة">Years of Experience</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number glow-text">500+</div>
+                                <div class="stat-label" data-en="Satisfied Clients" data-ar="عميل راضٍ">Satisfied Clients</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number glow-text">100%</div>
+                                <div class="stat-label" data-en="Success Rate" data-ar="معدل النجاح">Success Rate</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Methods Section -->
+    <section id="payment" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title glow-text" data-en="Payment Methods" data-ar="طرق الدفع">Payment Methods</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="payment-info glow-card">
+                        <div class="payment-icon">
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                        <h4 data-en="Flexible Payment Plan" data-ar="خطة دفع مرنة">Flexible Payment Plan</h4>
+                        <div class="payment-details">
+                            <div class="payment-step">
+                                <span class="step-number">60%</span>
+                                <p data-en="of the total amount is paid upon document receipt" data-ar="من إجمالي المبلغ يُدفع عند استلام الوثائق">of the total amount is paid upon document receipt</p>
+                            </div>
+                            <div class="payment-step">
+                                <span class="step-number">20%</span>
+                                <p data-en="upon file completion and upload to the treatment system" data-ar="عند اكتمال الملف ورفعه لنظام العلاج">upon file completion and upload to the treatment system</p>
+                            </div>
+                            <div class="payment-step">
+                                <span class="step-number">20%</span>
+                                <p data-en="after the treatment inspection is complete" data-ar="بعد اكتمال تفتيش العلاج">after the treatment inspection is complete</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-5 bg-light-green">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title glow-text" data-en="Frequently Asked Questions" data-ar="الأسئلة الشائعة">Frequently Asked Questions</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion custom-accordion" id="faqAccordion">
+                        <!-- FAQ Item 1 -->
+                        <div class="accordion-item glow-card">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    <span data-en="What is the difference between specialized clinics and a medical center?" data-ar="ما الفرق بين العيادات التخصصية والمركز الطبي؟">What is the difference between specialized clinics and a medical center?</span>
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p data-en="Specialized clinics are complexes that include several clinics in different specialties, allowing patients to visit and receive consultations in any of them. A medical center, on the other hand, is similar to a small hospital but dedicated to only one specialty. It is permitted to have a major operating room, an emergency department, an intensive care unit, inpatient rooms, recovery rooms, and a complete oxygen network." data-ar="العيادات التخصصية هي مجمع يضم عدة عيادات في تخصصات مختلفة، بحيث يمكن للمريض الكشف في أيٍّ منها. أما المركز الطبي فهو أشبه بمستشفى مصغَّرة، ولكنه يقتصر على تخصص واحد فقط، ويُسمح له بوجود غرفة عمليات كبرى، وقسم للطوارئ، ووحدة للعناية المركزة، وغرف للإقامة والإفاقة، بالإضافة إلى شبكة أكسجين متكاملة.">
+                                        Specialized clinics are complexes that include several clinics in different specialties, allowing patients to visit and receive consultations in any of them. A medical center, on the other hand, is similar to a small hospital but dedicated to only one specialty. It is permitted to have a major operating room, an emergency department, an intensive care unit, inpatient rooms, recovery rooms, and a complete oxygen network.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 2 -->
+                        <div class="accordion-item glow-card">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    <span data-en="What are the required room sizes?" data-ar="ما هي مساحات الغرف المطلوبة؟">What are the required room sizes?</span>
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p data-en="Private Clinic: No specific size requirements, but it must include a room with a desk for medical consultations, a place for hazardous medical waste, and a sterilization area. Specialized Clinics: A consultation room must be provided for each specialty, along with a place for hazardous waste and a dedicated sterilization room. Medical Center: Each inpatient bed or ICU bed must have an area of at least 8 square meters. The facility must also have a gas network room, a sterilization room, a hazardous waste room, a major operating room starting from 20 square meters, a recovery room, and an intensive care room." data-ar="العيادة الخاصة: لا يشترط وجود مساحات محددة، ولكن يجب توفير غرفة تضم مكتباً وصيغة للكشف الطبي، إضافة إلى مكان مخصص للنفايات الخطرة ومكان للتعقيم. العيادات التخصصية: يجب توفير غرفة كشف لكل تخصص، إضافة إلى مكان للنفايات الخطرة وغرفة مخصصة للتعقيم. المركز الطبي: يشترط أن تكون مساحة كل سرير إقامة أو سرير عناية مركزة 8 أمتار مربعة، مع توفير غرفة لشبكة الغازات، وغرفة للتعقيم، وغرفة للنفايات، وغرفة عمليات كبرى لا تقل مساحتها عن 20 متراً مربعاً، بالإضافة إلى غرفة إفاقة وغرفة عناية مركزة.">
+                                        Private Clinic: No specific size requirements, but it must include a room with a desk for medical consultations, a place for hazardous medical waste, and a sterilization area. Specialized Clinics: A consultation room must be provided for each specialty, along with a place for hazardous waste and a dedicated sterilization room. Medical Center: Each inpatient bed or ICU bed must have an area of at least 8 square meters. The facility must also have a gas network room, a sterilization room, a hazardous waste room, a major operating room starting from 20 square meters, a recovery room, and an intensive care room.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 3 -->
+                        <div class="accordion-item glow-card">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    <span data-en="When should I start the licensing procedures?" data-ar="متى أبدأ في إجراءات التراخيص؟">When should I start the licensing procedures?</span>
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p data-en="The actual process should begin after the premises are fully furnished and ready for operation." data-ar="يجب البدء الفعلي في الإجراءات بعد استلام المكان مفروشاً وجاهزاً للتشغيل.">
+                                        The actual process should begin after the premises are fully furnished and ready for operation.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 4 -->
+                        <div class="accordion-item glow-card">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    <span data-en="Are laboratories, dental clinics, and radiology units inside a polyclinic included in the main license?" data-ar="هل معامل التحاليل وعيادات الأسنان والأشعة داخل البولي كلينك تُدرج في الرخصة الأساسية؟">Are laboratories, dental clinics, and radiology units inside a polyclinic included in the main license?</span>
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p data-en="No, they are not included in the main license. They are only mentioned in the facility's registration with the Medical Syndicate, but each requires a separate license and additional fees." data-ar="لا، فهي لا تُدرج ضمن الرخصة الأساسية، وإنما تُذكر فقط في تسجيل المنشأة بنقابة الأطباء. أما الترخيص فيصدر لكل منها بشكل منفصل مع رسوم خاصة بها.">
+                                        No, they are not included in the main license. They are only mentioned in the facility's registration with the Medical Syndicate, but each requires a separate license and additional fees.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 5 -->
+                        <div class="accordion-item glow-card">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    <span data-en="How do I start the process?" data-ar="كيف أبدأ في الإجراءات؟">How do I start the process?</span>
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p data-en="The doctor prepares the required documents, and we send them the power of attorney form. Then, a site inspection of the clinic is conducted, the doctor's documents are collected, and a 60% down payment is made. The contract is then signed, the tax number, company address, and commercial registration are recorded, and the doctor receives a payment receipt. For every step completed, we send the doctor a message with the details of the action taken." data-ar="يقوم الطبيب بتجهيز الأوراق المطلوبة، ثم نرسل إليه صيغة التوكيل، وبعد ذلك يتم إجراء معاينة للعيادة، واستلام أوراق الطبيب مع دفع 60% من قيمة العربون. بعد ذلك يتم توقيع عقد الاتفاق، حيث يُسجَّل الرقم الضريبي ومقر الشركة والسجل التجاري، ويحصل الطبيب على إيصال بالمبلغ المدفوع، ومع كل إجراء يتم تنفيذه نرسل للطبيب رسالة توضح تفاصيل الخطوة التي تم إنجازها.">
+                                        The doctor prepares the required documents, and we send them the power of attorney form. Then, a site inspection of the clinic is conducted, the doctor's documents are collected, and a 60% down payment is made. The contract is then signed, the tax number, company address, and commercial registration are recorded, and the doctor receives a payment receipt. For every step completed, we send the doctor a message with the details of the action taken.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title glow-text" data-en="Contact Us" data-ar="تواصل معنا">Contact Us</h2>
+                    <p class="section-subtitle" data-en="Get in touch with our experts today" data-ar="تواصل مع خبرائنا اليوم">Get in touch with our experts today</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form class="contact-form glow-card" id="contactForm">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label" data-en="Full Name" data-ar="الاسم الكامل">Full Name</label>
+                                <input type="text" class="form-control" name="fullName" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label" data-en="Phone Number" data-ar="رقم الهاتف">Phone Number</label>
+                                <input type="tel" class="form-control" name="phoneNumber" required>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label class="form-label" data-en="Email Address" data-ar="البريد الإلكتروني">Email Address</label>
+                                <input type="email" class="form-control" name="email" required>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label class="form-label" data-en="Service Type" data-ar="نوع الخدمة">Service Type</label>
+                                <select class="form-select" name="serviceType" required>
+                                    <option value="" data-en="Select a service" data-ar="اختر خدمة">Select a service</option>
+                                    <option value="private-clinic" data-en="Private Clinic" data-ar="العيادة الخاصة">Private Clinic</option>
+                                    <option value="specialized-clinic" data-en="Polyclinic" data-ar="العيادات المتخصصة">Polyclinic</option>
+                                    <option value="medical-center" data-en="Medical Center" data-ar="المركز الطبي">Medical Center</option>
+                                    <option value="tax-doctor" data-en="Tax File for Doctor" data-ar="الملف الضريبي للطبيب">Tax File for Doctor</option>
+                                    <option value="tax-company" data-en="Tax File for Company" data-ar="الملف الضريبي للشركة">Tax File for Company</option>
+                                </select>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label class="form-label" data-en="Message" data-ar="الرسالة">Message</label>
+                                <textarea class="form-control" rows="4" name="message" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary btn-lg glow-button w-100">
+                                    <i class="fas fa-paper-plane me-2"></i>
+                                    <span data-en="Send Message" data-ar="أرسل الرسالة">Send Message</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 text-center mb-4">
+                    <div class="contact-item glow-card">
+                        <i class="fas fa-phone contact-icon"></i>
+                        <h5 data-en="Phone" data-ar="الهاتف">Phone</h5>
+                        <p>+20109543689</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center mb-4">
+                    <div class="contact-item glow-card">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <h5 data-en="Email" data-ar="البريد الإلكتروني">Email</h5>
+                        <p>ejraa.eg@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center mb-4">
+                    <div class="contact-item glow-card">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        <h5 data-en="Address" data-ar="العنوان">Address</h5>
+                        <p data-en="Cairo, Egypt" data-ar="القاهرة، مصر">Cairo, Egypt</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float" id="whatsappFloat">
+        <a href="https://wa.me/201094543689" target="_blank" class="whatsapp-link">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Package Modal -->
+    <div class="modal fade" id="packageModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle">Package Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="packageForm" class="package-form">
+                        <div class="package-info mb-4">
+                            <h6 id="modalPrice" class="text-primary"></h6>
+                            <p id="modalDescription"></p>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label" data-en="Full Name" data-ar="الاسم الكامل">Full Name</label>
+                                <input type="text" class="form-control" name="fullName" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label" data-en="Phone Number" data-ar="رقم الهاتف">Phone Number</label>
+                                <input type="tel" class="form-control" name="phone" required>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label class="form-label" data-en="Email Address" data-ar="البريد الإلكتروني">Email Address</label>
+                                <input type="email" class="form-control" name="email" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label" data-en="Medical Specialty" data-ar="التخصص الطبي">Medical Specialty</label>
+                                <input type="text" class="form-control" name="specialty" required>
+                            </div>
+                            <div class="col-md-6 mb-3" id="specialtiesCountField" style="display: none;">
+                                <label class="form-label" data-en="Number of Specialties" data-ar="عدد التخصصات">Number of Specialties</label>
+                                <select class="form-select" name="specialtiesCount">
+                                    <option value="" data-en="Select number" data-ar="اختر العدد">Select number</option>
+                                    <option value="2" data-en="2 Specialties" data-ar="تخصصان">2 Specialties</option>
+                                    <option value="3" data-en="3 Specialties" data-ar="3 تخصصات">3 Specialties</option>
+                                    <option value="4" data-en="4 Specialties" data-ar="4 تخصصات">4 Specialties</option>
+                                    <option value="5" data-en="5 Specialties" data-ar="5 تخصصات">5 Specialties</option>
+                                </select>
+                            </div>
+                            
+                            <!-- Medical Center specific fields -->
+                            <div class="col-md-6 mb-3" id="medicalCenterFields" style="display: none;">
+                                <label class="form-label" data-en="Number of Beds" data-ar="عدد الأسرة">Number of Beds</label>
+                                <input type="number" class="form-control" name="numberOfBeds" min="0" placeholder="0">
+                            </div>
+                            <div class="col-md-6 mb-3" id="operatingRoomsField" style="display: none;">
+                                <label class="form-label" data-en="Number of Operating Rooms" data-ar="عدد غرف العمليات">Number of Operating Rooms</label>
+                                <input type="number" class="form-control" name="operatingRooms" min="0" placeholder="0">
+                            </div>
+                            <div class="col-md-6 mb-3" id="accommodationRoomsField" style="display: none;">
+                                <label class="form-label" data-en="Number of Accommodation Rooms" data-ar="عدد غرف الإقامة">Number of Accommodation Rooms</label>
+                                <input type="number" class="form-control" name="accommodationRooms" min="0" placeholder="0">
+                            </div>
+                            <div class="col-md-6 mb-3" id="intensiveCareRoomsField" style="display: none;">
+                                <label class="form-label" data-en="Number of Intensive Care Rooms" data-ar="عدد غرف العناية المركزة">Number of Intensive Care Rooms</label>
+                                <input type="number" class="form-control" name="intensiveCareRooms" min="0" placeholder="0">
+                            </div>
+                            
+                            <!-- Tax Company specific fields -->
+                            <div class="col-md-6 mb-3" id="companyTypeField" style="display: none;">
+                                <label class="form-label" data-en="Company Type" data-ar="نوع الشركة">Company Type</label>
+                                <select class="form-select" name="companyType">
+                                    <option value="" data-en="Select company type" data-ar="اختر نوع الشركة">Select company type</option>
+                                    <option value="limited-liability" data-en="Limited Liability Company" data-ar="شركة ذات مسئولية محدودة">Limited Liability Company</option>
+                                    <option value="joint-stock" data-en="Joint Stock Company" data-ar="شركة مساهمة">Joint Stock Company</option>
+                                    <option value="partnership" data-en="Partnership Company" data-ar="شركة تضامن">Partnership Company</option>
+                                    <option value="sole-proprietorship" data-en="Sole Proprietorship" data-ar="مؤسسة فردية">Sole Proprietorship</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 mb-3" id="capitalField" style="display: none;">
+                                <label class="form-label" data-en="Capital" data-ar="رأس المال">Capital</label>
+                                <input type="text" class="form-control" name="capital" placeholder="e.g., 100,000 EGP">
+                            </div>
+                            <div class="col-12 mb-3" id="companyAreaField" style="display: none;">
+                                <label class="form-label" data-en="Company Area" data-ar="المنطقة التابع ليها الشركة">Company Area</label>
+                                <input type="text" class="form-control" name="companyArea" placeholder="e.g., Cairo, Giza, Alexandria">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label" data-en="License Type" data-ar="نوع الترخيص">License Type</label>
+                                <select class="form-select" name="licenseType" required>
+                                    <option value="" data-en="Select license type" data-ar="اختر نوع الترخيص">Select license type</option>
+                                    <option value="new" data-en="New License" data-ar="ترخيص جديد">New License</option>
+                                    <option value="renewal" data-en="License Renewal" data-ar="تجديد ترخيص">License Renewal</option>
+                                    <option value="transfer" data-en="License Transfer" data-ar="نقل ترخيص">License Transfer</option>
+                                </select>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label class="form-label" data-en="Clinic/Center Address" data-ar="عنوان العيادة/المركز">Clinic/Center Address</label>
+                                <textarea class="form-control" name="address" rows="2" required></textarea>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label class="form-label" data-en="Additional Notes" data-ar="ملاحظات إضافية">Additional Notes</label>
+                                <textarea class="form-control" name="notes" rows="3"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-en="Close" data-ar="إغلاق">Close</button>
+                    <button type="button" class="btn btn-success glow-button" onclick="sendToWhatsApp()" data-en="Send to WhatsApp" data-ar="أرسل للواتساب">
+                        <i class="fab fa-whatsapp me-2"></i>Send to WhatsApp
+                    </button>
+                    <button type="button" class="btn btn-primary glow-button" onclick="exportToPDF()" data-en="Export as PDF" data-ar="تصدير كـ PDF">
+                        <i class="fas fa-file-pdf me-2"></i>Export as PDF
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jsPDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+</body>
+</html>
