@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Center License - Ejraa</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Tajawal:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar" id="mainNav">
+        <div class="container">
+            <!-- Logo on the left -->
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.png" alt="Ejraa Logo" class="navbar-logo">
+            </a>
+            
+            <!-- Navigation in the center (desktop) -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#home" data-en="Home" data-ar="الرئيسية">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#about" data-en="About" data-ar="عن الشركة">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#packages" data-en="Packages" data-ar="الباقات">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#contact" data-en="Contact" data-ar="تواصل معنا">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Buttons on the right (always visible) -->
+            <div class="d-flex align-items-center gap-2">
+                <!-- Language Toggle -->
+                <button class="custom-lang-btn" id="langToggle">
+                    <i class="fas fa-globe"></i>
+                    <span id="langText">العربية</span>
+                </button>
+                
+                <!-- Dark Mode Toggle -->
+                <button class="custom-dark-btn" id="darkModeToggle">
+                    <i class="fas fa-moon" id="darkModeIcon"></i>
+                </button>
+                
+                <!-- Hamburger Menu Button (mobile only) -->
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Package Header -->
+    <section class="package-header py-5 mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                            <li class="breadcrumb-item"><a href="index.html#packages" data-en="Packages" data-ar="الباقات">Packages</a></li>
+                            <li class="breadcrumb-item active" data-en="Medical Center" data-ar="المركز الطبي">Medical Center</li>
+                        </ol>
+                    </nav>
+                    <h1 class="package-title glow-text" data-en="Medical Center License" data-ar="ترخيص المركز الطبي">Medical Center License</h1>
+                    <p class="package-subtitle" data-en="Comprehensive medical facility with inpatient services, surgery, and intensive care" data-ar="مرفق طبي شامل مع خدمات المرضى الداخليين والجراحة والعناية المركزة">Comprehensive medical facility with inpatient services, surgery, and intensive care</p>
+                    <div class="package-price">
+                        <span class="price-label" data-en="Starting from" data-ar="يبدأ من">Starting from</span>
+                        <span class="price-amount" data-en="35,000+ EGP" data-ar="35,000+ جنيه">35,000+ EGP</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="package-icon-large">
+                        <i class="fas fa-hospital-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Medical Center Information -->
+    <section class="license-conditions py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5 glow-text" data-en="Medical Center" data-ar="المركز الطبي">Medical Center</h2>
+            
+            <!-- Definition -->
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="definition-card glow-card">
+                        <h3 class="card-title" data-en="Definition" data-ar="التعريف">Definition</h3>
+                        <p data-en="A medical center is a medical facility that serves as a mini-hospital, dedicated to a single specialty only, and allows for advanced services such as major operating rooms, inpatient care, intensive care, recovery, emergency services, and 24-hour service." data-ar="المركز الطبي هو منشأة طبية بمثابة مستشفى مصغرة، مخصصة لتخصص واحد فقط، وتسمح بوجود خدمات متقدمة مثل غرفة عمليات كبرى، إقامة، عناية مركزة، إفاقة، طوارئ، وخدمة 24 ساعة.">A medical center is a medical facility that serves as a mini-hospital, dedicated to a single specialty only, and allows for advanced services such as major operating rooms, inpatient care, intensive care, recovery, emergency services, and 24-hour service.</p>
+                        <p data-en="It is required to have a technical manager in the licensed specialty of the center (specialist or consultant), and the license holder can be a general practitioner, specialist, or consultant." data-ar="يشترط أن يكون هناك مدير فني بالتخصص المرخص به المركز (اخصائي او استشاري)، وصاحب الترخيص يمكن أن يكون ممارس عام، أخصائي، أو استشاري.">It is required to have a technical manager in the licensed specialty of the center (specialist or consultant), and the license holder can be a general practitioner, specialist, or consultant.</p>
+                        <p data-en="For ophthalmology and radiology centers, they are subject to the same medical center requirements in terms of construction and procedures, but with additional requirements and fees for medical equipment (such as laser devices, LASIK, and radiology), where device registration fees in the syndicate range from 6,000 to 10,000 EGP, depending on the type." data-ar="بالنسبة لمراكز الرمد والأشعة، فهي تخضع لنفس اشتراطات المركز الطبي من حيث الإنشاء والإجراءات، لكن مع إضافة اشتراطات وأتعاب خاصة بالأجهزة الطبية (مثل أجهزة الليزر، الليزك، والأشعة)، حيث تتراوح رسوم تسجيل الجهاز الواحد في النقابة من 6,000 إلى 10,000 جنيه، حسب نوعه.">For ophthalmology and radiology centers, they are subject to the same medical center requirements in terms of construction and procedures, but with additional requirements and fees for medical equipment (such as laser devices, LASIK, and radiology), where device registration fees in the syndicate range from 6,000 to 10,000 EGP, depending on the type.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- General and Technical Requirements -->
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <div class="conditions-card glow-card">
+                        <h3 class="card-title" data-en="General and Technical Requirements" data-ar="الاشتراطات العامة والفنية">General and Technical Requirements</h3>
+                        <ul class="conditions-list">
+                            <li data-en="Minimum number of doctors in the center: two specialist or consultant doctors in the specialty, three resident doctors, and three nurses (numbers increase according to the number of beds, operating rooms, and intensive care units)" data-ar="وجود حد أدنى من الأطباء داخل المركز: طبيبان أخصائي أو استشاري بالتخصص، وثلاثة أطباء إقامة، وثلاثة تمريض (يزيد العدد حسب عدد الأسرة وغرف العمليات والعناية المركزة)">Minimum number of doctors in the center: two specialist or consultant doctors in the specialty, three resident doctors, and three nurses (numbers increase according to the number of beds, operating rooms, and intensive care units)</li>
+                            <li data-en="Operating room and intensive care unit without windows or reflectors, with good ventilation" data-ar="غرفة العمليات والعناية المركزة بدون شبابيك أو عواكس، مع تهوية جيدة">Operating room and intensive care unit without windows or reflectors, with good ventilation</li>
+                            <li data-en="Recovery room should be inside the operating wing" data-ar="غرفة الإفاقة تكون داخل جناح العمليات">Recovery room should be inside the operating wing</li>
+                            <li data-en="Independent operating wing with approved requirements" data-ar="وجود جناح عمليات مستقل باشتراطات معتمدة">Independent operating wing with approved requirements</li>
+                            <li data-en="Inpatient room equipped with good ventilation" data-ar="غرفة إقامة مزودة بتهوية جيدة">Inpatient room equipped with good ventilation</li>
+                            <li data-en="Equipped medical waste room and equipped sterilization room" data-ar="وجود غرفة نفايات طبية مجهزة وغرفة تعقيم مجهزة">Equipped medical waste room and equipped sterilization room</li>
+                            <li data-en="Approved and stamped engineering plan from a syndicate engineer" data-ar="مخطط هندسي معتمد ومختوم من مهندس نقابي">Approved and stamped engineering plan from a syndicate engineer</li>
+                            <li data-en="Civil defense procedure is mandatory in case of operations" data-ar="إجراء الدفاع المدني إلزامي في حالة وجود عمليات">Civil defense procedure is mandatory in case of operations</li>
+                            <li data-en="Elevator that allows trolley passage and elevator maintenance contract" data-ar="وجود أسانسير يسمح بمرور الترولي وعقد صيانة للأسانسير">Elevator that allows trolley passage and elevator maintenance contract</li>
+                            <li data-en="In case of no operations: Civil defense is required in most governorates, except some cases like Giza" data-ar="في حالة عدم وجود عمليات: الدفاع المدني مطلوب في معظم المحافظات، ما عدا بعض الحالات مثل الجيزة">In case of no operations: Civil defense is required in most governorates, except some cases like Giza</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Special Notes for Ophthalmology and Radiology -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="specialty-notes glow-card">
+                        <h3 class="card-title text-center mb-4" data-en="Special Notes for Ophthalmology and Radiology" data-ar="ملاحظات خاصة بالرمد والأشعة">Special Notes for Ophthalmology and Radiology</h3>
+                        <ul>
+                            <li data-en="Medical equipment cost is added to the basic center cost" data-ar="تضاف تكلفة الأجهزة الطبية إلى التكلفة الأساسية للمركز">Medical equipment cost is added to the basic center cost</li>
+                            <li data-en="Device registration fees in the syndicate: from 6,000 to 10,000 EGP depending on the type" data-ar="رسوم تسجيل الجهاز في النقابة: من 6,000 إلى 10,000 جنيه حسب النوع">Device registration fees in the syndicate: from 6,000 to 10,000 EGP depending on the type</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cost Information -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="cost-card glow-card">
+                        <h3 class="card-title text-center mb-4" data-en="Cost" data-ar="التكلفة">Cost</h3>
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th data-en="Service Type" data-ar="نوع الخدمة">Service Type</th>
+                                        <th data-en="Cost" data-ar="التكلفة">Cost</th>
+                                        <th data-en="Notes" data-ar="ملاحظات">Notes</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-en="Medical center without operations" data-ar="مركز طبي بدون عمليات">Medical center without operations</td>
+                                        <td data-en="Starting from 35,000 EGP" data-ar="تبدأ من 35,000 جنيه">Starting from 35,000 EGP</td>
+                                        <td data-en="Excluding civil defense" data-ar="غير شاملة الدفاع المدني">Excluding civil defense</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-en="Adding operations" data-ar="إضافة عمليات">Adding operations</td>
+                                        <td data-en="Separate cost determined according to equipment and number of operating rooms" data-ar="تكلفة منفصلة تحدد حسب التجهيزات وعدد غرف العمليات">Separate cost determined according to equipment and number of operating rooms</td>
+                                        <td data-en="Additional to basic cost" data-ar="إضافية للتكلفة الأساسية">Additional to basic cost</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-en="Ophthalmology and radiology centers cost" data-ar="تكلفة مراكز الرمد والأشعة">Ophthalmology and radiology centers cost</td>
+                                        <td data-en="Same as medical center cost + medical equipment cost and syndicate fees" data-ar="نفس تكلفة المركز الطبي + تكلفة الأجهزة الطبية ورسومها بالنقابة">Same as medical center cost + medical equipment cost and syndicate fees</td>
+                                        <td data-en="Equipment registration: 6,000-10,000 EGP per device" data-ar="تسجيل الأجهزة: 6,000-10,000 جنيه للجهاز الواحد">Equipment registration: 6,000-10,000 EGP per device</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section class="application-form py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="form-card glow-card">
+                        <h2 class="form-title text-center mb-4 glow-text" data-en="Apply for Medical Center License" data-ar="تقدم بطلب ترخيص المركز الطبي">Apply for Medical Center License</h2>
+                        <p class="form-subtitle text-center mb-4" data-en="Fill out the form below and we'll contact you within 24 hours" data-ar="املأ النموذج أدناه وسنتواصل معك خلال 24 ساعة">Fill out the form below and we'll contact you within 24 hours</p>
+                        
+                        <form id="medicalCenterForm" class="package-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Full Name *" data-ar="الاسم الكامل *">Full Name *</label>
+                                    <input type="text" class="form-control" name="fullName" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Phone Number *" data-ar="رقم الهاتف *">Phone Number *</label>
+                                    <input type="tel" class="form-control" name="phone" required>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label class="form-label" data-en="Email Address *" data-ar="البريد الإلكتروني *">Email Address *</label>
+                                    <input type="email" class="form-control" name="email" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Medical Specialty *" data-ar="التخصص الطبي *">Medical Specialty *</label>
+                                    <select class="form-select" name="specialty" required>
+                                        <option value="" data-en="Select specialty" data-ar="اختر التخصص">Select specialty</option>
+                                        <option value="general" data-en="General Medicine" data-ar="طب عام">General Medicine</option>
+                                        <option value="internal" data-en="Internal Medicine" data-ar="باطنة">Internal Medicine</option>
+                                        <option value="surgery" data-en="General Surgery" data-ar="جراحة عامة">General Surgery</option>
+                                        <option value="pediatrics" data-en="Pediatrics" data-ar="أطفال">Pediatrics</option>
+                                        <option value="gynecology" data-en="Gynecology & Obstetrics" data-ar="نساء وتوليد">Gynecology & Obstetrics</option>
+                                        <option value="orthopedics" data-en="Orthopedics" data-ar="عظام">Orthopedics</option>
+                                        <option value="cardiology" data-en="Cardiology" data-ar="قلب">Cardiology</option>
+                                        <option value="dermatology" data-en="Dermatology" data-ar="جلدية">Dermatology</option>
+                                        <option value="ophthalmology" data-en="Ophthalmology" data-ar="عيون">Ophthalmology</option>
+                                        <option value="ent" data-en="ENT" data-ar="أنف وأذن وحنجرة">ENT</option>
+                                        <option value="radiology" data-en="Radiology" data-ar="أشعة">Radiology</option>
+                                        <option value="emergency" data-en="Emergency Medicine" data-ar="طوارئ">Emergency Medicine</option>
+                                        <option value="multi" data-en="Multi-Specialty" data-ar="متعدد التخصصات">Multi-Specialty</option>
+                                        <option value="other" data-en="Other" data-ar="أخرى">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Number of Beds *" data-ar="عدد الأسرة *">Number of Beds *</label>
+                                    <input type="number" class="form-control" name="numberOfBeds" placeholder="Enter number of beds" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Number of Operating Rooms *" data-ar="عدد غرف العمليات *">Number of Operating Rooms *</label>
+                                    <input type="number" class="form-control" name="operatingRooms" placeholder="Enter number of operating rooms" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Number of Accommodation Rooms *" data-ar="عدد غرف الإقامة *">Number of Accommodation Rooms *</label>
+                                    <input type="number" class="form-control" name="accommodationRooms" placeholder="Enter number of accommodation rooms" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Number of Intensive Care Rooms *" data-ar="عدد غرف العناية المركزة *">Number of Intensive Care Rooms *</label>
+                                    <input type="number" class="form-control" name="icuRooms" placeholder="Enter number of ICU rooms" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="License Type *" data-ar="نوع الترخيص *">License Type *</label>
+                                    <select class="form-select" name="licenseType" required>
+                                        <option value="" data-en="Select license type" data-ar="اختر نوع الترخيص">Select license type</option>
+                                        <option value="new" data-en="New License" data-ar="ترخيص جديد">New License</option>
+                                        <option value="renewal" data-en="License Renewal" data-ar="تجديد ترخيص">License Renewal</option>
+                                        <option value="transfer" data-en="License Transfer" data-ar="نقل ترخيص">License Transfer</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label class="form-label" data-en="Clinic/Center Address *" data-ar="عنوان العيادة/المركز *">Clinic/Center Address *</label>
+                                    <textarea class="form-control" name="address" rows="3" placeholder="Enter complete address..." required></textarea>
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <label class="form-label" data-en="Additional Notes" data-ar="ملاحظات إضافية">Additional Notes</label>
+                                    <textarea class="form-control" name="notes" rows="4" placeholder="Any specific requirements, equipment needs, or questions..."></textarea>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <div class="d-flex gap-3 justify-content-center flex-wrap">
+                                        <button type="button" class="btn btn-success btn-lg px-4" id="sendWhatsApp">
+                                            <i class="fab fa-whatsapp me-2"></i>
+                                            <span data-en="Send to WhatsApp" data-ar="إرسال للواتساب">Send to WhatsApp</span>
+                                        </button>
+                                        <button type="button" class="btn btn-danger btn-lg px-4" id="exportPDF">
+                                            <i class="fas fa-file-pdf me-2"></i>
+                                            <span data-en="Export as PDF" data-ar="تصدير كـ PDF">Export as PDF</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float" id="whatsappFloat">
+        <a href="https://wa.me/201094543689" target="_blank" class="whatsapp-link">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jsPDF for PDF export with Arabic support -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <!-- html2canvas for better text rendering -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+    
+    <script>
+        // Function to detect if text contains Arabic characters
+        function containsArabic(text) {
+            const arabicRegex = /[\u0600-\u06FF\u0750-\u077F]/;
+            return arabicRegex.test(text);
+        }
+        
+        // Function to get current language
+        function getCurrentLanguage() {
+            return document.documentElement.getAttribute('dir') === 'rtl' ? 'ar' : 'en';
+        }
+        
+        // Function to get localized text
+        function getLocalizedText(enText, arText) {
+            return getCurrentLanguage() === 'ar' ? arText : enText;
+        }
+        
+        // Function to get specialty display text
+        function getSpecialtyDisplayText(value) {
+            const specialties = {
+                'general': { en: 'General Medicine', ar: 'طب عام' },
+                'internal': { en: 'Internal Medicine', ar: 'باطنة' },
+                'surgery': { en: 'General Surgery', ar: 'جراحة عامة' },
+                'pediatrics': { en: 'Pediatrics', ar: 'أطفال' },
+                'gynecology': { en: 'Gynecology & Obstetrics', ar: 'نساء وتوليد' },
+                'orthopedics': { en: 'Orthopedics', ar: 'عظام' },
+                'cardiology': { en: 'Cardiology', ar: 'قلب' },
+                'dermatology': { en: 'Dermatology', ar: 'جلدية' },
+                'ophthalmology': { en: 'Ophthalmology', ar: 'عيون' },
+                'ent': { en: 'ENT', ar: 'أنف وأذن وحنجرة' },
+                'radiology': { en: 'Radiology', ar: 'أشعة' },
+                'emergency': { en: 'Emergency Medicine', ar: 'طوارئ' },
+                'multi': { en: 'Multi-Specialty', ar: 'متعدد التخصصات' },
+                'other': { en: 'Other', ar: 'أخرى' }
+            };
+            
+            if (specialties[value]) {
+                return getCurrentLanguage() === 'ar' ? specialties[value].ar : specialties[value].en;
+            }
+            return value;
+        }
+        
+        // Function to get license type display text
+        function getLicenseTypeDisplayText(value) {
+            const licenseTypes = {
+                'new': { en: 'New License', ar: 'ترخيص جديد' },
+                'renewal': { en: 'License Renewal', ar: 'تجديد ترخيص' },
+                'transfer': { en: 'License Transfer', ar: 'نقل ترخيص' }
+            };
+            
+            if (licenseTypes[value]) {
+                return getCurrentLanguage() === 'ar' ? licenseTypes[value].ar : licenseTypes[value].en;
+            }
+            return value;
+        }
+        
+        // WhatsApp functionality
+        document.getElementById('sendWhatsApp').addEventListener('click', function() {
+            const form = document.getElementById('medicalCenterForm');
+            const formData = new FormData(form);
+            
+            // Check if required fields are filled
+            const requiredFields = ['fullName', 'phone', 'email', 'specialty', 'numberOfBeds', 'operatingRooms', 'accommodationRooms', 'icuRooms', 'licenseType', 'address'];
+            let isValid = true;
+            let missingFields = [];
+            
+            requiredFields.forEach(field => {
+                if (!formData.get(field) || formData.get(field).trim() === '') {
+                    isValid = false;
+                    missingFields.push(field);
+                }
+            });
+            
+            if (!isValid) {
+                const alertMessage = getLocalizedText(
+                    'Please fill in all required fields: ' + missingFields.join(', '),
+                    'يرجى ملء جميع الحقول المطلوبة: ' + missingFields.join(', ')
+                );
+                alert(alertMessage);
+                return;
+            }
+            
+            // Create WhatsApp message based on current language
+            let message;
+            if (getCurrentLanguage() === 'ar') {
+                message = `*طلب ترخيص المركز الطبي*\n\n`;
+                message += `*الاسم الكامل:* ${formData.get('fullName')}\n`;
+                message += `*رقم الهاتف:* ${formData.get('phone')}\n`;
+                message += `*البريد الإلكتروني:* ${formData.get('email')}\n`;
+                message += `*التخصص الطبي:* ${getSpecialtyDisplayText(formData.get('specialty'))}\n`;
+                message += `*عدد الأسرة:* ${formData.get('numberOfBeds')}\n`;
+                message += `*عدد غرف العمليات:* ${formData.get('operatingRooms')}\n`;
+                message += `*عدد غرف الإقامة:* ${formData.get('accommodationRooms')}\n`;
+                message += `*عدد غرف العناية المركزة:* ${formData.get('icuRooms')}\n`;
+                message += `*نوع الترخيص:* ${getLicenseTypeDisplayText(formData.get('licenseType'))}\n`;
+                message += `*عنوان العيادة/المركز:* ${formData.get('address')}\n`;
+                if (formData.get('notes')) {
+                    message += `*ملاحظات إضافية:* ${formData.get('notes')}\n`;
+                }
+            } else {
+                message = `*Medical Center License Application*\n\n`;
+                message += `*Full Name:* ${formData.get('fullName')}\n`;
+                message += `*Phone Number:* ${formData.get('phone')}\n`;
+                message += `*Email:* ${formData.get('email')}\n`;
+                message += `*Medical Specialty:* ${getSpecialtyDisplayText(formData.get('specialty'))}\n`;
+                message += `*Number of Beds:* ${formData.get('numberOfBeds')}\n`;
+                message += `*Number of Operating Rooms:* ${formData.get('operatingRooms')}\n`;
+                message += `*Number of Accommodation Rooms:* ${formData.get('accommodationRooms')}\n`;
+                message += `*Number of Intensive Care Rooms:* ${formData.get('icuRooms')}\n`;
+                message += `*License Type:* ${getLicenseTypeDisplayText(formData.get('licenseType'))}\n`;
+                message += `*Clinic/Center Address:* ${formData.get('address')}\n`;
+                if (formData.get('notes')) {
+                    message += `*Additional Notes:* ${formData.get('notes')}\n`;
+                }
+            }
+            
+            // Encode message for URL
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappURL = `https://wa.me/201094543689?text=${encodedMessage}`;
+            
+            // Open WhatsApp
+            window.open(whatsappURL, '_blank');
+        });
+        
+        // PDF export functionality
+        document.getElementById('exportPDF').addEventListener('click', function() {
+            const form = document.getElementById('medicalCenterForm');
+            const formData = new FormData(form);
+            
+            // Check if required fields are filled
+            const requiredFields = ['fullName', 'phone', 'email', 'specialty', 'numberOfBeds', 'operatingRooms', 'accommodationRooms', 'icuRooms', 'licenseType', 'address'];
+            let isValid = true;
+            let missingFields = [];
+            
+            requiredFields.forEach(field => {
+                if (!formData.get(field) || formData.get(field).trim() === '') {
+                    isValid = false;
+                    missingFields.push(field);
+                }
+            });
+            
+            if (!isValid) {
+                const alertMessage = getLocalizedText(
+                    'Please fill in all required fields: ' + missingFields.join(', '),
+                    'يرجى ملء جميع الحقول المطلوبة: ' + missingFields.join(', ')
+                );
+                alert(alertMessage);
+                return;
+            }
+            
+            // Check if content contains Arabic
+            const hasArabicContent = containsArabic(formData.get('fullName')) || 
+                                   containsArabic(formData.get('address')) || 
+                                   containsArabic(formData.get('notes') || '') ||
+                                   getCurrentLanguage() === 'ar';
+            
+            // Create HTML content for PDF
+            const title = getLocalizedText('Medical Center License Application', 'طلب ترخيص المركز الطبي');
+            const fullNameLabel = getLocalizedText('Full Name:', 'الاسم الكامل:');
+            const phoneLabel = getLocalizedText('Phone Number:', 'رقم الهاتف:');
+            const emailLabel = getLocalizedText('Email:', 'البريد الإلكتروني:');
+            const specialtyLabel = getLocalizedText('Medical Specialty:', 'التخصص الطبي:');
+            const bedsLabel = getLocalizedText('Number of Beds:', 'عدد الأسرة:');
+            const operatingRoomsLabel = getLocalizedText('Number of Operating Rooms:', 'عدد غرف العمليات:');
+            const accommodationRoomsLabel = getLocalizedText('Number of Accommodation Rooms:', 'عدد غرف الإقامة:');
+            const icuRoomsLabel = getLocalizedText('Number of Intensive Care Rooms:', 'عدد غرف العناية المركزة:');
+            const licenseLabel = getLocalizedText('License Type:', 'نوع الترخيص:');
+            const addressLabel = getLocalizedText('Clinic/Center Address:', 'عنوان العيادة/المركز:');
+            const notesLabel = getLocalizedText('Additional Notes:', 'ملاحظات إضافية:');
+            const footerText = getLocalizedText(
+                `Generated on: ${new Date().toLocaleDateString()}`,
+                `تم الإنشاء في: ${new Date().toLocaleDateString('ar-EG')}`
+            );
+            
+            const htmlContent = `
+                <div style="font-family: 'Tajawal', 'Inter', Arial, sans-serif; padding: 40px; max-width: 800px; margin: 0 auto; direction: ${hasArabicContent ? 'rtl' : 'ltr'}; text-align: ${hasArabicContent ? 'right' : 'left'};">
+                    <h1 style="color: #2c3e50; margin-bottom: 30px; text-align: center; font-size: 24px; border-bottom: 2px solid #3498db; padding-bottom: 10px;">
+                        ${title}
+                    </h1>
+                    
+                    <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${fullNameLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('fullName')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${phoneLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('phone')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${emailLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('email')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${specialtyLabel}</strong>
+                            <span style="color: #34495e;">${getSpecialtyDisplayText(formData.get('specialty'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${bedsLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('numberOfBeds')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${operatingRoomsLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('operatingRooms')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${accommodationRoomsLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('accommodationRooms')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${icuRoomsLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('icuRooms')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${licenseLabel}</strong>
+                            <span style="color: #34495e;">${getLicenseTypeDisplayText(formData.get('licenseType'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: block; margin-bottom: 5px;">${addressLabel}</strong>
+                            <div style="color: #34495e; padding: 10px; background: white; border-radius: 4px; border: 1px solid #dee2e6;">
+                                ${formData.get('address').replace(/\n/g, '<br>')}
+                            </div>
+                        </div>
+                        
+                        ${formData.get('notes') ? `
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: block; margin-bottom: 5px;">${notesLabel}</strong>
+                            <div style="color: #34495e; padding: 10px; background: white; border-radius: 4px; border: 1px solid #dee2e6;">
+                                ${formData.get('notes').replace(/\n/g, '<br>')}
+                            </div>
+                        </div>
+                        ` : ''}
+                    </div>
+                    
+                    <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 12px;">
+                        ${footerText}
+                    </div>
+                </div>
+            `;
+            
+            // Create a temporary div to hold the HTML content
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = htmlContent;
+            tempDiv.style.position = 'absolute';
+            tempDiv.style.left = '-9999px';
+            tempDiv.style.top = '-9999px';
+            tempDiv.style.width = '800px';
+            document.body.appendChild(tempDiv);
+            
+            // Use html2canvas to convert HTML to canvas, then to PDF
+            html2canvas(tempDiv, {
+                scale: 2,
+                useCORS: true,
+                allowTaint: true,
+                backgroundColor: '#ffffff',
+                width: 800,
+                height: tempDiv.scrollHeight
+            }).then(canvas => {
+                // Remove the temporary div
+                document.body.removeChild(tempDiv);
+                
+                // Create PDF
+                const { jsPDF } = window.jspdf;
+                const pdf = new jsPDF('p', 'mm', 'a4');
+                
+                // Calculate dimensions
+                const imgWidth = 210; // A4 width in mm
+                const pageHeight = 295; // A4 height in mm
+                const imgHeight = (canvas.height * imgWidth) / canvas.width;
+                let heightLeft = imgHeight;
+                let position = 0;
+                
+                // Add image to PDF
+                const imgData = canvas.toDataURL('image/png');
+                pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+                heightLeft -= pageHeight;
+                
+                // Add new pages if content is longer than one page
+                while (heightLeft >= 0) {
+                    position = heightLeft - imgHeight;
+                    pdf.addPage();
+                    pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+                    heightLeft -= pageHeight;
+                }
+                
+                // Save PDF
+                const fileName = hasArabicContent ? 
+                    `طلب_ترخيص_مركز_طبي_${formData.get('fullName').replace(/\s+/g, '_')}.pdf` :
+                    `Medical_Center_License_${formData.get('fullName').replace(/\s+/g, '_')}.pdf`;
+                pdf.save(fileName);
+            }).catch(error => {
+                // Remove the temporary div in case of error
+                if (document.body.contains(tempDiv)) {
+                    document.body.removeChild(tempDiv);
+                }
+                console.error('Error generating PDF:', error);
+                alert(getLocalizedText(
+                    'Error generating PDF. Please try again.',
+                    'خطأ في إنشاء ملف PDF. يرجى المحاولة مرة أخرى.'
+                ));
+            });
+        });
+    </script>
+</body>
+</html>

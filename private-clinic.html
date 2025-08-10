@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Clinic License - Ejraa</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Tajawal:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar" id="mainNav">
+        <div class="container">
+            <!-- Logo on the left -->
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.png" alt="Ejraa Logo" class="navbar-logo">
+            </a>
+            
+            <!-- Navigation in the center (desktop) -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#home" data-en="Home" data-ar="الرئيسية">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#about" data-en="About" data-ar="عن الشركة">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#packages" data-en="Packages" data-ar="الباقات">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#contact" data-en="Contact" data-ar="تواصل معنا">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Buttons on the right (always visible) -->
+            <div class="d-flex align-items-center gap-2">
+                <!-- Language Toggle -->
+                <button class="custom-lang-btn" id="langToggle">
+                    <i class="fas fa-globe"></i>
+                    <span id="langText">العربية</span>
+                </button>
+                
+                <!-- Dark Mode Toggle -->
+                <button class="custom-dark-btn" id="darkModeToggle">
+                    <i class="fas fa-moon" id="darkModeIcon"></i>
+                </button>
+                
+                <!-- Hamburger Menu Button (mobile only) -->
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Package Header -->
+    <section class="package-header py-5 mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                            <li class="breadcrumb-item"><a href="index.html#packages" data-en="Packages" data-ar="الباقات">Packages</a></li>
+                            <li class="breadcrumb-item active" data-en="Private Clinic" data-ar="العيادة الخاصة">Private Clinic</li>
+                        </ol>
+                    </nav>
+                    <h1 class="package-title glow-text" data-en="Private Clinic License" data-ar="ترخيص العيادة الخاصة">Private Clinic License</h1>
+                    <p class="package-subtitle" data-en="Complete licensing solution for individual medical practitioners" data-ar="حل ترخيص شامل للممارسين الطبيين الأفراد">Complete licensing solution for individual medical practitioners</p>
+                    <div class="package-price">
+                        <span class="price-label" data-en="Starting from" data-ar="يبدأ من">Starting from</span>
+                        <span class="price-amount" data-en="12,000 - 16,000 EGP" data-ar="12,000 - 16,000 جنيه">12,000 - 16,000 EGP</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="package-icon-large">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Private Clinic License Information -->
+    <section class="license-conditions py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5 glow-text" data-en="Private Clinic License Conditions and Papers" data-ar="شروط وأوراق ترخيص المنشأة الخاصة (العيادة)">Private Clinic License Conditions and Papers</h2>
+            
+            <!-- Basic Information -->
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="basic-info-card glow-card">
+                        <h3 class="card-title" data-en="License Type" data-ar="نوع الترخيص">License Type</h3>
+                        <p data-en="Private clinic license in the doctor's name (Private Clinic)" data-ar="ترخيص عيادة خاصه باسم الطبيب (عيادة خاصة)">Private clinic license in the doctor's name (Private Clinic)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- General Conditions -->
+                <div class="col-lg-6 mb-4">
+                    <div class="conditions-card glow-card">
+                        <h3 class="card-title" data-en="General Conditions" data-ar="الشروط العامة">General Conditions</h3>
+                        <ul class="conditions-list">
+                            <li data-en="Personal license in the doctor's name" data-ar="ترخيص شخصي باسم الطبيب">Personal license in the doctor's name</li>
+                            <li data-en="Sign with doctor's name only" data-ar="لافتة باسم الطبيب فقط">Sign with doctor's name only</li>
+                            <li data-en="All documents in the doctor's name" data-ar="الأوراق كلها باسم الطبيب">All documents in the doctor's name</li>
+                            <li data-en="Trade name not allowed" data-ar="غير مسموح بالاسم التجاري">Trade name not allowed</li>
+                            <li data-en="Any human or dental specialty allowed to open a private clinic" data-ar="مسموح لأي تخصص بشري أو أسنان بفتح عيادة خاصة">Any human or dental specialty allowed to open a private clinic</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Cost Information -->
+                <div class="col-lg-6 mb-4">
+                    <div class="cost-info-card glow-card">
+                        <h3 class="card-title" data-en="Cost" data-ar="التكلفة">Cost</h3>
+                        <ul class="cost-list">
+                            <li data-en="Human specialties: 12,000 EGP including fees, expenses, and official fees for all procedures until license receipt" data-ar="بشري: 12,000 جنيه تشمل الاتعاب والمصاريف والرسوم الرسميه لكل الإجراءات حتي استلام الرخصه">Human specialties: 12,000 EGP including fees, expenses, and official fees for all procedures until license receipt</li>
+                            <li data-en="Dental: 12,000 to 16,000 EGP including contracts and expenses, varies according to number of dental units" data-ar="أسنان: من 12,000 إلى 16,000 جنيه تشمل التعاقد والمصاريف، وتختلف حسب عدد وحدات الأسنان">Dental: 12,000 to 16,000 EGP including contracts and expenses, varies according to number of dental units</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Clinic Location Requirements -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="location-requirements glow-card">
+                        <h3 class="card-title text-center mb-4" data-en="Clinic Location Requirements" data-ar="شروط مكان العيادة">Clinic Location Requirements</h3>
+                        <ul>
+                            <li data-en="Complete apartment or room within an apartment" data-ar="شقة كاملة أو غرفة داخل شقة">Complete apartment or room within an apartment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Required Documents -->
+            <div class="row mt-4">
+                <div class="col-lg-6 mb-4">
+                    <div class="basic-documents glow-card">
+                        <h3 class="card-title" data-en="Basic Required Documents" data-ar="الأوراق المطلوبة الأساسية">Basic Required Documents</h3>
+                        <ul class="papers-list">
+                            <li data-en="National ID card" data-ar="بطاقة الرقم القومي">National ID card</li>
+                            <li data-en="Ownership or rental contract" data-ar="عقد تمليك أو إيجار">Ownership or rental contract</li>
+                            <li data-en="Specialist or consultant certificate" data-ar="شهادة أخصائي أو استشاري">Specialist or consultant certificate</li>
+                            <li data-en="Professional practice license (for general practitioners, attach copy of graduation certificate)" data-ar="ترخيص مزاولة مهنة (في حالة الممارس العام يُرفق صورة من شهادة التخرج)">Professional practice license (for general practitioners, attach copy of graduation certificate)</li>
+                            <li data-en="Power of attorney directed to the company to proceed with procedures" data-ar="توكيل موجه للشركه للسير في الاجراءات">Power of attorney directed to the company to proceed with procedures</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="additional-documents glow-card">
+                        <h3 class="card-title" data-en="Additional Documents According to Doctor's Status" data-ar="أوراق إضافية حسب حالة الطبيب">Additional Documents According to Doctor's Status</h3>
+                        <ul class="papers-list">
+                            <li data-en="If employed: employment status statement" data-ar="إذا كان موظفًا: بيان حالة وظيفية">If employed: employment status statement</li>
+                            <li data-en="If not employed: free doctor certificate" data-ar="إذا كان غير موظف: شهادة طبيب حر">If not employed: free doctor certificate</li>
+                            <li data-en="Original professional practice license" data-ar="أصل ترخيص مزاولة المهنة">Original professional practice license</li>
+                            <li data-en="Copy of university certificate" data-ar="صورة شهادة الجامعة">Copy of university certificate</li>
+                            <li data-en="Latest qualification obtained by the doctor" data-ar="آخر مؤهل حصل عليه الطبيب">Latest qualification obtained by the doctor</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Location Requirements and Cost by Governorate -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="governorate-requirements glow-card">
+                        <h3 class="card-title text-center mb-4" data-en="Location Requirements and Cost by Governorate" data-ar="شروط المكان والتكلفة حسب المحافظة">Location Requirements and Cost by Governorate</h3>
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th data-en="Governorate" data-ar="المحافظة">Governorate</th>
+                                        <th data-en="Location Requirement" data-ar="شرط المكان">Location Requirement</th>
+                                        <th data-en="Notes" data-ar="ملاحظات">Notes</th>
+                                        <th data-en="Cost" data-ar="التكلفة">Cost</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-en="Cairo" data-ar="القاهرة">Cairo</td>
+                                        <td data-en="Administrative only" data-ar="إداري فقط">Administrative only</td>
+                                        <td>-</td>
+                                        <td data-en="12,000 - 16,000 EGP" data-ar="12,000 - 16,000 جنيه">12,000 - 16,000 EGP</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-en="Giza" data-ar="الجيزة">Giza</td>
+                                        <td data-en="Administrative in Sheikh Zayed, October, and Gardens only - other areas can be residential" data-ar="إداري في الشيخ زايد وأكتوبر والحدايق فقط – باقي المناطق مسموح تكون سكنية">Administrative in Sheikh Zayed, October, and Gardens only - other areas can be residential</td>
+                                        <td>-</td>
+                                        <td data-en="12,000 - 16,000 EGP" data-ar="12,000 - 16,000 جنيه">12,000 - 16,000 EGP</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-en="Qalyubia" data-ar="القليوبية">Qalyubia</td>
+                                        <td data-en="Administrative not required" data-ar="لا يشترط اداري">Administrative not required</td>
+                                        <td data-en="If dental clinic: must attend syndicate for signing" data-ar="إذا كانت عيادة أسنان: يجب الحضور للنقابة للتوقيع">If dental clinic: must attend syndicate for signing</td>
+                                        <td data-en="12,000 - 16,000 EGP" data-ar="12,000 - 16,000 جنيه">12,000 - 16,000 EGP</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-en="Tanta" data-ar="طنطا">Tanta</td>
+                                        <td data-en="Administrative not required - fire extinguisher guarantee certificate + stamped drawings required" data-ar="غير مطلوب أن يكون إداري - مطلوب شهادة ضمان طفايه + رسومات مختومه">Administrative not required - fire extinguisher guarantee certificate + stamped drawings required</td>
+                                        <td>-</td>
+                                        <td data-en="16,000 - 20,000 EGP" data-ar="16,000 - 20,000 جنيه">16,000 - 20,000 EGP</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-en="Alexandria" data-ar="الإسكندرية">Alexandria</td>
+                                        <td data-en="Administrative only" data-ar="إداري فقط">Administrative only</td>
+                                        <td data-en="Requires tax card for doctor + stamped engineering drawings from engineer" data-ar="يتطلب بطاقة ضريبية للطبيب + رسومات هندسية مختومة من مهندس">Requires tax card for doctor + stamped engineering drawings from engineer</td>
+                                        <td data-en="16,000 - 20,000 EGP" data-ar="16,000 - 20,000 جنيه">16,000 - 20,000 EGP</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-en="Other Governorates" data-ar="باقي المحافظات">Other Governorates</td>
+                                        <td data-en="According to local regulations" data-ar="حسب اللوائح المحلية">According to local regulations</td>
+                                        <td data-en="Cost for governorates outside Greater Cairo: 16,000 - 20,000 EGP" data-ar="تكلفة المحافظات خارج القاهره الكبري من 16,000 – 20,000 جنيه">Cost for governorates outside Greater Cairo: 16,000 - 20,000 EGP</td>
+                                        <td data-en="16,000 - 20,000 EGP" data-ar="16,000 - 20,000 جنيه">16,000 - 20,000 EGP</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- General Procedures -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="general-procedures glow-card">
+                        <h3 class="card-title text-center mb-4" data-en="General Procedures in All Governorates" data-ar="الإجراءات العامة في جميع المحافظات">General Procedures in All Governorates</h3>
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th data-en="Authority" data-ar="الجهة">Authority</th>
+                                        <th data-en="Procedure" data-ar="الإجراء">Procedure</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-en="Syndicate" data-ar="النقابة">Syndicate</td>
+                                        <td data-en="Document approval" data-ar="اعتماد الأوراق">Document approval</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-en="Waste Disposal" data-ar="المحرق والنفايات">Waste Disposal</td>
+                                        <td data-en="Conduct required examinations" data-ar="إجراء الفحوصات المطلوبة">Conduct required examinations</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-en="Environment" data-ar="البيئة">Environment</td>
+                                        <td data-en="Obtain environmental approval" data-ar="الحصول على موافقة بيئية">Obtain environmental approval</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-en="Trading License" data-ar="ترخيص التداول">Trading License</td>
+                                        <td data-en="Obtain special permit" data-ar="استخراج التصريح الخاص">Obtain special permit</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-en="Free Treatment" data-ar="العلاج الحر">Free Treatment</td>
+                                        <td data-en="Register the facility" data-ar="تسجيل المنشأة">Register the facility</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Procedures by Governorate -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="additional-procedures glow-card">
+                        <h3 class="card-title text-center mb-4" data-en="Additional Procedures for Specific Governorates" data-ar="إجراءات إضافية خاصة ببعض المحافظات">Additional Procedures for Specific Governorates</h3>
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th data-en="Governorate" data-ar="المحافظة">Governorate</th>
+                                        <th data-en="Additional Procedure" data-ar="الإجراء الإضافي">Additional Procedure</th>
+                                        <th data-en="Notes" data-ar="الملاحظات">Notes</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-en="Qalyubia" data-ar="القليوبية">Qalyubia</td>
+                                        <td data-en="Civil Defense" data-ar="دفاع مدني">Civil Defense</td>
+                                        <td data-en="Fees for civil defense authority - not included in contract" data-ar="رسوم تخص هيئة الدفاع المدني – مش ضمن التعاقد">Fees for civil defense authority - not included in contract</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-en="Alexandria" data-ar="الإسكندرية">Alexandria</td>
+                                        <td data-en="Tax Card" data-ar="بطاقة ضريبية">Tax Card</td>
+                                        <td data-en="Mandatory requirement - paid within cost from the beginning" data-ar="شرط إلزامي – تدفع ضمن التكلفة من البداية">Mandatory requirement - paid within cost from the beginning</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-en="Alexandria" data-ar="الإسكندرية">Alexandria</td>
+                                        <td data-en="Stamped Engineering Drawings" data-ar="رسومات هندسية مختومة">Stamped Engineering Drawings</td>
+                                        <td data-en="Prepared by certified engineer" data-ar="يتم إعدادها بواسطة مهندس معتمد">Prepared by certified engineer</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-en="Governorates outside Cairo/Giza/Qalyubia" data-ar="محافظات خارج القاهرة/الجيزة/القليوبية">Governorates outside Cairo/Giza/Qalyubia</td>
+                                        <td data-en="Difference in regulations" data-ar="اختلاف في اللوائح">Difference in regulations</td>
+                                        <td data-en="May require engineering or environmental procedures" data-ar="قد تتطلب إجراءات هندسية أو بيئية">May require engineering or environmental procedures</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section class="application-form py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="form-card glow-card">
+                        <h2 class="form-title text-center mb-4 glow-text" data-en="Apply for Private Clinic License" data-ar="تقدم بطلب ترخيص العيادة الخاصة">Apply for Private Clinic License</h2>
+                        <p class="form-subtitle text-center mb-4" data-en="Fill out the form below and we'll contact you within 24 hours" data-ar="املأ النموذج أدناه وسنتواصل معك خلال 24 ساعة">Fill out the form below and we'll contact you within 24 hours</p>
+                        
+                        <form id="privateClinicForm" class="package-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Full Name *" data-ar="الاسم الكامل *">Full Name *</label>
+                                    <input type="text" class="form-control" name="fullName" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Phone Number *" data-ar="رقم الهاتف *">Phone Number *</label>
+                                    <input type="tel" class="form-control" name="phone" required>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label class="form-label" data-en="Email Address *" data-ar="البريد الإلكتروني *">Email Address *</label>
+                                    <input type="email" class="form-control" name="email" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Medical Specialty *" data-ar="التخصص الطبي *">Medical Specialty *</label>
+                                    <select class="form-select" name="specialty" required>
+                                        <option value="" data-en="Select specialty" data-ar="اختر التخصص">Select specialty</option>
+                                        <option value="general" data-en="General Medicine" data-ar="طب عام">General Medicine</option>
+                                        <option value="internal" data-en="Internal Medicine" data-ar="باطنة">Internal Medicine</option>
+                                        <option value="pediatrics" data-en="Pediatrics" data-ar="أطفال">Pediatrics</option>
+                                        <option value="dermatology" data-en="Dermatology" data-ar="جلدية">Dermatology</option>
+                                        <option value="cardiology" data-en="Cardiology" data-ar="قلب">Cardiology</option>
+                                        <option value="orthopedics" data-en="Orthopedics" data-ar="عظام">Orthopedics</option>
+                                        <option value="gynecology" data-en="Gynecology" data-ar="نساء وتوليد">Gynecology</option>
+                                        <option value="ophthalmology" data-en="Ophthalmology" data-ar="عيون">Ophthalmology</option>
+                                        <option value="ent" data-en="ENT" data-ar="أنف وأذن وحنجرة">ENT</option>
+                                        <option value="dentistry" data-en="Dentistry" data-ar="طب أسنان">Dentistry</option>
+                                        <option value="other" data-en="Other" data-ar="أخرى">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="License Type *" data-ar="نوع الترخيص *">License Type *</label>
+                                    <select class="form-select" name="licenseType" required>
+                                        <option value="" data-en="Select license type" data-ar="اختر نوع الترخيص">Select license type</option>
+                                        <option value="new" data-en="New License" data-ar="ترخيص جديد">New License</option>
+                                        <option value="renewal" data-en="License Renewal" data-ar="تجديد ترخيص">License Renewal</option>
+                                        <option value="transfer" data-en="License Transfer" data-ar="نقل ترخيص">License Transfer</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label class="form-label" data-en="Clinic/Center Address *" data-ar="عنوان العيادة/المركز *">Clinic/Center Address *</label>
+                                    <textarea class="form-control" name="address" rows="2" placeholder="Enter complete address..." required></textarea>
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <label class="form-label" data-en="Additional Notes" data-ar="ملاحظات إضافية">Additional Notes</label>
+                                    <textarea class="form-control" name="notes" rows="4" placeholder="Any specific requirements or questions..."></textarea>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <div class="d-flex gap-3 justify-content-center flex-wrap">
+                                        <button type="button" class="btn btn-success btn-lg px-4" id="sendWhatsApp">
+                                            <i class="fab fa-whatsapp me-2"></i>
+                                            <span data-en="Send to WhatsApp" data-ar="إرسال للواتساب">Send to WhatsApp</span>
+                                        </button>
+                                        <button type="button" class="btn btn-danger btn-lg px-4" id="exportPDF">
+                                            <i class="fas fa-file-pdf me-2"></i>
+                                            <span data-en="Export as PDF" data-ar="تصدير كـ PDF">Export as PDF</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float" id="whatsappFloat">
+        <a href="https://wa.me/201094543689" target="_blank" class="whatsapp-link">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jsPDF for PDF export with Arabic support -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <!-- html2canvas for better text rendering -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+    
+    <script>
+        // Function to detect if text contains Arabic characters
+        function containsArabic(text) {
+            const arabicRegex = /[\u0600-\u06FF\u0750-\u077F]/;
+            return arabicRegex.test(text);
+        }
+        
+        // Function to get current language
+        function getCurrentLanguage() {
+            return document.documentElement.getAttribute('dir') === 'rtl' ? 'ar' : 'en';
+        }
+        
+        // Function to get localized text
+        function getLocalizedText(enText, arText) {
+            return getCurrentLanguage() === 'ar' ? arText : enText;
+        }
+        
+        // Function to get specialty display text
+        function getSpecialtyDisplayText(value) {
+            const specialties = {
+                'general': { en: 'General Medicine', ar: 'طب عام' },
+                'internal': { en: 'Internal Medicine', ar: 'باطنة' },
+                'pediatrics': { en: 'Pediatrics', ar: 'أطفال' },
+                'dermatology': { en: 'Dermatology', ar: 'جلدية' },
+                'cardiology': { en: 'Cardiology', ar: 'قلب' },
+                'orthopedics': { en: 'Orthopedics', ar: 'عظام' },
+                'gynecology': { en: 'Gynecology', ar: 'نساء وتوليد' },
+                'ophthalmology': { en: 'Ophthalmology', ar: 'عيون' },
+                'ent': { en: 'ENT', ar: 'أنف وأذن وحنجرة' },
+                'dentistry': { en: 'Dentistry', ar: 'طب أسنان' },
+                'other': { en: 'Other', ar: 'أخرى' }
+            };
+            
+            if (specialties[value]) {
+                return getCurrentLanguage() === 'ar' ? specialties[value].ar : specialties[value].en;
+            }
+            return value;
+        }
+        
+        // Function to get license type display text
+        function getLicenseTypeDisplayText(value) {
+            const licenseTypes = {
+                'new': { en: 'New License', ar: 'ترخيص جديد' },
+                'renewal': { en: 'License Renewal', ar: 'تجديد ترخيص' },
+                'transfer': { en: 'License Transfer', ar: 'نقل ترخيص' }
+            };
+            
+            if (licenseTypes[value]) {
+                return getCurrentLanguage() === 'ar' ? licenseTypes[value].ar : licenseTypes[value].en;
+            }
+            return value;
+        }
+        
+        // WhatsApp functionality
+        document.getElementById('sendWhatsApp').addEventListener('click', function() {
+            const form = document.getElementById('privateClinicForm');
+            const formData = new FormData(form);
+            
+            // Check if required fields are filled
+            const requiredFields = ['fullName', 'phone', 'email', 'specialty', 'licenseType', 'address'];
+            let isValid = true;
+            let missingFields = [];
+            
+            requiredFields.forEach(field => {
+                if (!formData.get(field) || formData.get(field).trim() === '') {
+                    isValid = false;
+                    missingFields.push(field);
+                }
+            });
+            
+            if (!isValid) {
+                const alertMessage = getLocalizedText(
+                    'Please fill in all required fields: ' + missingFields.join(', '),
+                    'يرجى ملء جميع الحقول المطلوبة: ' + missingFields.join(', ')
+                );
+                alert(alertMessage);
+                return;
+            }
+            
+            // Create WhatsApp message based on current language
+            let message;
+            if (getCurrentLanguage() === 'ar') {
+                message = `*طلب ترخيص العيادة الخاصة*\n\n`;
+                message += `*الاسم الكامل:* ${formData.get('fullName')}\n`;
+                message += `*رقم الهاتف:* ${formData.get('phone')}\n`;
+                message += `*البريد الإلكتروني:* ${formData.get('email')}\n`;
+                message += `*التخصص الطبي:* ${getSpecialtyDisplayText(formData.get('specialty'))}\n`;
+                message += `*نوع الترخيص:* ${getLicenseTypeDisplayText(formData.get('licenseType'))}\n`;
+                message += `*عنوان العيادة/المركز:* ${formData.get('address')}\n`;
+                if (formData.get('notes')) {
+                    message += `*ملاحظات إضافية:* ${formData.get('notes')}\n`;
+                }
+            } else {
+                message = `*Private Clinic License Application*\n\n`;
+                message += `*Full Name:* ${formData.get('fullName')}\n`;
+                message += `*Phone Number:* ${formData.get('phone')}\n`;
+                message += `*Email:* ${formData.get('email')}\n`;
+                message += `*Medical Specialty:* ${getSpecialtyDisplayText(formData.get('specialty'))}\n`;
+                message += `*License Type:* ${getLicenseTypeDisplayText(formData.get('licenseType'))}\n`;
+                message += `*Clinic/Center Address:* ${formData.get('address')}\n`;
+                if (formData.get('notes')) {
+                    message += `*Additional Notes:* ${formData.get('notes')}\n`;
+                }
+            }
+            
+            // Encode message for URL
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappURL = `https://wa.me/201094543689?text=${encodedMessage}`;
+            
+            // Open WhatsApp
+            window.open(whatsappURL, '_blank');
+        });
+        
+        // PDF export functionality
+        document.getElementById('exportPDF').addEventListener('click', function() {
+            const form = document.getElementById('privateClinicForm');
+            const formData = new FormData(form);
+            
+            // Check if required fields are filled
+            const requiredFields = ['fullName', 'phone', 'email', 'specialty', 'licenseType', 'address'];
+            let isValid = true;
+            let missingFields = [];
+            
+            requiredFields.forEach(field => {
+                if (!formData.get(field) || formData.get(field).trim() === '') {
+                    isValid = false;
+                    missingFields.push(field);
+                }
+            });
+            
+            if (!isValid) {
+                const alertMessage = getLocalizedText(
+                    'Please fill in all required fields: ' + missingFields.join(', '),
+                    'يرجى ملء جميع الحقول المطلوبة: ' + missingFields.join(', ')
+                );
+                alert(alertMessage);
+                return;
+            }
+            
+            // Check if content contains Arabic
+            const hasArabicContent = containsArabic(formData.get('fullName')) || 
+                                   containsArabic(formData.get('address')) || 
+                                   containsArabic(formData.get('notes') || '') ||
+                                   getCurrentLanguage() === 'ar';
+            
+            // Create HTML content for PDF
+            const title = getLocalizedText('Private Clinic License Application', 'طلب ترخيص العيادة الخاصة');
+            const fullNameLabel = getLocalizedText('Full Name:', 'الاسم الكامل:');
+            const phoneLabel = getLocalizedText('Phone Number:', 'رقم الهاتف:');
+            const emailLabel = getLocalizedText('Email:', 'البريد الإلكتروني:');
+            const specialtyLabel = getLocalizedText('Medical Specialty:', 'التخصص الطبي:');
+            const licenseLabel = getLocalizedText('License Type:', 'نوع الترخيص:');
+            const addressLabel = getLocalizedText('Clinic/Center Address:', 'عنوان العيادة/المركز:');
+            const notesLabel = getLocalizedText('Additional Notes:', 'ملاحظات إضافية:');
+            const footerText = getLocalizedText(
+                `Generated on: ${new Date().toLocaleDateString()}`,
+                `تم الإنشاء في: ${new Date().toLocaleDateString('ar-EG')}`
+            );
+            
+            const htmlContent = `
+                <div style="font-family: 'Tajawal', 'Inter', Arial, sans-serif; padding: 40px; max-width: 800px; margin: 0 auto; direction: ${hasArabicContent ? 'rtl' : 'ltr'}; text-align: ${hasArabicContent ? 'right' : 'left'};">
+                    <h1 style="color: #2c3e50; margin-bottom: 30px; text-align: center; font-size: 24px; border-bottom: 2px solid #3498db; padding-bottom: 10px;">
+                        ${title}
+                    </h1>
+                    
+                    <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 150px;">${fullNameLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('fullName')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 150px;">${phoneLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('phone')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 150px;">${emailLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('email')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 150px;">${specialtyLabel}</strong>
+                            <span style="color: #34495e;">${getSpecialtyDisplayText(formData.get('specialty'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 150px;">${licenseLabel}</strong>
+                            <span style="color: #34495e;">${getLicenseTypeDisplayText(formData.get('licenseType'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: block; margin-bottom: 5px;">${addressLabel}</strong>
+                            <div style="color: #34495e; padding: 10px; background: white; border-radius: 4px; border: 1px solid #dee2e6;">
+                                ${formData.get('address').replace(/\n/g, '<br>')}
+                            </div>
+                        </div>
+                        
+                        ${formData.get('notes') ? `
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: block; margin-bottom: 5px;">${notesLabel}</strong>
+                            <div style="color: #34495e; padding: 10px; background: white; border-radius: 4px; border: 1px solid #dee2e6;">
+                                ${formData.get('notes').replace(/\n/g, '<br>')}
+                            </div>
+                        </div>
+                        ` : ''}
+                    </div>
+                    
+                    <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 12px;">
+                        ${footerText}
+                    </div>
+                </div>
+            `;
+            
+            // Create a temporary div to hold the HTML content
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = htmlContent;
+            tempDiv.style.position = 'absolute';
+            tempDiv.style.left = '-9999px';
+            tempDiv.style.top = '-9999px';
+            tempDiv.style.width = '800px';
+            document.body.appendChild(tempDiv);
+            
+            // Use html2canvas to convert HTML to canvas, then to PDF
+            html2canvas(tempDiv, {
+                scale: 2,
+                useCORS: true,
+                allowTaint: true,
+                backgroundColor: '#ffffff',
+                width: 800,
+                height: tempDiv.scrollHeight
+            }).then(canvas => {
+                // Remove the temporary div
+                document.body.removeChild(tempDiv);
+                
+                // Create PDF
+                const { jsPDF } = window.jspdf;
+                const pdf = new jsPDF('p', 'mm', 'a4');
+                
+                // Calculate dimensions
+                const imgWidth = 210; // A4 width in mm
+                const pageHeight = 295; // A4 height in mm
+                const imgHeight = (canvas.height * imgWidth) / canvas.width;
+                let heightLeft = imgHeight;
+                let position = 0;
+                
+                // Add image to PDF
+                const imgData = canvas.toDataURL('image/png');
+                pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+                heightLeft -= pageHeight;
+                
+                // Add new pages if content is longer than one page
+                while (heightLeft >= 0) {
+                    position = heightLeft - imgHeight;
+                    pdf.addPage();
+                    pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+                    heightLeft -= pageHeight;
+                }
+                
+                // Save PDF
+                const fileName = hasArabicContent ? 
+                    `طلب_ترخيص_عيادة_خاصة_${formData.get('fullName').replace(/\s+/g, '_')}.pdf` :
+                    `Private_Clinic_License_${formData.get('fullName').replace(/\s+/g, '_')}.pdf`;
+                pdf.save(fileName);
+            }).catch(error => {
+                // Remove the temporary div in case of error
+                if (document.body.contains(tempDiv)) {
+                    document.body.removeChild(tempDiv);
+                }
+                console.error('Error generating PDF:', error);
+                alert(getLocalizedText(
+                    'Error generating PDF. Please try again.',
+                    'خطأ في إنشاء ملف PDF. يرجى المحاولة مرة أخرى.'
+                ));
+            });
+        });
+    </script>
+</body>
+</html>
