@@ -131,7 +131,160 @@ const translations = {
         'Professional Support': 'Professional Support',
         'Device Registration': 'Device Registration',
         'Safety Compliance': 'Safety Compliance',
-        'Operation License': 'Operation License'
+        'Operation License': 'Operation License',
+        
+        // Package Pages
+        'Packages': 'Packages',
+        'Private Clinic License': 'Private Clinic License',
+        'Specialized Clinic License': 'Specialized Clinic License',
+        'Medical Center License': 'Medical Center License',
+        'Complete licensing solution for individual medical practitioners': 'Complete licensing solution for individual medical practitioners',
+        'Multi-specialty medical facility licensing for comprehensive healthcare services': 'Multi-specialty medical facility licensing for comprehensive healthcare services',
+        'Comprehensive medical facility with inpatient services, surgery, and intensive care': 'Comprehensive medical facility with inpatient services, surgery, and intensive care',
+        'Starting from': 'Starting from',
+        'Most Popular': 'Most Popular',
+        'License Conditions and Required Papers': 'License Conditions and Required Papers',
+        'License Conditions': 'License Conditions',
+        'Required Papers': 'Required Papers',
+        'Licensing Process Timeline': 'Licensing Process Timeline',
+        'Apply for Private Clinic License': 'Apply for Private Clinic License',
+        'Apply for Specialized Clinic License': 'Apply for Specialized Clinic License',
+        'Apply for Medical Center License': 'Apply for Medical Center License',
+        'Fill out the form below and we\'ll contact you within 24 hours': 'Fill out the form below and we\'ll contact you within 24 hours',
+        'Submit Application': 'Submit Application',
+        
+        // Form Fields
+        'Full Name *': 'Full Name *',
+        'Phone Number *': 'Phone Number *',
+        'Email Address *': 'Email Address *',
+        'Medical Specialty *': 'Medical Specialty *',
+        'Select specialty': 'Select specialty',
+        'General Medicine': 'General Medicine',
+        'Internal Medicine': 'Internal Medicine',
+        'Pediatrics': 'Pediatrics',
+        'Dermatology': 'Dermatology',
+        'Cardiology': 'Cardiology',
+        'Orthopedics': 'Orthopedics',
+        'Gynecology': 'Gynecology',
+        'Ophthalmology': 'Ophthalmology',
+        'ENT': 'ENT',
+        'Other': 'Other',
+        'Years of Experience': 'Years of Experience',
+        'Select experience': 'Select experience',
+        '1-3 years': '1-3 years',
+        '4-7 years': '4-7 years',
+        '8-15 years': '8-15 years',
+        '15+ years': '15+ years',
+        'Clinic Location (City/Area)': 'Clinic Location (City/Area)',
+        'Do you have a clinic location?': 'Do you have a clinic location?',
+        'Select option': 'Select option',
+        'Yes, I have a location': 'Yes, I have a location',
+        'No, I need help finding one': 'No, I need help finding one',
+        'Preferred Contact Time': 'Preferred Contact Time',
+        'Select time': 'Select time',
+        'Morning (9 AM - 12 PM)': 'Morning (9 AM - 12 PM)',
+        'Afternoon (12 PM - 6 PM)': 'Afternoon (12 PM - 6 PM)',
+        'Evening (6 PM - 9 PM)': 'Evening (6 PM - 9 PM)',
+        'Additional Notes or Questions': 'Additional Notes or Questions',
+        
+        // License Conditions
+        'Must be a licensed medical doctor': 'Must be a licensed medical doctor',
+        'Valid medical syndicate membership': 'Valid medical syndicate membership',
+        'Suitable clinic location with proper facilities': 'Suitable clinic location with proper facilities',
+        'Compliance with health ministry regulations': 'Compliance with health ministry regulations',
+        'Room with desk for medical consultations': 'Room with desk for medical consultations',
+        'Designated area for hazardous medical waste': 'Designated area for hazardous medical waste',
+        'Sterilization area': 'Sterilization area',
+        
+        // Required Papers
+        'Medical degree certificate (certified copy)': 'Medical degree certificate (certified copy)',
+        'Medical syndicate membership certificate': 'Medical syndicate membership certificate',
+        'National ID copy': 'National ID copy',
+        'Clinic rental contract or ownership deed': 'Clinic rental contract or ownership deed',
+        'Building permit and safety certificate': 'Building permit and safety certificate',
+        'Fire safety certificate': 'Fire safety certificate',
+        'Environmental compliance certificate': 'Environmental compliance certificate',
+        'Recent personal photos (4x6)': 'Recent personal photos (4x6)',
+        
+        // Timeline
+        'Document Preparation': 'Document Preparation',
+        'Gather and prepare all required documents': 'Gather and prepare all required documents',
+        '1-2 days': '1-2 days',
+        'Application Submission': 'Application Submission',
+        'Submit application to health ministry': 'Submit application to health ministry',
+        '1 day': '1 day',
+        'Inspection & Review': 'Inspection & Review',
+        'Ministry inspection and document review': 'Ministry inspection and document review',
+        '7-14 days': '7-14 days',
+        'License Issuance': 'License Issuance',
+        'Receive your clinic license': 'Receive your clinic license',
+        '2-3 days': '2-3 days',
+        
+        // Specialized Clinic specific
+        'Number of Specialties *': 'Number of Specialties *',
+        'Select number': 'Select number',
+        '2 Specialties': '2 Specialties',
+        '3 Specialties': '3 Specialties',
+        '4 Specialties': '4 Specialties',
+        '5 Specialties': '5 Specialties',
+        '6+ Specialties': '6+ Specialties',
+        'Primary Specialty *': 'Primary Specialty *',
+        'General Surgery': 'General Surgery',
+        'Gynecology & Obstetrics': 'Gynecology & Obstetrics',
+        'Radiology': 'Radiology',
+        'Additional Specialties': 'Additional Specialties',
+        'Facility Size (sq meters)': 'Facility Size (sq meters)',
+        'Select size': 'Select size',
+        '200-300 sq meters': '200-300 sq meters',
+        '300-500 sq meters': '300-500 sq meters',
+        '500-800 sq meters': '500-800 sq meters',
+        '800+ sq meters': '800+ sq meters',
+        'Do you have a facility location?': 'Do you have a facility location?',
+        'Currently planning/searching': 'Currently planning/searching',
+        'Preferred Location (City/Area)': 'Preferred Location (City/Area)',
+        'Estimated Budget': 'Estimated Budget',
+        'Select budget range': 'Select budget range',
+        '25,000 - 35,000 EGP': '25,000 - 35,000 EGP',
+        '35,000 - 50,000 EGP': '35,000 - 50,000 EGP',
+        '50,000+ EGP': '50,000+ EGP',
+        
+        // Medical Center specific
+        'Role/Position *': 'Role/Position *',
+        'Select role': 'Select role',
+        'Medical Director': 'Medical Director',
+        'Investor/Owner': 'Investor/Owner',
+        'Healthcare Administrator': 'Healthcare Administrator',
+        'Healthcare Consultant': 'Healthcare Consultant',
+        'Number of Beds *': 'Number of Beds *',
+        '10-20 beds': '10-20 beds',
+        '20-30 beds': '20-30 beds',
+        '30-50 beds': '30-50 beds',
+        '50-100 beds': '50-100 beds',
+        '100+ beds': '100+ beds',
+        'Number of Operating Rooms': 'Number of Operating Rooms',
+        '1 Operating Room': '1 Operating Room',
+        '2 Operating Rooms': '2 Operating Rooms',
+        '3 Operating Rooms': '3 Operating Rooms',
+        '4+ Operating Rooms': '4+ Operating Rooms',
+        'ICU Beds': 'ICU Beds',
+        '2-5 ICU beds': '2-5 ICU beds',
+        '6-10 ICU beds': '6-10 ICU beds',
+        '10-15 ICU beds': '10-15 ICU beds',
+        '15+ ICU beds': '15+ ICU beds',
+        'Planned Specialties': 'Planned Specialties',
+        '1,000-2,000 sq meters': '1,000-2,000 sq meters',
+        '2,000-3,000 sq meters': '2,000-3,000 sq meters',
+        '3,000-5,000 sq meters': '3,000-5,000 sq meters',
+        '5,000+ sq meters': '5,000+ sq meters',
+        '40,000 - 60,000 EGP': '40,000 - 60,000 EGP',
+        '60,000 - 100,000 EGP': '60,000 - 100,000 EGP',
+        '100,000+ EGP': '100,000+ EGP',
+        
+        // Additional missing translations
+        'Specialized Clinic': 'Specialized Clinic',
+        'Inpatient Services': 'Inpatient Services',
+        'Surgery & ICU': 'Surgery & ICU',
+        'Full Medical Facility': 'Full Medical Facility'
     },
     ar: {
         // Navigation
@@ -259,7 +412,160 @@ const translations = {
         'Professional Support': 'الدعم المتخصص',
         'Device Registration': 'تسجيل الجهاز',
         'Safety Compliance': 'امتثال السلامة',
-        'Operation License': 'ترخيص التشغيل'
+        'Operation License': 'ترخيص التشغيل',
+        
+        // Package Pages
+        'Packages': 'الباقات',
+        'Private Clinic License': 'ترخيص العيادة الخاصة',
+        'Specialized Clinic License': 'ترخيص العيادة المتخصصة',
+        'Medical Center License': 'ترخيص المركز الطبي',
+        'Complete licensing solution for individual medical practitioners': 'حل ترخيص شامل للممارسين الطبيين الأفراد',
+        'Multi-specialty medical facility licensing for comprehensive healthcare services': 'ترخيص المرافق الطبية متعددة التخصصات للخدمات الصحية الشاملة',
+        'Comprehensive medical facility with inpatient services, surgery, and intensive care': 'مرفق طبي شامل مع خدمات المرضى الداخليين والجراحة والعناية المركزة',
+        'Starting from': 'يبدأ من',
+        'Most Popular': 'الأكثر طلباً',
+        'License Conditions and Required Papers': 'شروط الترخيص والأوراق المطلوبة',
+        'License Conditions': 'شروط الترخيص',
+        'Required Papers': 'الأوراق المطلوبة',
+        'Licensing Process Timeline': 'الجدول الزمني لعملية الترخيص',
+        'Apply for Private Clinic License': 'تقدم بطلب ترخيص العيادة الخاصة',
+        'Apply for Specialized Clinic License': 'تقدم بطلب ترخيص العيادة المتخصصة',
+        'Apply for Medical Center License': 'تقدم بطلب ترخيص المركز الطبي',
+        'Fill out the form below and we\'ll contact you within 24 hours': 'املأ النموذج أدناه وسنتواصل معك خلال 24 ساعة',
+        'Submit Application': 'تقديم الطلب',
+        
+        // Form Fields
+        'Full Name *': 'الاسم الكامل *',
+        'Phone Number *': 'رقم الهاتف *',
+        'Email Address *': 'البريد الإلكتروني *',
+        'Medical Specialty *': 'التخصص الطبي *',
+        'Select specialty': 'اختر التخصص',
+        'General Medicine': 'طب عام',
+        'Internal Medicine': 'باطنة',
+        'Pediatrics': 'أطفال',
+        'Dermatology': 'جلدية',
+        'Cardiology': 'قلب',
+        'Orthopedics': 'عظام',
+        'Gynecology': 'نساء وتوليد',
+        'Ophthalmology': 'عيون',
+        'ENT': 'أنف وأذن وحنجرة',
+        'Other': 'أخرى',
+        'Years of Experience': 'سنوات الخبرة',
+        'Select experience': 'اختر الخبرة',
+        '1-3 years': '1-3 سنوات',
+        '4-7 years': '4-7 سنوات',
+        '8-15 years': '8-15 سنة',
+        '15+ years': 'أكثر من 15 سنة',
+        'Clinic Location (City/Area)': 'موقع العيادة (المدينة/المنطقة)',
+        'Do you have a clinic location?': 'هل لديك موقع للعيادة؟',
+        'Select option': 'اختر الخيار',
+        'Yes, I have a location': 'نعم، لدي موقع',
+        'No, I need help finding one': 'لا، أحتاج مساعدة في العثور على موقع',
+        'Preferred Contact Time': 'الوقت المفضل للتواصل',
+        'Select time': 'اختر الوقت',
+        'Morning (9 AM - 12 PM)': 'صباحاً (9 ص - 12 ظ)',
+        'Afternoon (12 PM - 6 PM)': 'بعد الظهر (12 ظ - 6 م)',
+        'Evening (6 PM - 9 PM)': 'مساءً (6 م - 9 م)',
+        'Additional Notes or Questions': 'ملاحظات أو أسئلة إضافية',
+        
+        // License Conditions
+        'Must be a licensed medical doctor': 'يجب أن يكون طبيباً مرخصاً',
+        'Valid medical syndicate membership': 'عضوية سارية في نقابة الأطباء',
+        'Suitable clinic location with proper facilities': 'موقع عيادة مناسب بالتجهيزات المطلوبة',
+        'Compliance with health ministry regulations': 'الامتثال لقوانين وزارة الصحة',
+        'Room with desk for medical consultations': 'غرفة بها مكتب للكشف الطبي',
+        'Designated area for hazardous medical waste': 'منطقة مخصصة للنفايات الطبية الخطرة',
+        'Sterilization area': 'منطقة التعقيم',
+        
+        // Required Papers
+        'Medical degree certificate (certified copy)': 'شهادة التخرج الطبية (صورة معتمدة)',
+        'Medical syndicate membership certificate': 'شهادة عضوية نقابة الأطباء',
+        'National ID copy': 'صورة البطاقة الشخصية',
+        'Clinic rental contract or ownership deed': 'عقد إيجار العيادة أو سند الملكية',
+        'Building permit and safety certificate': 'رخصة البناء وشهادة الأمان',
+        'Fire safety certificate': 'شهادة الدفاع المدني',
+        'Environmental compliance certificate': 'شهادة الامتثال البيئي',
+        'Recent personal photos (4x6)': 'صور شخصية حديثة (4×6)',
+        
+        // Timeline
+        'Document Preparation': 'إعداد المستندات',
+        'Gather and prepare all required documents': 'جمع وإعداد جميع المستندات المطلوبة',
+        '1-2 days': '1-2 أيام',
+        'Application Submission': 'تقديم الطلب',
+        'Submit application to health ministry': 'تقديم الطلب لوزارة الصحة',
+        '1 day': 'يوم واحد',
+        'Inspection & Review': 'التفتيش والمراجعة',
+        'Ministry inspection and document review': 'تفتيش الوزارة ومراجعة المستندات',
+        '7-14 days': '7-14 يوم',
+        'License Issuance': 'إصدار الترخيص',
+        'Receive your clinic license': 'استلام ترخيص العيادة',
+        '2-3 days': '2-3 أيام',
+        
+        // Specialized Clinic specific
+        'Number of Specialties *': 'عدد التخصصات *',
+        'Select number': 'اختر العدد',
+        '2 Specialties': 'تخصصان',
+        '3 Specialties': '3 تخصصات',
+        '4 Specialties': '4 تخصصات',
+        '5 Specialties': '5 تخصصات',
+        '6+ Specialties': '6+ تخصصات',
+        'Primary Specialty *': 'التخصص الأساسي *',
+        'General Surgery': 'جراحة عامة',
+        'Gynecology & Obstetrics': 'نساء وتوليد',
+        'Radiology': 'أشعة',
+        'Additional Specialties': 'التخصصات الإضافية',
+        'Facility Size (sq meters)': 'حجم المرفق (متر مربع)',
+        'Select size': 'اختر الحجم',
+        '200-300 sq meters': '200-300 متر مربع',
+        '300-500 sq meters': '300-500 متر مربع',
+        '500-800 sq meters': '500-800 متر مربع',
+        '800+ sq meters': 'أكثر من 800 متر مربع',
+        'Do you have a facility location?': 'هل لديك موقع للمرفق؟',
+        'Currently planning/searching': 'أخطط/أبحث حالياً',
+        'Preferred Location (City/Area)': 'الموقع المفضل (المدينة/المنطقة)',
+        'Estimated Budget': 'الميزانية المقدرة',
+        'Select budget range': 'اختر نطاق الميزانية',
+        '25,000 - 35,000 EGP': '25,000 - 35,000 جنيه',
+        '35,000 - 50,000 EGP': '35,000 - 50,000 جنيه',
+        '50,000+ EGP': 'أكثر من 50,000 جنيه',
+        
+        // Medical Center specific
+        'Role/Position *': 'الدور/المنصب *',
+        'Select role': 'اختر الدور',
+        'Medical Director': 'مدير طبي',
+        'Investor/Owner': 'مستثمر/مالك',
+        'Healthcare Administrator': 'مدير رعاية صحية',
+        'Healthcare Consultant': 'استشاري رعاية صحية',
+        'Number of Beds *': 'عدد الأسرة *',
+        '10-20 beds': '10-20 سرير',
+        '20-30 beds': '20-30 سرير',
+        '30-50 beds': '30-50 سرير',
+        '50-100 beds': '50-100 سرير',
+        '100+ beds': 'أكثر من 100 سرير',
+        'Number of Operating Rooms': 'عدد غرف العمليات',
+        '1 Operating Room': 'غرفة عمليات واحدة',
+        '2 Operating Rooms': 'غرفتا عمليات',
+        '3 Operating Rooms': '3 غرف عمليات',
+        '4+ Operating Rooms': '4+ غرف عمليات',
+        'ICU Beds': 'أسرة العناية المركزة',
+        '2-5 ICU beds': '2-5 أسرة عناية مركزة',
+        '6-10 ICU beds': '6-10 أسرة عناية مركزة',
+        '10-15 ICU beds': '10-15 سرير عناية مركزة',
+        '15+ ICU beds': 'أكثر من 15 سرير عناية مركزة',
+        'Planned Specialties': 'التخصصات المخططة',
+        '1,000-2,000 sq meters': '1,000-2,000 متر مربع',
+        '2,000-3,000 sq meters': '2,000-3,000 متر مربع',
+        '3,000-5,000 sq meters': '3,000-5,000 متر مربع',
+        '5,000+ sq meters': 'أكثر من 5,000 متر مربع',
+        '40,000 - 60,000 EGP': '40,000 - 60,000 جنيه',
+        '60,000 - 100,000 EGP': '60,000 - 100,000 جنيه',
+        '100,000+ EGP': 'أكثر من 100,000 جنيه',
+        
+        // Additional missing translations
+        'Specialized Clinic': 'العيادات المتخصصة',
+        'Inpatient Services': 'خدمات المرضى الداخليين',
+        'Surgery & ICU': 'جراحة وعناية مركزة',
+        'Full Medical Facility': 'مرفق طبي كامل'
     }
 };
 
@@ -331,6 +637,22 @@ function setupEventListeners() {
         contactForm.addEventListener('submit', handleContactSubmit);
     }
     
+    // Package Forms
+    const privateClinicForm = document.getElementById('privateClinicForm');
+    if (privateClinicForm) {
+        privateClinicForm.addEventListener('submit', handlePackageFormSubmit);
+    }
+    
+    const specializedClinicForm = document.getElementById('specializedClinicForm');
+    if (specializedClinicForm) {
+        specializedClinicForm.addEventListener('submit', handlePackageFormSubmit);
+    }
+    
+    const medicalCenterForm = document.getElementById('medicalCenterForm');
+    if (medicalCenterForm) {
+        medicalCenterForm.addEventListener('submit', handlePackageFormSubmit);
+    }
+    
     // Navbar scroll effect
     window.addEventListener('scroll', handleNavbarScroll);
     
@@ -358,7 +680,7 @@ function setLanguage(language) {
     } else {
         html.setAttribute('lang', 'en');
         html.setAttribute('dir', 'ltr');
-        if (langText) langText.textContent = 'عربي';
+        if (langText) langText.textContent = 'العربية';
     }
     
     updateAllText();
@@ -914,6 +1236,111 @@ function handleContactSubmit(event) {
             form.reset();
         }, 1000);
     }, 1500);
+}
+
+// Package Form Handler
+function handlePackageFormSubmit(event) {
+    event.preventDefault();
+    
+    const form = event.target;
+    const submitButton = form.querySelector('button[type="submit"]');
+    const originalText = submitButton.innerHTML;
+    
+    // Collect form data
+    const formData = new FormData(form);
+    const packageData = {};
+    
+    // Get all form fields
+    for (let [key, value] of formData.entries()) {
+        if (value.trim() !== '') {
+            packageData[key] = value;
+        }
+    }
+    
+    // Determine package type from form ID
+    let packageType = 'Package Application';
+    if (form.id === 'privateClinicForm') {
+        packageType = currentLanguage === 'ar' ? 'طلب ترخيص العيادة الخاصة' : 'Private Clinic License Application';
+    } else if (form.id === 'specializedClinicForm') {
+        packageType = currentLanguage === 'ar' ? 'طلب ترخيص العيادة المتخصصة' : 'Specialized Clinic License Application';
+    } else if (form.id === 'medicalCenterForm') {
+        packageType = currentLanguage === 'ar' ? 'طلب ترخيص المركز الطبي' : 'Medical Center License Application';
+    }
+    
+    // Show loading state
+    submitButton.classList.add('btn-loading');
+    submitButton.disabled = true;
+    
+    // Create WhatsApp message
+    const whatsappMessage = createPackageWhatsAppMessage(packageData, packageType);
+    
+    // Send to WhatsApp
+    setTimeout(() => {
+        submitButton.classList.remove('btn-loading');
+        submitButton.disabled = false;
+        submitButton.innerHTML = originalText;
+        
+        // Open WhatsApp with the message
+        sendContactToWhatsApp(whatsappMessage);
+        
+        // Show success message
+        showAlert(
+            currentLanguage === 'ar' 
+                ? 'تم إعداد طلبك! سيتم فتح واتساب لإرسال التفاصيل.' 
+                : 'Your application is ready! WhatsApp will open to send the details.',
+            'success'
+        );
+        
+        // Reset form after a short delay
+        setTimeout(() => {
+            form.reset();
+        }, 1000);
+    }, 1500);
+}
+
+// Create Package WhatsApp Message
+function createPackageWhatsAppMessage(data, packageType) {
+    const isArabic = currentLanguage === 'ar';
+    
+    let message = `${packageType}\n`;
+    message += isArabic ? '========================\n' : '========================\n';
+    
+    // Add form data to message
+    Object.entries(data).forEach(([key, value]) => {
+        const fieldName = getFieldDisplayName(key, isArabic);
+        message += `${fieldName}: ${value}\n`;
+    });
+    
+    message += isArabic ? '\n📞 يرجى التواصل معي لمناقشة التفاصيل' : '\n📞 Please contact me to discuss the details';
+    
+    return message;
+}
+
+// Get Field Display Name
+function getFieldDisplayName(fieldKey, isArabic) {
+    const fieldNames = {
+        fullName: isArabic ? 'الاسم الكامل' : 'Full Name',
+        phone: isArabic ? 'رقم الهاتف' : 'Phone Number',
+        email: isArabic ? 'البريد الإلكتروني' : 'Email',
+        specialty: isArabic ? 'التخصص الطبي' : 'Medical Specialty',
+        experience: isArabic ? 'سنوات الخبرة' : 'Years of Experience',
+        location: isArabic ? 'الموقع' : 'Location',
+        hasLocation: isArabic ? 'يملك موقع' : 'Has Location',
+        contactTime: isArabic ? 'وقت التواصل المفضل' : 'Preferred Contact Time',
+        notes: isArabic ? 'ملاحظات' : 'Notes',
+        specialtiesCount: isArabic ? 'عدد التخصصات' : 'Number of Specialties',
+        primarySpecialty: isArabic ? 'التخصص الأساسي' : 'Primary Specialty',
+        additionalSpecialties: isArabic ? 'التخصصات الإضافية' : 'Additional Specialties',
+        facilitySize: isArabic ? 'حجم المرفق' : 'Facility Size',
+        budget: isArabic ? 'الميزانية' : 'Budget',
+        role: isArabic ? 'الدور' : 'Role',
+        numberOfBeds: isArabic ? 'عدد الأسرة' : 'Number of Beds',
+        operatingRooms: isArabic ? 'غرف العمليات' : 'Operating Rooms',
+        icuBeds: isArabic ? 'أسرة العناية المركزة' : 'ICU Beds',
+        specialties: isArabic ? 'التخصصات المخططة' : 'Planned Specialties'
+    };
+    
+    return fieldNames[fieldKey] || fieldKey;
 }
 
 // Navbar Scroll Effect
