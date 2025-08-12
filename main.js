@@ -420,7 +420,7 @@ const translations = {
         'Specialized Clinic License': 'ترخيص العيادة المتخصصة',
         'Medical Center License': 'ترخيص المركز الطبي',
         'Complete licensing solution for individual medical practitioners': 'حل ترخيص شامل للممارسين الطبيين الأفراد',
-        'Multi-specialty medical facility licensing for comprehensive healthcare services': 'ترخيص المرافق الطبية متعددة التخصصات للخدمات الصحية الشاملة',
+        'Multi-specialty medical facility licensing for comprehensive healthcare services': 'ترخيص المنشئات الطبية متعددة التخصصات للخدمات الصحية الشاملة',
         'Comprehensive medical facility with inpatient services, surgery, and intensive care': 'مرفق طبي شامل مع خدمات المرضى الداخليين والجراحة والعناية المركزة',
         'Starting from': 'يبدأ من',
         'Most Popular': 'الأكثر طلباً',
@@ -573,18 +573,12 @@ const packageDescriptions = {
     en: {
         'private-clinic': 'Complete licensing package for individual private clinics including medical practice license, professional ID card, and all necessary legal documentation.',
         'specialized-clinic': 'Comprehensive licensing for polyclinics covering 2-5 medical specialties (excluding dentistry, lab, and radiology) with advanced licensing procedures.',
-        'medical-center': 'Full-service licensing for multi-specialty medical centers with comprehensive services and complete legal support.',
-        'tax-doctor': 'Complete tax registration and compliance documentation for individual doctors with expert guidance.',
-        'tax-company': 'Corporate tax setup and legal compliance services for medical companies with professional support.',
-        'laser-addon': 'Additional licensing for laser devices including device registration, safety compliance, and operation permits.'
+        'medical-center': 'Full-service licensing for multi-specialty medical centers with comprehensive services and complete legal support.'
     },
     ar: {
         'private-clinic': 'باقة ترخيص كاملة للعيادات الخاصة الفردية تشمل ترخيص مزاولة المهنة وبطاقة الهوية المهنية وجميع الوثائق القانونية اللازمة.',
         'specialized-clinic': 'ترخيص شامل للعيادات المتخصصة يغطي 2-5 تخصصات طبية (باستثناء طب الأسنان ومعمل التحليل والأشعة) مع إجراءات ترخيص متقدمة.',
-        'medical-center': 'ترخيص شامل للمراكز الطبية متعددة التخصصات مع خدمات شاملة ودعم قانوني كامل.',
-        'tax-doctor': 'التسجيل الضريبي الكامل ووثائق الامتثال للأطباء الأفراد مع الإرشاد المتخصص.',
-        'tax-company': 'إعداد الضرائب الشركات وخدمات الامتثال القانوني للشركات الطبية مع الدعم المتخصص.',
-        'laser-addon': 'ترخيص إضافي لأجهزة الليزر يشمل تسجيل الجهاز وامتثال السلامة وتصاريح التشغيل.'
+        'medical-center': 'ترخيص شامل للمراكز الطبية متعددة التخصصات مع خدمات شاملة ودعم قانوني كامل.'
     }
 };
 
@@ -844,7 +838,7 @@ function sendToWhatsApp() {
     console.log('Generated message:', message); // Debug log
     console.log('Selected package:', selectedPackage); // Debug log
     
-    const whatsappNumber = '201094543689'; // Replace with actual number
+    const whatsappNumber = '201044273608'; // Replace with actual number
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     
     window.open(whatsappURL, '_blank');
@@ -1079,7 +1073,7 @@ function getCompanyTypeLabel(companyType) {
 
 // Sub-services WhatsApp Integration
 function sendSubServiceToWhatsApp(serviceType) {
-    const whatsappNumber = '201094543689'; // Replace with actual number
+    const whatsappNumber = '201044273608'; // Replace with actual number
     
     const serviceMessages = {
         'contracts': {
@@ -1145,7 +1139,10 @@ function createWhatsAppMessage(contactData) {
         'specialized-clinic': currentLanguage === 'ar' ? 'العيادات المتخصصة' : 'Polyclinic',
         'medical-center': currentLanguage === 'ar' ? 'المركز الطبي' : 'Medical Center',
         'tax-doctor': currentLanguage === 'ar' ? 'الملف الضريبي للطبيب' : 'Tax File for Doctor',
-        'tax-company': currentLanguage === 'ar' ? 'الملف الضريبي للشركة' : 'Tax File for Company'
+        'tax-company': currentLanguage === 'ar' ? 'الملف الضريبي للشركة' : 'Tax File for Company',
+        'laser-device': currentLanguage === 'ar' ? 'ترخيص جهاز الليزر' : 'Laser Device License',
+        'contracts': currentLanguage === 'ar' ? 'التعاقدات' : 'Contracts',
+        'professional-license': currentLanguage === 'ar' ? 'الترخيص المهني' : 'Professional License'
     };
     
     if (currentLanguage === 'ar') {
@@ -1177,7 +1174,7 @@ Thank you!`;
 
 function sendContactToWhatsApp(message) {
     // WhatsApp phone number (you can change this to your business number)
-    const phoneNumber = '201094543689'; // Using the phone number from the contact section
+    const phoneNumber = '201044273608'; // Using the phone number from the contact section
     
     // Encode the message for URL
     const encodedMessage = encodeURIComponent(message);

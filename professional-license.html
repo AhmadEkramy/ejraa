@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extracting a Professional License - Ejraa</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Tajawal:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar" id="mainNav">
+        <div class="container">
+            <!-- Logo on the left -->
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.png" alt="Ejraa Logo" class="navbar-logo">
+            </a>
+            
+            <!-- Navigation in the center (desktop) -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#home" data-en="Home" data-ar="الرئيسية">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#about" data-en="About" data-ar="عن الشركة">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#packages" data-en="Packages" data-ar="الباقات">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#contact" data-en="Contact" data-ar="تواصل معنا">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Buttons on the right (always visible) -->
+            <div class="d-flex align-items-center gap-2">
+                <!-- Language Toggle -->
+                <button class="custom-lang-btn" id="langToggle">
+                    <i class="fas fa-globe"></i>
+                    <span id="langText">العربية</span>
+                </button>
+                
+                <!-- Dark Mode Toggle -->
+                <button class="custom-dark-btn" id="darkModeToggle">
+                    <i class="fas fa-moon" id="darkModeIcon"></i>
+                </button>
+                
+                <!-- Hamburger Menu Button (mobile only) -->
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Service Header -->
+    <section class="package-header py-5 mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                            <li class="breadcrumb-item"><a href="index.html#sub-services" data-en="Sub-services" data-ar="خدمات تكميلية">Sub-services</a></li>
+                            <li class="breadcrumb-item active" data-en="Extracting a Professional License" data-ar="استخراج الترخيص المهني">Extracting a Professional License</li>
+                        </ol>
+                    </nav>
+                    <h1 class="package-title glow-text" data-en="Extracting a Professional License" data-ar="استخراج الترخيص المهني">Extracting a Professional License</h1>
+                    <p class="package-subtitle" data-en="Complete assistance in obtaining professional medical licenses and certifications from relevant authorities" data-ar="مساعدة كاملة في الحصول على التراخيص والشهادات الطبية المهنية من السلطات المختصة">Complete assistance in obtaining professional medical licenses and certifications from relevant authorities</p>
+                    <div class="package-price">
+                        <span class="price-label" data-en="Starting from" data-ar="يبدأ من">Starting from</span>
+                        <span class="price-amount" data-en="3,000 EGP" data-ar="3,000 جنيه">3,000 EGP</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="package-icon-large">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional License Information -->
+    <section class="license-conditions py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5 glow-text" data-en="Professional License and Medical ID Card Procedures" data-ar="إجراءات استخراج ترخيص مزاولة المهنة والكارنيه الطبي">Professional License and Medical ID Card Procedures</h2>
+            
+            <!-- First Time License -->
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="definition-card glow-card">
+                        <h3 class="card-title" data-en="First: First-Time License Extraction" data-ar="أولًا: استخراج الترخيص لأول مرة">First: First-Time License Extraction</h3>
+                        <div class="alert alert-warning">
+                            <i class="fas fa-exclamation-triangle me-2"></i>
+                            <span data-en="All original documents must be submitted (originals, not certified copies)" data-ar="يتم تقديم جميع الأوراق الأصلية (أصول وليس صورة طبق الأصل)">All original documents must be submitted (originals, not certified copies)</span>
+                        </div>
+                        <p data-en="All doctor's documents are submitted to the Syndicate and Ministry. The procedure varies according to the type of syndicate (Human Medicine - Dentistry)." data-ar="الخاصة بالطبيب للنقابة والوزارة. الإجراء يختلف حسب نوع النقابة (بشري – أسنان).">All doctor's documents are submitted to the Syndicate and Ministry. The procedure varies according to the type of syndicate (Human Medicine - Dentistry).</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Required Documents -->
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <div class="conditions-card glow-card">
+                        <h3 class="card-title" data-en="General Documents (varies by year, syndicate, and nationality)" data-ar="الأوراق العامة (وتختلف باختلاف السنة والنقابة والجنسية)">General Documents (varies by year, syndicate, and nationality)</h3>
+                        <ul class="conditions-list">
+                            <li data-en="National ID card - Passport and residence permit" data-ar="بطاقة رقم قومي - باسبور وإقامة">National ID card - Passport and residence permit</li>
+                            <li data-en="Personal photos" data-ar="صور شخصية">Personal photos</li>
+                            <li data-en="Original graduation certificate" data-ar="أصل شهادة التخرج">Original graduation certificate</li>
+                            <li data-en="Original internship certificate" data-ar="أصل الامتياز">Original internship certificate</li>
+                            <li data-en="Academic transcript" data-ar="بيان الدرجات">Academic transcript</li>
+                            <li data-en="Criminal record certificate directed to Ministry and another to Syndicate" data-ar="فيش موجه للوزارة وآخر للنقابة">Criminal record certificate directed to Ministry and another to Syndicate</li>
+                            <li data-en="Equivalency certificate for foreign colleges or some private colleges" data-ar="شهادة معادلة في حالة الكليات الأجنبية أو بعض الكليات الخاصة">Equivalency certificate for foreign colleges or some private colleges</li>
+                            <li data-en="Data flow for foreign colleges" data-ar="Data flow في حالة الكليات الأجنبية">Data flow for foreign colleges</li>
+                            <li data-en="Power of attorney to proceed with procedures" data-ar="توكيل للسير في الإجراءات">Power of attorney to proceed with procedures</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- License Issuance -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="specialty-notes glow-card">
+                        <h3 class="card-title text-center mb-4" data-en="After Document Review and Fee Payment" data-ar="بعد مراجعة الأوراق وسداد الرسوم المقررة">After Document Review and Fee Payment</h3>
+                        <p data-en="After reviewing documents and paying the prescribed fees to the Syndicate and Ministry, the following are issued:" data-ar="بعد مراجعة الأوراق وسداد الرسوم المقررة بالنقابة والوزارة، يتم إصدار:">After reviewing documents and paying the prescribed fees to the Syndicate and Ministry, the following are issued:</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="alert alert-success">
+                                    <h5 class="alert-heading" data-en="Professional Practice License" data-ar="ترخيص مزاولة المهنة">Professional Practice License</h5>
+                                    <p class="mb-0" data-en="(Valid)" data-ar="(ساري)">(Valid)</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="alert alert-info">
+                                    <h5 class="alert-heading" data-en="Medical ID Card" data-ar="الكارنيه الطبي">Medical ID Card</h5>
+                                    <p class="mb-0" data-en="(Renewed annually)" data-ar="(يجدد سنوياً)">(Renewed annually)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="alert alert-warning mt-3">
+                            <p class="mb-0" data-en="Procedure cost is determined according to the relevant syndicate's regulations and the doctor's nationality (this affects fees only, not service charges)" data-ar="تكلفة الإجراء يتم تحديدها حسب لائحة النقابة المختصة، وجنسية الطبيب (وذلك لاختلاف الرسوم فقط لا الأتعاب)">Procedure cost is determined according to the relevant syndicate's regulations and the doctor's nationality (this affects fees only, not service charges)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Time License -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="conditions-card glow-card">
+                        <h3 class="card-title" data-en="Second: Second-Time License Extraction (Lost or Damaged Replacement)" data-ar="ثانياً: استخراج الترخيص للمرة الثانية (بدل فاقد أو بدل تالف)">Second: Second-Time License Extraction (Lost or Damaged Replacement)</h3>
+                        <div class="alert alert-primary">
+                            <h5 class="alert-heading" data-en="Replacement License Fees" data-ar="رسوم استخراج الترخيص البديل">Replacement License Fees</h5>
+                            <p class="mb-2" data-en="Fees range between 500 EGP to 1,000 EGP for license extraction" data-ar="يتم سداد رسوم تتراوح بين 500 جنيه إلى 1000 جنيه قيمة استخراج الترخيص">Fees range between 500 EGP to 1,000 EGP for license extraction</p>
+                        </div>
+                        
+                        <h5 data-en="Fee amount is determined based on:" data-ar="قيمة الرسوم تحدد بناءً على:">Fee amount is determined based on:</h5>
+                        <ul class="conditions-list">
+                            <li data-en="Graduation date" data-ar="تاريخ التخرج">Graduation date</li>
+                            <li data-en="Document completion" data-ar="استكمال الأوراق">Document completion</li>
+                            <li data-en="Whether the procedure will be done with power of attorney or not" data-ar="ما إذا كان الإجراء هيتم بتوكيل أو لا">Whether the procedure will be done with power of attorney or not</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cost Information -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="cost-card glow-card">
+                        <h3 class="card-title text-center mb-4" data-en="Cost Summary" data-ar="ملخص التكلفة">Cost Summary</h3>
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th data-en="Service Type" data-ar="نوع الخدمة">Service Type</th>
+                                        <th data-en="Cost" data-ar="التكلفة">Cost</th>
+                                        <th data-en="Notes" data-ar="ملاحظات">Notes</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-en="First-time license extraction" data-ar="استخراج الترخيص لأول مرة">First-time license extraction</td>
+                                        <td data-en="According to syndicate regulations" data-ar="حسب لائحة النقابة">According to syndicate regulations</td>
+                                        <td data-en="Varies by syndicate and nationality" data-ar="يختلف حسب النقابة والجنسية">Varies by syndicate and nationality</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-en="Replacement license (lost/damaged)" data-ar="الترخيص البديل (فاقد/تالف)">Replacement license (lost/damaged)</td>
+                                        <td data-en="500 - 1,000 EGP" data-ar="500 - 1,000 جنيه">500 - 1,000 EGP</td>
+                                        <td data-en="Based on graduation date and documents" data-ar="حسب تاريخ التخرج والأوراق">Based on graduation date and documents</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-en="Power of attorney procedure" data-ar="إجراء بتوكيل">Power of attorney procedure</td>
+                                        <td data-en="Additional fees may apply" data-ar="قد تطبق رسوم إضافية">Additional fees may apply</td>
+                                        <td data-en="Affects total cost" data-ar="يؤثر على التكلفة الإجمالية">Affects total cost</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section class="application-form py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="form-card glow-card">
+                        <h2 class="form-title text-center mb-4 glow-text" data-en="Apply for Professional License" data-ar="تقدم بطلب الترخيص المهني">Apply for Professional License</h2>
+                        <p class="form-subtitle text-center mb-4" data-en="Fill out the form below and we'll contact you within 24 hours" data-ar="املأ النموذج أدناه وسنتواصل معك خلال 24 ساعة">Fill out the form below and we'll contact you within 24 hours</p>
+                        
+                        <form id="professionalLicenseForm" class="package-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Full Name *" data-ar="الاسم الكامل *">Full Name *</label>
+                                    <input type="text" class="form-control" name="fullName" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Phone Number *" data-ar="رقم الهاتف *">Phone Number *</label>
+                                    <input type="tel" class="form-control" name="phone" required>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label class="form-label" data-en="Email Address *" data-ar="البريد الإلكتروني *">Email Address *</label>
+                                    <input type="email" class="form-control" name="email" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Medical Field *" data-ar="المجال الطبي *">Medical Field *</label>
+                                    <select class="form-select" name="medicalField" required>
+                                        <option value="" data-en="Select field" data-ar="اختر المجال">Select field</option>
+                                        <option value="medicine" data-en="Medicine" data-ar="الطب">Medicine</option>
+                                        <option value="dentistry" data-en="Dentistry" data-ar="طب الأسنان">Dentistry</option>
+                                        <option value="pharmacy" data-en="Pharmacy" data-ar="الصيدلة">Pharmacy</option>
+                                        <option value="nursing" data-en="Nursing" data-ar="التمريض">Nursing</option>
+                                        <option value="physiotherapy" data-en="Physiotherapy" data-ar="العلاج الطبيعي">Physiotherapy</option>
+                                        <option value="veterinary" data-en="Veterinary Medicine" data-ar="الطب البيطري">Veterinary Medicine</option>
+                                        <option value="other" data-en="Other" data-ar="أخرى">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="License Type *" data-ar="نوع الترخيص *">License Type *</label>
+                                    <select class="form-select" name="licenseType" required>
+                                        <option value="" data-en="Select license type" data-ar="اختر نوع الترخيص">Select license type</option>
+                                        <option value="general-practitioner" data-en="General Practitioner" data-ar="ممارس عام">General Practitioner</option>
+                                        <option value="specialist" data-en="Specialist" data-ar="أخصائي">Specialist</option>
+                                        <option value="consultant" data-en="Consultant" data-ar="استشاري">Consultant</option>
+                                        <option value="syndicate-membership" data-en="Syndicate Membership" data-ar="عضوية النقابة">Syndicate Membership</option>
+                                        <option value="professional-id" data-en="Professional ID Card" data-ar="بطاقة الهوية المهنية">Professional ID Card</option>
+                                        <option value="license-renewal" data-en="License Renewal" data-ar="تجديد الترخيص">License Renewal</option>
+                                        <option value="foreign-equivalency" data-en="Foreign Degree Equivalency" data-ar="معادلة الشهادة الأجنبية">Foreign Degree Equivalency</option>
+                                        <option value="other" data-en="Other" data-ar="أخرى">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Specialty (if applicable)" data-ar="التخصص (إن أمكن)">Specialty (if applicable)</label>
+                                    <input type="text" class="form-control" name="specialty" placeholder="e.g., Cardiology, Orthopedics, etc.">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Graduation Year *" data-ar="سنة التخرج *">Graduation Year *</label>
+                                    <select class="form-select" name="graduationYear" required>
+                                        <option value="" data-en="Select year" data-ar="اختر السنة">Select year</option>
+                                        <option value="2024">2024</option>
+                                        <option value="2023">2023</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2021">2021</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2018">2018</option>
+                                        <option value="2017">2017</option>
+                                        <option value="2016">2016</option>
+                                        <option value="2015">2015</option>
+                                        <option value="before-2015" data-en="Before 2015" data-ar="قبل 2015">Before 2015</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="University/Institution *" data-ar="الجامعة/المؤسسة *">University/Institution *</label>
+                                    <input type="text" class="form-control" name="university" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Degree Location *" data-ar="مكان الحصول على الشهادة *">Degree Location *</label>
+                                    <select class="form-select" name="degreeLocation" required>
+                                        <option value="" data-en="Select location" data-ar="اختر المكان">Select location</option>
+                                        <option value="egypt" data-en="Egypt" data-ar="مصر">Egypt</option>
+                                        <option value="arab-country" data-en="Arab Country" data-ar="دولة عربية">Arab Country</option>
+                                        <option value="europe" data-en="Europe" data-ar="أوروبا">Europe</option>
+                                        <option value="north-america" data-en="North America" data-ar="أمريكا الشمالية">North America</option>
+                                        <option value="asia" data-en="Asia" data-ar="آسيا">Asia</option>
+                                        <option value="other" data-en="Other" data-ar="أخرى">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Current Status *" data-ar="الحالة الحالية *">Current Status *</label>
+                                    <select class="form-select" name="currentStatus" required>
+                                        <option value="" data-en="Select status" data-ar="اختر الحالة">Select status</option>
+                                        <option value="fresh-graduate" data-en="Fresh Graduate" data-ar="خريج جديد">Fresh Graduate</option>
+                                        <option value="completing-internship" data-en="Completing Internship" data-ar="يكمل الامتياز">Completing Internship</option>
+                                        <option value="completed-internship" data-en="Completed Internship" data-ar="أكمل الامتياز">Completed Internship</option>
+                                        <option value="practicing-unlicensed" data-en="Practicing (Unlicensed)" data-ar="يمارس (غير مرخص)">Practicing (Unlicensed)</option>
+                                        <option value="licensed-other-country" data-en="Licensed in Other Country" data-ar="مرخص في دولة أخرى">Licensed in Other Country</option>
+                                        <option value="seeking-specialty-change" data-en="Seeking Specialty Change" data-ar="يسعى لتغيير التخصص">Seeking Specialty Change</option>
+                                        <option value="license-expired" data-en="License Expired" data-ar="الترخيص منتهي الصلاحية">License Expired</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Processing Priority *" data-ar="أولوية المعالجة *">Processing Priority *</label>
+                                    <select class="form-select" name="priority" required>
+                                        <option value="" data-en="Select priority" data-ar="اختر الأولوية">Select priority</option>
+                                        <option value="standard" data-en="Standard Processing" data-ar="معالجة عادية">Standard Processing</option>
+                                        <option value="expedited" data-en="Expedited Processing (+50% fee)" data-ar="معالجة معجلة (+50% رسوم)">Expedited Processing (+50% fee)</option>
+                                        <option value="urgent" data-en="Urgent Processing (+100% fee)" data-ar="معالجة عاجلة (+100% رسوم)">Urgent Processing (+100% fee)</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label class="form-label" data-en="Additional Information *" data-ar="معلومات إضافية *">Additional Information *</label>
+                                    <textarea class="form-control" name="additionalInfo" rows="4" placeholder="Please provide any additional details about your situation, specific requirements, or questions..." required></textarea>
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <label class="form-label" data-en="Special Notes" data-ar="ملاحظات خاصة">Special Notes</label>
+                                    <textarea class="form-control" name="notes" rows="3" placeholder="Any special circumstances, urgent deadlines, or specific requests..."></textarea>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <div class="d-flex gap-3 justify-content-center flex-wrap">
+                                        <button type="button" class="btn btn-success btn-lg px-4" id="sendWhatsApp">
+                                            <i class="fab fa-whatsapp me-2"></i>
+                                            <span data-en="Send to WhatsApp" data-ar="إرسال للواتساب">Send to WhatsApp</span>
+                                        </button>
+                                        <button type="button" class="btn btn-danger btn-lg px-4" id="exportPDF">
+                                            <i class="fas fa-file-pdf me-2"></i>
+                                            <span data-en="Export as PDF" data-ar="تصدير كـ PDF">Export as PDF</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float" id="whatsappFloat">
+        <a href="https://wa.me/201044273608" target="_blank" class="whatsapp-link">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jsPDF for PDF export with Arabic support -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <!-- html2canvas for better text rendering -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+    
+    <script>
+        // Function to detect if text contains Arabic characters
+        function containsArabic(text) {
+            const arabicRegex = /[\u0600-\u06FF\u0750-\u077F]/;
+            return arabicRegex.test(text);
+        }
+        
+        // Function to get current language
+        function getCurrentLanguage() {
+            return document.documentElement.getAttribute('dir') === 'rtl' ? 'ar' : 'en';
+        }
+        
+        // Function to get localized text
+        function getLocalizedText(enText, arText) {
+            return getCurrentLanguage() === 'ar' ? arText : enText;
+        }
+        
+        // Function to get medical field display text
+        function getMedicalFieldDisplayText(value) {
+            const fields = {
+                'medicine': { en: 'Medicine', ar: 'الطب' },
+                'dentistry': { en: 'Dentistry', ar: 'طب الأسنان' },
+                'pharmacy': { en: 'Pharmacy', ar: 'الصيدلة' },
+                'nursing': { en: 'Nursing', ar: 'التمريض' },
+                'physiotherapy': { en: 'Physiotherapy', ar: 'العلاج الطبيعي' },
+                'veterinary': { en: 'Veterinary Medicine', ar: 'الطب البيطري' },
+                'other': { en: 'Other', ar: 'أخرى' }
+            };
+            
+            if (fields[value]) {
+                return getCurrentLanguage() === 'ar' ? fields[value].ar : fields[value].en;
+            }
+            return value;
+        }
+        
+        // Function to get license type display text
+        function getLicenseTypeDisplayText(value) {
+            const types = {
+                'general-practitioner': { en: 'General Practitioner', ar: 'ممارس عام' },
+                'specialist': { en: 'Specialist', ar: 'أخصائي' },
+                'consultant': { en: 'Consultant', ar: 'استشاري' },
+                'syndicate-membership': { en: 'Syndicate Membership', ar: 'عضوية النقابة' },
+                'professional-id': { en: 'Professional ID Card', ar: 'بطاقة الهوية المهنية' },
+                'license-renewal': { en: 'License Renewal', ar: 'تجديد الترخيص' },
+                'foreign-equivalency': { en: 'Foreign Degree Equivalency', ar: 'معادلة الشهادة الأجنبية' },
+                'other': { en: 'Other', ar: 'أخرى' }
+            };
+            
+            if (types[value]) {
+                return getCurrentLanguage() === 'ar' ? types[value].ar : types[value].en;
+            }
+            return value;
+        }
+        
+        // Function to get degree location display text
+        function getDegreeLocationDisplayText(value) {
+            const locations = {
+                'egypt': { en: 'Egypt', ar: 'مصر' },
+                'arab-country': { en: 'Arab Country', ar: 'دولة عربية' },
+                'europe': { en: 'Europe', ar: 'أوروبا' },
+                'north-america': { en: 'North America', ar: 'أمريكا الشمالية' },
+                'asia': { en: 'Asia', ar: 'آسيا' },
+                'other': { en: 'Other', ar: 'أخرى' }
+            };
+            
+            if (locations[value]) {
+                return getCurrentLanguage() === 'ar' ? locations[value].ar : locations[value].en;
+            }
+            return value;
+        }
+        
+        // Function to get current status display text
+        function getCurrentStatusDisplayText(value) {
+            const statuses = {
+                'fresh-graduate': { en: 'Fresh Graduate', ar: 'خريج جديد' },
+                'completing-internship': { en: 'Completing Internship', ar: 'يكمل الامتياز' },
+                'completed-internship': { en: 'Completed Internship', ar: 'أكمل الامتياز' },
+                'practicing-unlicensed': { en: 'Practicing (Unlicensed)', ar: 'يمارس (غير مرخص)' },
+                'licensed-other-country': { en: 'Licensed in Other Country', ar: 'مرخص في دولة أخرى' },
+                'seeking-specialty-change': { en: 'Seeking Specialty Change', ar: 'يسعى لتغيير التخصص' },
+                'license-expired': { en: 'License Expired', ar: 'الترخيص منتهي الصلاحية' }
+            };
+            
+            if (statuses[value]) {
+                return getCurrentLanguage() === 'ar' ? statuses[value].ar : statuses[value].en;
+            }
+            return value;
+        }
+        
+        // Function to get priority display text
+        function getPriorityDisplayText(value) {
+            const priorities = {
+                'standard': { en: 'Standard Processing', ar: 'معالجة عادية' },
+                'expedited': { en: 'Expedited Processing (+50% fee)', ar: 'معالجة معجلة (+50% رسوم)' },
+                'urgent': { en: 'Urgent Processing (+100% fee)', ar: 'معالجة عاجلة (+100% رسوم)' }
+            };
+            
+            if (priorities[value]) {
+                return getCurrentLanguage() === 'ar' ? priorities[value].ar : priorities[value].en;
+            }
+            return value;
+        }
+        
+        // WhatsApp functionality
+        document.getElementById('sendWhatsApp').addEventListener('click', function() {
+            const form = document.getElementById('professionalLicenseForm');
+            const formData = new FormData(form);
+            
+            // Check if required fields are filled
+            const requiredFields = ['fullName', 'phone', 'email', 'medicalField', 'licenseType', 'graduationYear', 'university', 'degreeLocation', 'currentStatus', 'priority', 'additionalInfo'];
+            let isValid = true;
+            let missingFields = [];
+            
+            requiredFields.forEach(field => {
+                if (!formData.get(field) || formData.get(field).trim() === '') {
+                    isValid = false;
+                    missingFields.push(field);
+                }
+            });
+            
+            if (!isValid) {
+                const alertMessage = getLocalizedText(
+                    'Please fill in all required fields: ' + missingFields.join(', '),
+                    'يرجى ملء جميع الحقول المطلوبة: ' + missingFields.join(', ')
+                );
+                alert(alertMessage);
+                return;
+            }
+            
+            // Create WhatsApp message based on current language
+            let message;
+            if (getCurrentLanguage() === 'ar') {
+                message = `*طلب الترخيص المهني*\n\n`;
+                message += `*الاسم الكامل:* ${formData.get('fullName')}\n`;
+                message += `*رقم الهاتف:* ${formData.get('phone')}\n`;
+                message += `*البريد الإلكتروني:* ${formData.get('email')}\n`;
+                message += `*المجال الطبي:* ${getMedicalFieldDisplayText(formData.get('medicalField'))}\n`;
+                message += `*نوع الترخيص:* ${getLicenseTypeDisplayText(formData.get('licenseType'))}\n`;
+                if (formData.get('specialty')) {
+                    message += `*التخصص:* ${formData.get('specialty')}\n`;
+                }
+                message += `*سنة التخرج:* ${formData.get('graduationYear')}\n`;
+                message += `*الجامعة/المؤسسة:* ${formData.get('university')}\n`;
+                message += `*مكان الحصول على الشهادة:* ${getDegreeLocationDisplayText(formData.get('degreeLocation'))}\n`;
+                message += `*الحالة الحالية:* ${getCurrentStatusDisplayText(formData.get('currentStatus'))}\n`;
+                message += `*أولوية المعالجة:* ${getPriorityDisplayText(formData.get('priority'))}\n`;
+                message += `*معلومات إضافية:* ${formData.get('additionalInfo')}\n`;
+                if (formData.get('notes')) {
+                    message += `*ملاحظات خاصة:* ${formData.get('notes')}\n`;
+                }
+            } else {
+                message = `*Professional License Application*\n\n`;
+                message += `*Full Name:* ${formData.get('fullName')}\n`;
+                message += `*Phone Number:* ${formData.get('phone')}\n`;
+                message += `*Email:* ${formData.get('email')}\n`;
+                message += `*Medical Field:* ${getMedicalFieldDisplayText(formData.get('medicalField'))}\n`;
+                message += `*License Type:* ${getLicenseTypeDisplayText(formData.get('licenseType'))}\n`;
+                if (formData.get('specialty')) {
+                    message += `*Specialty:* ${formData.get('specialty')}\n`;
+                }
+                message += `*Graduation Year:* ${formData.get('graduationYear')}\n`;
+                message += `*University/Institution:* ${formData.get('university')}\n`;
+                message += `*Degree Location:* ${getDegreeLocationDisplayText(formData.get('degreeLocation'))}\n`;
+                message += `*Current Status:* ${getCurrentStatusDisplayText(formData.get('currentStatus'))}\n`;
+                message += `*Processing Priority:* ${getPriorityDisplayText(formData.get('priority'))}\n`;
+                message += `*Additional Information:* ${formData.get('additionalInfo')}\n`;
+                if (formData.get('notes')) {
+                    message += `*Special Notes:* ${formData.get('notes')}\n`;
+                }
+            }
+            
+            // Encode message for URL
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappURL = `https://wa.me/201044273608?text=${encodedMessage}`;
+            
+            // Open WhatsApp
+            window.open(whatsappURL, '_blank');
+        });
+        
+        // PDF export functionality
+        document.getElementById('exportPDF').addEventListener('click', function() {
+            const form = document.getElementById('professionalLicenseForm');
+            const formData = new FormData(form);
+            
+            // Check if required fields are filled
+            const requiredFields = ['fullName', 'phone', 'email', 'medicalField', 'licenseType', 'graduationYear', 'university', 'degreeLocation', 'currentStatus', 'priority', 'additionalInfo'];
+            let isValid = true;
+            let missingFields = [];
+            
+            requiredFields.forEach(field => {
+                if (!formData.get(field) || formData.get(field).trim() === '') {
+                    isValid = false;
+                    missingFields.push(field);
+                }
+            });
+            
+            if (!isValid) {
+                const alertMessage = getLocalizedText(
+                    'Please fill in all required fields: ' + missingFields.join(', '),
+                    'يرجى ملء جميع الحقول المطلوبة: ' + missingFields.join(', ')
+                );
+                alert(alertMessage);
+                return;
+            }
+            
+            // Check if content contains Arabic
+            const hasArabicContent = containsArabic(formData.get('fullName')) || 
+                                   containsArabic(formData.get('specialty') || '') ||
+                                   containsArabic(formData.get('university')) ||
+                                   containsArabic(formData.get('additionalInfo')) ||
+                                   containsArabic(formData.get('notes') || '') ||
+                                   getCurrentLanguage() === 'ar';
+            
+            // Create HTML content for PDF
+            const title = getLocalizedText('Professional License Application', 'طلب الترخيص المهني');
+            const fullNameLabel = getLocalizedText('Full Name:', 'الاسم الكامل:');
+            const phoneLabel = getLocalizedText('Phone Number:', 'رقم الهاتف:');
+            const emailLabel = getLocalizedText('Email:', 'البريد الإلكتروني:');
+            const medicalFieldLabel = getLocalizedText('Medical Field:', 'المجال الطبي:');
+            const licenseTypeLabel = getLocalizedText('License Type:', 'نوع الترخيص:');
+            const specialtyLabel = getLocalizedText('Specialty:', 'التخصص:');
+            const graduationYearLabel = getLocalizedText('Graduation Year:', 'سنة التخرج:');
+            const universityLabel = getLocalizedText('University/Institution:', 'الجامعة/المؤسسة:');
+            const degreeLocationLabel = getLocalizedText('Degree Location:', 'مكان الحصول على الشهادة:');
+            const currentStatusLabel = getLocalizedText('Current Status:', 'الحالة الحالية:');
+            const priorityLabel = getLocalizedText('Processing Priority:', 'أولوية المعالجة:');
+            const additionalInfoLabel = getLocalizedText('Additional Information:', 'معلومات إضافية:');
+            const notesLabel = getLocalizedText('Special Notes:', 'ملاحظات خاصة:');
+            const footerText = getLocalizedText(
+                `Generated on: ${new Date().toLocaleDateString()}`,
+                `تم الإنشاء في: ${new Date().toLocaleDateString('ar-EG')}`
+            );
+            
+            const htmlContent = `
+                <div style="font-family: 'Tajawal', 'Inter', Arial, sans-serif; padding: 40px; max-width: 800px; margin: 0 auto; direction: ${hasArabicContent ? 'rtl' : 'ltr'}; text-align: ${hasArabicContent ? 'right' : 'left'};">
+                    <h1 style="color: #2c3e50; margin-bottom: 30px; text-align: center; font-size: 24px; border-bottom: 2px solid #3498db; padding-bottom: 10px;">
+                        ${title}
+                    </h1>
+                    
+                    <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${fullNameLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('fullName')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${phoneLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('phone')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${emailLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('email')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${medicalFieldLabel}</strong>
+                            <span style="color: #34495e;">${getMedicalFieldDisplayText(formData.get('medicalField'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${licenseTypeLabel}</strong>
+                            <span style="color: #34495e;">${getLicenseTypeDisplayText(formData.get('licenseType'))}</span>
+                        </div>
+                        
+                        ${formData.get('specialty') ? `
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${specialtyLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('specialty')}</span>
+                        </div>
+                        ` : ''}
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${graduationYearLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('graduationYear')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${universityLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('university')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${degreeLocationLabel}</strong>
+                            <span style="color: #34495e;">${getDegreeLocationDisplayText(formData.get('degreeLocation'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${currentStatusLabel}</strong>
+                            <span style="color: #34495e;">${getCurrentStatusDisplayText(formData.get('currentStatus'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${priorityLabel}</strong>
+                            <span style="color: #34495e;">${getPriorityDisplayText(formData.get('priority'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: block; margin-bottom: 5px;">${additionalInfoLabel}</strong>
+                            <div style="color: #34495e; padding: 10px; background: white; border-radius: 4px; border: 1px solid #dee2e6;">
+                                ${formData.get('additionalInfo').replace(/\n/g, '<br>')}
+                            </div>
+                        </div>
+                        
+                        ${formData.get('notes') ? `
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: block; margin-bottom: 5px;">${notesLabel}</strong>
+                            <div style="color: #34495e; padding: 10px; background: white; border-radius: 4px; border: 1px solid #dee2e6;">
+                                ${formData.get('notes').replace(/\n/g, '<br>')}
+                            </div>
+                        </div>
+                        ` : ''}
+                    </div>
+                    
+                    <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 12px;">
+                        ${footerText}
+                    </div>
+                </div>
+            `;
+            
+            // Create a temporary div to hold the HTML content
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = htmlContent;
+            tempDiv.style.position = 'absolute';
+            tempDiv.style.left = '-9999px';
+            tempDiv.style.top = '-9999px';
+            tempDiv.style.width = '800px';
+            document.body.appendChild(tempDiv);
+            
+            // Use html2canvas to convert HTML to canvas, then to PDF
+            html2canvas(tempDiv, {
+                scale: 2,
+                useCORS: true,
+                allowTaint: true,
+                backgroundColor: '#ffffff',
+                width: 800,
+                height: tempDiv.scrollHeight
+            }).then(canvas => {
+                // Remove the temporary div
+                document.body.removeChild(tempDiv);
+                
+                // Create PDF
+                const { jsPDF } = window.jspdf;
+                const pdf = new jsPDF('p', 'mm', 'a4');
+                
+                // Calculate dimensions
+                const imgWidth = 210; // A4 width in mm
+                const pageHeight = 295; // A4 height in mm
+                const imgHeight = (canvas.height * imgWidth) / canvas.width;
+                let heightLeft = imgHeight;
+                let position = 0;
+                
+                // Add image to PDF
+                const imgData = canvas.toDataURL('image/png');
+                pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+                heightLeft -= pageHeight;
+                
+                // Add new pages if content is longer than one page
+                while (heightLeft >= 0) {
+                    position = heightLeft - imgHeight;
+                    pdf.addPage();
+                    pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+                    heightLeft -= pageHeight;
+                }
+                
+                // Save PDF
+                const fileName = hasArabicContent ? 
+                    `طلب_ترخيص_مهني_${formData.get('fullName').replace(/\s+/g, '_')}.pdf` :
+                    `Professional_License_Application_${formData.get('fullName').replace(/\s+/g, '_')}.pdf`;
+                pdf.save(fileName);
+            }).catch(error => {
+                // Remove the temporary div in case of error
+                if (document.body.contains(tempDiv)) {
+                    document.body.removeChild(tempDiv);
+                }
+                console.error('Error generating PDF:', error);
+                alert(getLocalizedText(
+                    'Error generating PDF. Please try again.',
+                    'خطأ في إنشاء ملف PDF. يرجى المحاولة مرة أخرى.'
+                ));
+            });
+        });
+    </script>
+</body>
+</html>

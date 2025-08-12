@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax File for Company - Ejraa</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Tajawal:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar" id="mainNav">
+        <div class="container">
+            <!-- Logo on the left -->
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.png" alt="Ejraa Logo" class="navbar-logo">
+            </a>
+            
+            <!-- Navigation in the center (desktop) -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#home" data-en="Home" data-ar="الرئيسية">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#about" data-en="About" data-ar="عن الشركة">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#packages" data-en="Packages" data-ar="الباقات">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#contact" data-en="Contact" data-ar="تواصل معنا">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Buttons on the right (always visible) -->
+            <div class="d-flex align-items-center gap-2">
+                <!-- Language Toggle -->
+                <button class="custom-lang-btn" id="langToggle">
+                    <i class="fas fa-globe"></i>
+                    <span id="langText">العربية</span>
+                </button>
+                
+                <!-- Dark Mode Toggle -->
+                <button class="custom-dark-btn" id="darkModeToggle">
+                    <i class="fas fa-moon" id="darkModeIcon"></i>
+                </button>
+                
+                <!-- Hamburger Menu Button (mobile only) -->
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Package Header -->
+    <section class="package-header py-5 mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                            <li class="breadcrumb-item"><a href="index.html#packages" data-en="Packages" data-ar="الباقات">Packages</a></li>
+                            <li class="breadcrumb-item active" data-en="Tax File for Company" data-ar="الملف الضريبي للشركة">Tax File for Company</li>
+                        </ol>
+                    </nav>
+                    <h1 class="package-title glow-text" data-en="Tax File for Company" data-ar="الملف الضريبي للشركة">Tax File for Company</h1>
+                    <p class="package-subtitle" data-en="Comprehensive tax registration and compliance services for medical companies and healthcare businesses" data-ar="خدمات التسجيل الضريبي والامتثال الشاملة للشركات الطبية وأعمال الرعاية الصحية">Comprehensive tax registration and compliance services for medical companies and healthcare businesses</p>
+                    <div class="package-price">
+                        <span class="price-label" data-en="Starting from" data-ar="يبدأ من">Starting from</span>
+                        <span class="price-amount" data-en="5,000 EGP" data-ar="5,000 جنيه">5,000 EGP</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="package-icon-large">
+                        <i class="fas fa-building"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tax File Information -->
+    <section class="license-conditions py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5 glow-text" data-en="Tax Card Extraction for Companies" data-ar="استخراج البطاقة الضريبية للشركات">Tax Card Extraction for Companies</h2>
+            
+            <!-- Company Type Determination -->
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="definition-card glow-card">
+                        <h3 class="card-title" data-en="First: Determining Company Type" data-ar="أولاً: تحديد نوع الشركة">First: Determining Company Type</h3>
+                        <p data-en="Before starting the procedures for obtaining a tax card, you must know the type of company, as documents and steps differ according to the nature of the legal entity, such as:" data-ar="قبل البدء في إجراءات الحصول على البطاقة الضريبية، يجب معرفة نوع الشركة، حيث تختلف المستندات والخطوات وفقًا لطبيعة الكيان القانوني، مثل:">Before starting the procedures for obtaining a tax card, you must know the type of company, as documents and steps differ according to the nature of the legal entity, such as:</p>
+                        <ul class="conditions-list">
+                            <li data-en="Sole Proprietorship" data-ar="شركة فردية">Sole Proprietorship</li>
+                            <li data-en="Partnership Company" data-ar="شركة تضامن">Partnership Company</li>
+                            <li data-en="Simple Limited Partnership" data-ar="شركة توصية بسيطة">Simple Limited Partnership</li>
+                            <li data-en="Joint Stock Company or Limited Liability Company" data-ar="شركة مساهمة أو ذات مسؤولية محدودة">Joint Stock Company or Limited Liability Company</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Commercial Register -->
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <div class="conditions-card glow-card">
+                        <h3 class="card-title" data-en="Registration Number (Commercial Register)" data-ar="رقم القيد (السجل التجاري)">Registration Number (Commercial Register)</h3>
+                        <div class="alert alert-warning">
+                            <i class="fas fa-exclamation-triangle me-2"></i>
+                            <span data-en="The commercial register determines the commercial or industrial activity of the company" data-ar="السجل التجاري يحدد النشاط التجاري أو الصناعي للشركة">The commercial register determines the commercial or industrial activity of the company</span>
+                        </div>
+                        <p data-en="For some activities, a tax card cannot be extracted without having a valid registration number (commercial register)." data-ar="بالنسبة لبعض الأنشطة، لا يمكن استخراج البطاقة الضريبية بدون وجود رقم قيد (سجل تجاري) ساري.">For some activities, a tax card cannot be extracted without having a valid registration number (commercial register).</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- General Required Documents -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="specialty-notes glow-card">
+                        <h3 class="card-title text-center mb-4" data-en="General Required Documents" data-ar="المستندات العامة المطلوبة">General Required Documents</h3>
+                        <p data-en="Regardless of the company type, you will generally need:" data-ar="بغض النظر عن نوع الشركة، غالبًا ستحتاج إلى:">Regardless of the company type, you will generally need:</p>
+                        <ul class="conditions-list">
+                            <li data-en="Authenticated company establishment contract" data-ar="عقد تأسيس الشركة موثق">Authenticated company establishment contract</li>
+                            <li data-en="Company headquarters proof (rental or ownership contract)" data-ar="إثبات مقر الشركة (عقد إيجار أو تمليك)">Company headquarters proof (rental or ownership contract)</li>
+                            <li data-en="National ID cards of partners or legal representative" data-ar="بطاقات الرقم القومي للشركاء أو الممثل القانوني">National ID cards of partners or legal representative</li>
+                            <li data-en="Official power of attorney if dealing through an agent" data-ar="التوكيل الرسمي إذا تم التعامل من خلال وكيل">Official power of attorney if dealing through an agent</li>
+                            <li data-en="Company stamp (preferably brought during application)" data-ar="ختم الشركة (يُفضل إحضاره أثناء التقديم)">Company stamp (preferably brought during application)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- General Details for Company Establishment -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="conditions-card glow-card">
+                        <h3 class="card-title" data-en="General Details for Company Establishment and Tax Card Acquisition" data-ar="التفاصيل العامة لإنشاء الشركات والحصول على البطاقة الضريبية">General Details for Company Establishment and Tax Card Acquisition</h3>
+                        
+                        <!-- Step 1 -->
+                        <div class="alert alert-primary mb-3">
+                            <h5 class="alert-heading" data-en="1. Partnership Agreement Preparation" data-ar="1. إعداد عقد الشراكة">1. Partnership Agreement Preparation</h5>
+                            <ul class="mb-0">
+                                <li data-en="A partnership agreement is drafted between all company parties" data-ar="يتم تحرير عقد شراكة بين جميع أطراف الشركة">A partnership agreement is drafted between all company parties</li>
+                                <li data-en="The contract clarifies partners' names, each partner's capital participation percentage, and management authorities" data-ar="يوضّح العقد أسماء الشركاء، نسبة مشاركة كل شريك في رأس المال، وصلاحيات الإدارة">The contract clarifies partners' names, each partner's capital participation percentage, and management authorities</li>
+                            </ul>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="alert alert-info mb-3">
+                            <h5 class="alert-heading" data-en="2. Company Type Determination" data-ar="2. تحديد نوع الشركة">2. Company Type Determination</h5>
+                            <ul class="mb-0">
+                                <li data-en="Limited Liability Company" data-ar="شركة ذات مسؤولية محدودة">Limited Liability Company</li>
+                                <li data-en="Partnership Company" data-ar="شركة تضامن">Partnership Company</li>
+                                <li data-en="Simple Limited Partnership" data-ar="شركة توصية بسيطة">Simple Limited Partnership</li>
+                                <li data-en="Other types according to activity and nature of work" data-ar="أنواع أخرى وفقًا للنشاط وطبيعة العمل">Other types according to activity and nature of work</li>
+                            </ul>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="alert alert-success mb-3">
+                            <h5 class="alert-heading" data-en="3. Registration Authority Determination" data-ar="3. تحديد جهة التسجيل">3. Registration Authority Determination</h5>
+                            <ul class="mb-0">
+                                <li data-en="Commercial Register: If the company has commercial or industrial activity" data-ar="السجل التجاري: إذا كانت الشركة ذات نشاط تجاري أو صناعي">Commercial Register: If the company has commercial or industrial activity</li>
+                                <li data-en="Investment Authority: If the activity requires investment advantages or is directed to investment projects" data-ar="هيئة الاستثمار: إذا كان النشاط يتطلب مزايا استثمارية أو موجه للمشروعات الاستثمارية">Investment Authority: If the activity requires investment advantages or is directed to investment projects</li>
+                            </ul>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="alert alert-warning mb-3">
+                            <h5 class="alert-heading" data-en="4. Cost and Procedures Determination" data-ar="4. تحديد التكلفة والإجراءات">4. Cost and Procedures Determination</h5>
+                            <ul class="mb-0">
+                                <li data-en="Costs vary according to company type, capital, and number of partners" data-ar="تختلف التكاليف حسب نوع الشركة، رأس المال، وعدد الشركاء">Costs vary according to company type, capital, and number of partners</li>
+                                <li data-en="Registration fees, tax card extraction fees, and any additional fees related to other entities (such as chambers of commerce or relevant syndicates)" data-ar="رسوم التسجيل، ورسوم استخراج البطاقة الضريبية، وأي رسوم إضافية مرتبطة بجهات أخرى (مثل الغرف التجارية أو النقابات المختصة)">Registration fees, tax card extraction fees, and any additional fees related to other entities (such as chambers of commerce or relevant syndicates)</li>
+                            </ul>
+                        </div>
+
+                        <!-- Step 5 -->
+                        <div class="alert alert-secondary mb-0">
+                            <h5 class="alert-heading" data-en="5. Required Documents Completion" data-ar="5. استكمال المستندات المطلوبة">5. Required Documents Completion</h5>
+                            <ul class="mb-0">
+                                <li data-en="Authenticated establishment contract" data-ar="عقد تأسيس موثق">Authenticated establishment contract</li>
+                                <li data-en="Company headquarters proof (rental or ownership)" data-ar="إثبات مقر الشركة (إيجار أو تمليك)">Company headquarters proof (rental or ownership)</li>
+                                <li data-en="Copies of partners' national ID cards" data-ar="صور بطاقات الرقم القومي للشركاء">Copies of partners' national ID cards</li>
+                                <li data-en="Company stamp" data-ar="ختم الشركة">Company stamp</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section class="application-form py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="form-card glow-card">
+                        <h2 class="form-title text-center mb-4 glow-text" data-en="Apply for Company Tax File Service" data-ar="تقدم بطلب خدمة الملف الضريبي للشركة">Apply for Company Tax File Service</h2>
+                        <p class="form-subtitle text-center mb-4" data-en="Fill out the form below and we'll contact you within 24 hours" data-ar="املأ النموذج أدناه وسنتواصل معك خلال 24 ساعة">Fill out the form below and we'll contact you within 24 hours</p>
+                        
+                        <form id="taxCompanyForm" class="package-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Contact Person Name *" data-ar="اسم الشخص المسؤول *">Contact Person Name *</label>
+                                    <input type="text" class="form-control" name="contactName" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Phone Number *" data-ar="رقم الهاتف *">Phone Number *</label>
+                                    <input type="tel" class="form-control" name="phone" required>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label class="form-label" data-en="Email Address *" data-ar="البريد الإلكتروني *">Email Address *</label>
+                                    <input type="email" class="form-control" name="email" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Company Name *" data-ar="اسم الشركة *">Company Name *</label>
+                                    <input type="text" class="form-control" name="companyName" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Company Type *" data-ar="نوع الشركة *">Company Type *</label>
+                                    <select class="form-select" name="companyType" required>
+                                        <option value="" data-en="Select company type" data-ar="اختر نوع الشركة">Select company type</option>
+                                        <option value="medical-clinic" data-en="Medical Clinic" data-ar="عيادة طبية">Medical Clinic</option>
+                                        <option value="medical-center" data-en="Medical Center" data-ar="مركز طبي">Medical Center</option>
+                                        <option value="hospital" data-en="Hospital" data-ar="مستشفى">Hospital</option>
+                                        <option value="pharmaceutical" data-en="Pharmaceutical Company" data-ar="شركة أدوية">Pharmaceutical Company</option>
+                                        <option value="medical-equipment" data-en="Medical Equipment" data-ar="معدات طبية">Medical Equipment</option>
+                                        <option value="laboratory" data-en="Medical Laboratory" data-ar="مختبر طبي">Medical Laboratory</option>
+                                        <option value="radiology" data-en="Radiology Center" data-ar="مركز أشعة">Radiology Center</option>
+                                        <option value="dental" data-en="Dental Clinic" data-ar="عيادة أسنان">Dental Clinic</option>
+                                        <option value="other" data-en="Other Medical Business" data-ar="أعمال طبية أخرى">Other Medical Business</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Business Activity *" data-ar="النشاط التجاري *">Business Activity *</label>
+                                    <select class="form-select" name="businessActivity" required>
+                                        <option value="" data-en="Select business activity" data-ar="اختر النشاط التجاري">Select business activity</option>
+                                        <option value="medical-services" data-en="Medical Services" data-ar="خدمات طبية">Medical Services</option>
+                                        <option value="pharmaceutical-sales" data-en="Pharmaceutical Sales" data-ar="مبيعات أدوية">Pharmaceutical Sales</option>
+                                        <option value="medical-equipment-sales" data-en="Medical Equipment Sales" data-ar="مبيعات معدات طبية">Medical Equipment Sales</option>
+                                        <option value="laboratory-services" data-en="Laboratory Services" data-ar="خدمات مختبرية">Laboratory Services</option>
+                                        <option value="radiology-services" data-en="Radiology Services" data-ar="خدمات أشعة">Radiology Services</option>
+                                        <option value="dental-services" data-en="Dental Services" data-ar="خدمات أسنان">Dental Services</option>
+                                        <option value="healthcare-consulting" data-en="Healthcare Consulting" data-ar="استشارات رعاية صحية">Healthcare Consulting</option>
+                                        <option value="medical-training" data-en="Medical Training" data-ar="تدريب طبي">Medical Training</option>
+                                        <option value="other" data-en="Other" data-ar="أخرى">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Number of Employees *" data-ar="عدد الموظفين *">Number of Employees *</label>
+                                    <select class="form-select" name="employeeCount" required>
+                                        <option value="" data-en="Select employee count" data-ar="اختر عدد الموظفين">Select employee count</option>
+                                        <option value="1-5" data-en="1-5 employees" data-ar="1-5 موظفين">1-5 employees</option>
+                                        <option value="6-10" data-en="6-10 employees" data-ar="6-10 موظفين">6-10 employees</option>
+                                        <option value="11-25" data-en="11-25 employees" data-ar="11-25 موظف">11-25 employees</option>
+                                        <option value="26-50" data-en="26-50 employees" data-ar="26-50 موظف">26-50 employees</option>
+                                        <option value="51-100" data-en="51-100 employees" data-ar="51-100 موظف">51-100 employees</option>
+                                        <option value="100+" data-en="100+ employees" data-ar="أكثر من 100 موظف">100+ employees</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Estimated Annual Revenue *" data-ar="الإيرادات السنوية المقدرة *">Estimated Annual Revenue *</label>
+                                    <select class="form-select" name="annualRevenue" required>
+                                        <option value="" data-en="Select revenue range" data-ar="اختر نطاق الإيرادات">Select revenue range</option>
+                                        <option value="under-500k" data-en="Under 500,000 EGP" data-ar="أقل من 500,000 جنيه">Under 500,000 EGP</option>
+                                        <option value="500k-1m" data-en="500,000 - 1,000,000 EGP" data-ar="500,000 - 1,000,000 جنيه">500,000 - 1,000,000 EGP</option>
+                                        <option value="1m-5m" data-en="1,000,000 - 5,000,000 EGP" data-ar="1,000,000 - 5,000,000 جنيه">1,000,000 - 5,000,000 EGP</option>
+                                        <option value="5m-10m" data-en="5,000,000 - 10,000,000 EGP" data-ar="5,000,000 - 10,000,000 جنيه">5,000,000 - 10,000,000 EGP</option>
+                                        <option value="over-10m" data-en="Over 10,000,000 EGP" data-ar="أكثر من 10,000,000 جنيه">Over 10,000,000 EGP</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Current Tax Status *" data-ar="الوضع الضريبي الحالي *">Current Tax Status *</label>
+                                    <select class="form-select" name="taxStatus" required>
+                                        <option value="" data-en="Select tax status" data-ar="اختر الوضع الضريبي">Select tax status</option>
+                                        <option value="not-registered" data-en="Not Registered" data-ar="غير مسجل">Not Registered</option>
+                                        <option value="partially-registered" data-en="Partially Registered" data-ar="مسجل جزئياً">Partially Registered</option>
+                                        <option value="registered-need-help" data-en="Registered but Need Help" data-ar="مسجل لكن أحتاج مساعدة">Registered but Need Help</option>
+                                        <option value="non-compliant" data-en="Non-Compliant" data-ar="غير ملتزم">Non-Compliant</option>
+                                        <option value="need-restructure" data-en="Need Tax Restructuring" data-ar="أحتاج إعادة هيكلة ضريبية">Need Tax Restructuring</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label class="form-label" data-en="Company Address *" data-ar="عنوان الشركة *">Company Address *</label>
+                                    <textarea class="form-control" name="address" rows="3" placeholder="Enter complete company address..." required></textarea>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Services Needed *" data-ar="الخدمات المطلوبة *">Services Needed *</label>
+                                    <select class="form-select" name="servicesNeeded" required>
+                                        <option value="" data-en="Select services" data-ar="اختر الخدمات">Select services</option>
+                                        <option value="basic-setup" data-en="Basic Tax File Setup" data-ar="إعداد الملف الضريبي الأساسي">Basic Tax File Setup</option>
+                                        <option value="full-registration" data-en="Full Tax Registration" data-ar="التسجيل الضريبي الكامل">Full Tax Registration</option>
+                                        <option value="vat-registration" data-en="VAT Registration" data-ar="تسجيل ضريبة القيمة المضافة">VAT Registration</option>
+                                        <option value="payroll-setup" data-en="Payroll Tax Setup" data-ar="إعداد ضريبة الرواتب">Payroll Tax Setup</option>
+                                        <option value="monthly-compliance" data-en="Monthly Tax Compliance" data-ar="الامتثال الضريبي الشهري">Monthly Tax Compliance</option>
+                                        <option value="full-service" data-en="Full Service Package" data-ar="باقة الخدمة الكاملة">Full Service Package</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Preferred Start Date" data-ar="تاريخ البدء المفضل">Preferred Start Date</label>
+                                    <input type="date" class="form-control" name="startDate">
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <label class="form-label" data-en="Additional Notes" data-ar="ملاحظات إضافية">Additional Notes</label>
+                                    <textarea class="form-control" name="notes" rows="4" placeholder="Any specific requirements, current challenges, or questions..."></textarea>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <div class="d-flex gap-3 justify-content-center flex-wrap">
+                                        <button type="button" class="btn btn-success btn-lg px-4" id="sendWhatsApp">
+                                            <i class="fab fa-whatsapp me-2"></i>
+                                            <span data-en="Send to WhatsApp" data-ar="إرسال للواتساب">Send to WhatsApp</span>
+                                        </button>
+                                        <button type="button" class="btn btn-danger btn-lg px-4" id="exportPDF">
+                                            <i class="fas fa-file-pdf me-2"></i>
+                                            <span data-en="Export as PDF" data-ar="تصدير كـ PDF">Export as PDF</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float" id="whatsappFloat">
+        <a href="https://wa.me/201044273608" target="_blank" class="whatsapp-link">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jsPDF for PDF export with Arabic support -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <!-- html2canvas for better text rendering -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+    
+    <script>
+        // Function to detect if text contains Arabic characters
+        function containsArabic(text) {
+            const arabicRegex = /[\u0600-\u06FF\u0750-\u077F]/;
+            return arabicRegex.test(text);
+        }
+        
+        // Function to get current language
+        function getCurrentLanguage() {
+            return document.documentElement.getAttribute('dir') === 'rtl' ? 'ar' : 'en';
+        }
+        
+        // Function to get localized text
+        function getLocalizedText(enText, arText) {
+            return getCurrentLanguage() === 'ar' ? arText : enText;
+        }
+        
+        // Function to get company type display text
+        function getCompanyTypeDisplayText(value) {
+            const companyTypes = {
+                'medical-clinic': { en: 'Medical Clinic', ar: 'عيادة طبية' },
+                'medical-center': { en: 'Medical Center', ar: 'مركز طبي' },
+                'hospital': { en: 'Hospital', ar: 'مستشفى' },
+                'pharmaceutical': { en: 'Pharmaceutical Company', ar: 'شركة أدوية' },
+                'medical-equipment': { en: 'Medical Equipment', ar: 'معدات طبية' },
+                'laboratory': { en: 'Medical Laboratory', ar: 'مختبر طبي' },
+                'radiology': { en: 'Radiology Center', ar: 'مركز أشعة' },
+                'dental': { en: 'Dental Clinic', ar: 'عيادة أسنان' },
+                'other': { en: 'Other Medical Business', ar: 'أعمال طبية أخرى' }
+            };
+            
+            if (companyTypes[value]) {
+                return getCurrentLanguage() === 'ar' ? companyTypes[value].ar : companyTypes[value].en;
+            }
+            return value;
+        }
+        
+        // Function to get business activity display text
+        function getBusinessActivityDisplayText(value) {
+            const activities = {
+                'medical-services': { en: 'Medical Services', ar: 'خدمات طبية' },
+                'pharmaceutical-sales': { en: 'Pharmaceutical Sales', ar: 'مبيعات أدوية' },
+                'medical-equipment-sales': { en: 'Medical Equipment Sales', ar: 'مبيعات معدات طبية' },
+                'laboratory-services': { en: 'Laboratory Services', ar: 'خدمات مختبرية' },
+                'radiology-services': { en: 'Radiology Services', ar: 'خدمات أشعة' },
+                'dental-services': { en: 'Dental Services', ar: 'خدمات أسنان' },
+                'healthcare-consulting': { en: 'Healthcare Consulting', ar: 'استشارات رعاية صحية' },
+                'medical-training': { en: 'Medical Training', ar: 'تدريب طبي' },
+                'other': { en: 'Other', ar: 'أخرى' }
+            };
+            
+            if (activities[value]) {
+                return getCurrentLanguage() === 'ar' ? activities[value].ar : activities[value].en;
+            }
+            return value;
+        }
+        
+        // Function to get employee count display text
+        function getEmployeeCountDisplayText(value) {
+            const counts = {
+                '1-5': { en: '1-5 employees', ar: '1-5 موظفين' },
+                '6-10': { en: '6-10 employees', ar: '6-10 موظفين' },
+                '11-25': { en: '11-25 employees', ar: '11-25 موظف' },
+                '26-50': { en: '26-50 employees', ar: '26-50 موظف' },
+                '51-100': { en: '51-100 employees', ar: '51-100 موظف' },
+                '100+': { en: '100+ employees', ar: 'أكثر من 100 موظف' }
+            };
+            
+            if (counts[value]) {
+                return getCurrentLanguage() === 'ar' ? counts[value].ar : counts[value].en;
+            }
+            return value;
+        }
+        
+        // Function to get revenue display text
+        function getRevenueDisplayText(value) {
+            const revenues = {
+                'under-500k': { en: 'Under 500,000 EGP', ar: 'أقل من 500,000 جنيه' },
+                '500k-1m': { en: '500,000 - 1,000,000 EGP', ar: '500,000 - 1,000,000 جنيه' },
+                '1m-5m': { en: '1,000,000 - 5,000,000 EGP', ar: '1,000,000 - 5,000,000 جنيه' },
+                '5m-10m': { en: '5,000,000 - 10,000,000 EGP', ar: '5,000,000 - 10,000,000 جنيه' },
+                'over-10m': { en: 'Over 10,000,000 EGP', ar: 'أكثر من 10,000,000 جنيه' }
+            };
+            
+            if (revenues[value]) {
+                return getCurrentLanguage() === 'ar' ? revenues[value].ar : revenues[value].en;
+            }
+            return value;
+        }
+        
+        // Function to get tax status display text
+        function getTaxStatusDisplayText(value) {
+            const statuses = {
+                'not-registered': { en: 'Not Registered', ar: 'غير مسجل' },
+                'partially-registered': { en: 'Partially Registered', ar: 'مسجل جزئياً' },
+                'registered-need-help': { en: 'Registered but Need Help', ar: 'مسجل لكن أحتاج مساعدة' },
+                'non-compliant': { en: 'Non-Compliant', ar: 'غير ملتزم' },
+                'need-restructure': { en: 'Need Tax Restructuring', ar: 'أحتاج إعادة هيكلة ضريبية' }
+            };
+            
+            if (statuses[value]) {
+                return getCurrentLanguage() === 'ar' ? statuses[value].ar : statuses[value].en;
+            }
+            return value;
+        }
+        
+        // Function to get services needed display text
+        function getServicesDisplayText(value) {
+            const services = {
+                'basic-setup': { en: 'Basic Tax File Setup', ar: 'إعداد الملف الضريبي الأساسي' },
+                'full-registration': { en: 'Full Tax Registration', ar: 'التسجيل الضريبي الكامل' },
+                'vat-registration': { en: 'VAT Registration', ar: 'تسجيل ضريبة القيمة المضافة' },
+                'payroll-setup': { en: 'Payroll Tax Setup', ar: 'إعداد ضريبة الرواتب' },
+                'monthly-compliance': { en: 'Monthly Tax Compliance', ar: 'الامتثال الضريبي الشهري' },
+                'full-service': { en: 'Full Service Package', ar: 'باقة الخدمة الكاملة' }
+            };
+            
+            if (services[value]) {
+                return getCurrentLanguage() === 'ar' ? services[value].ar : services[value].en;
+            }
+            return value;
+        }
+        
+        // WhatsApp functionality
+        document.getElementById('sendWhatsApp').addEventListener('click', function() {
+            const form = document.getElementById('taxCompanyForm');
+            const formData = new FormData(form);
+            
+            // Check if required fields are filled
+            const requiredFields = ['contactName', 'phone', 'email', 'companyName', 'companyType', 'businessActivity', 'employeeCount', 'annualRevenue', 'taxStatus', 'address', 'servicesNeeded'];
+            let isValid = true;
+            let missingFields = [];
+            
+            requiredFields.forEach(field => {
+                if (!formData.get(field) || formData.get(field).trim() === '') {
+                    isValid = false;
+                    missingFields.push(field);
+                }
+            });
+            
+            if (!isValid) {
+                const alertMessage = getLocalizedText(
+                    'Please fill in all required fields: ' + missingFields.join(', '),
+                    'يرجى ملء جميع الحقول المطلوبة: ' + missingFields.join(', ')
+                );
+                alert(alertMessage);
+                return;
+            }
+            
+            // Create WhatsApp message based on current language
+            let message;
+            if (getCurrentLanguage() === 'ar') {
+                message = `*طلب خدمة الملف الضريبي للشركة*\n\n`;
+                message += `*اسم الشخص المسؤول:* ${formData.get('contactName')}\n`;
+                message += `*رقم الهاتف:* ${formData.get('phone')}\n`;
+                message += `*البريد الإلكتروني:* ${formData.get('email')}\n`;
+                message += `*اسم الشركة:* ${formData.get('companyName')}\n`;
+                message += `*نوع الشركة:* ${getCompanyTypeDisplayText(formData.get('companyType'))}\n`;
+                message += `*النشاط التجاري:* ${getBusinessActivityDisplayText(formData.get('businessActivity'))}\n`;
+                message += `*عدد الموظفين:* ${getEmployeeCountDisplayText(formData.get('employeeCount'))}\n`;
+                message += `*الإيرادات السنوية المقدرة:* ${getRevenueDisplayText(formData.get('annualRevenue'))}\n`;
+                message += `*الوضع الضريبي الحالي:* ${getTaxStatusDisplayText(formData.get('taxStatus'))}\n`;
+                message += `*عنوان الشركة:* ${formData.get('address')}\n`;
+                message += `*الخدمات المطلوبة:* ${getServicesDisplayText(formData.get('servicesNeeded'))}\n`;
+                if (formData.get('startDate')) {
+                    message += `*تاريخ البدء المفضل:* ${formData.get('startDate')}\n`;
+                }
+                if (formData.get('notes')) {
+                    message += `*ملاحظات إضافية:* ${formData.get('notes')}\n`;
+                }
+            } else {
+                message = `*Tax File for Company Application*\n\n`;
+                message += `*Contact Person Name:* ${formData.get('contactName')}\n`;
+                message += `*Phone Number:* ${formData.get('phone')}\n`;
+                message += `*Email:* ${formData.get('email')}\n`;
+                message += `*Company Name:* ${formData.get('companyName')}\n`;
+                message += `*Company Type:* ${getCompanyTypeDisplayText(formData.get('companyType'))}\n`;
+                message += `*Business Activity:* ${getBusinessActivityDisplayText(formData.get('businessActivity'))}\n`;
+                message += `*Number of Employees:* ${getEmployeeCountDisplayText(formData.get('employeeCount'))}\n`;
+                message += `*Estimated Annual Revenue:* ${getRevenueDisplayText(formData.get('annualRevenue'))}\n`;
+                message += `*Current Tax Status:* ${getTaxStatusDisplayText(formData.get('taxStatus'))}\n`;
+                message += `*Company Address:* ${formData.get('address')}\n`;
+                message += `*Services Needed:* ${getServicesDisplayText(formData.get('servicesNeeded'))}\n`;
+                if (formData.get('startDate')) {
+                    message += `*Preferred Start Date:* ${formData.get('startDate')}\n`;
+                }
+                if (formData.get('notes')) {
+                    message += `*Additional Notes:* ${formData.get('notes')}\n`;
+                }
+            }
+            
+            // Encode message for URL
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappURL = `https://wa.me/201044273608?text=${encodedMessage}`;
+            
+            // Open WhatsApp
+            window.open(whatsappURL, '_blank');
+        });
+        
+        // PDF export functionality
+        document.getElementById('exportPDF').addEventListener('click', function() {
+            const form = document.getElementById('taxCompanyForm');
+            const formData = new FormData(form);
+            
+            // Check if required fields are filled
+            const requiredFields = ['contactName', 'phone', 'email', 'companyName', 'companyType', 'businessActivity', 'employeeCount', 'annualRevenue', 'taxStatus', 'address', 'servicesNeeded'];
+            let isValid = true;
+            let missingFields = [];
+            
+            requiredFields.forEach(field => {
+                if (!formData.get(field) || formData.get(field).trim() === '') {
+                    isValid = false;
+                    missingFields.push(field);
+                }
+            });
+            
+            if (!isValid) {
+                const alertMessage = getLocalizedText(
+                    'Please fill in all required fields: ' + missingFields.join(', '),
+                    'يرجى ملء جميع الحقول المطلوبة: ' + missingFields.join(', ')
+                );
+                alert(alertMessage);
+                return;
+            }
+            
+            // Check if content contains Arabic
+            const hasArabicContent = containsArabic(formData.get('contactName')) || 
+                                   containsArabic(formData.get('companyName')) ||
+                                   containsArabic(formData.get('address')) || 
+                                   containsArabic(formData.get('notes') || '') ||
+                                   getCurrentLanguage() === 'ar';
+            
+            // Create HTML content for PDF
+            const title = getLocalizedText('Tax File for Company Application', 'طلب خدمة الملف الضريبي للشركة');
+            const contactNameLabel = getLocalizedText('Contact Person Name:', 'اسم الشخص المسؤول:');
+            const phoneLabel = getLocalizedText('Phone Number:', 'رقم الهاتف:');
+            const emailLabel = getLocalizedText('Email:', 'البريد الإلكتروني:');
+            const companyNameLabel = getLocalizedText('Company Name:', 'اسم الشركة:');
+            const companyTypeLabel = getLocalizedText('Company Type:', 'نوع الشركة:');
+            const businessActivityLabel = getLocalizedText('Business Activity:', 'النشاط التجاري:');
+            const employeeCountLabel = getLocalizedText('Number of Employees:', 'عدد الموظفين:');
+            const revenueLabel = getLocalizedText('Estimated Annual Revenue:', 'الإيرادات السنوية المقدرة:');
+            const taxStatusLabel = getLocalizedText('Current Tax Status:', 'الوضع الضريبي الحالي:');
+            const addressLabel = getLocalizedText('Company Address:', 'عنوان الشركة:');
+            const servicesLabel = getLocalizedText('Services Needed:', 'الخدمات المطلوبة:');
+            const startDateLabel = getLocalizedText('Preferred Start Date:', 'تاريخ البدء المفضل:');
+            const notesLabel = getLocalizedText('Additional Notes:', 'ملاحظات إضافية:');
+            const footerText = getLocalizedText(
+                `Generated on: ${new Date().toLocaleDateString()}`,
+                `تم الإنشاء في: ${new Date().toLocaleDateString('ar-EG')}`
+            );
+            
+            const htmlContent = `
+                <div style="font-family: 'Tajawal', 'Inter', Arial, sans-serif; padding: 40px; max-width: 800px; margin: 0 auto; direction: ${hasArabicContent ? 'rtl' : 'ltr'}; text-align: ${hasArabicContent ? 'right' : 'left'};">
+                    <h1 style="color: #2c3e50; margin-bottom: 30px; text-align: center; font-size: 24px; border-bottom: 2px solid #3498db; padding-bottom: 10px;">
+                        ${title}
+                    </h1>
+                    
+                    <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${contactNameLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('contactName')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${phoneLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('phone')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${emailLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('email')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${companyNameLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('companyName')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${companyTypeLabel}</strong>
+                            <span style="color: #34495e;">${getCompanyTypeDisplayText(formData.get('companyType'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${businessActivityLabel}</strong>
+                            <span style="color: #34495e;">${getBusinessActivityDisplayText(formData.get('businessActivity'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${employeeCountLabel}</strong>
+                            <span style="color: #34495e;">${getEmployeeCountDisplayText(formData.get('employeeCount'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${revenueLabel}</strong>
+                            <span style="color: #34495e;">${getRevenueDisplayText(formData.get('annualRevenue'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${taxStatusLabel}</strong>
+                            <span style="color: #34495e;">${getTaxStatusDisplayText(formData.get('taxStatus'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: block; margin-bottom: 5px;">${addressLabel}</strong>
+                            <div style="color: #34495e; padding: 10px; background: white; border-radius: 4px; border: 1px solid #dee2e6;">
+                                ${formData.get('address').replace(/\n/g, '<br>')}
+                            </div>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${servicesLabel}</strong>
+                            <span style="color: #34495e;">${getServicesDisplayText(formData.get('servicesNeeded'))}</span>
+                        </div>
+                        
+                        ${formData.get('startDate') ? `
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${startDateLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('startDate')}</span>
+                        </div>
+                        ` : ''}
+                        
+                        ${formData.get('notes') ? `
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: block; margin-bottom: 5px;">${notesLabel}</strong>
+                            <div style="color: #34495e; padding: 10px; background: white; border-radius: 4px; border: 1px solid #dee2e6;">
+                                ${formData.get('notes').replace(/\n/g, '<br>')}
+                            </div>
+                        </div>
+                        ` : ''}
+                    </div>
+                    
+                    <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 12px;">
+                        ${footerText}
+                    </div>
+                </div>
+            `;
+            
+            // Create a temporary div to hold the HTML content
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = htmlContent;
+            tempDiv.style.position = 'absolute';
+            tempDiv.style.left = '-9999px';
+            tempDiv.style.top = '-9999px';
+            tempDiv.style.width = '800px';
+            document.body.appendChild(tempDiv);
+            
+            // Use html2canvas to convert HTML to canvas, then to PDF
+            html2canvas(tempDiv, {
+                scale: 2,
+                useCORS: true,
+                allowTaint: true,
+                backgroundColor: '#ffffff',
+                width: 800,
+                height: tempDiv.scrollHeight
+            }).then(canvas => {
+                // Remove the temporary div
+                document.body.removeChild(tempDiv);
+                
+                // Create PDF
+                const { jsPDF } = window.jspdf;
+                const pdf = new jsPDF('p', 'mm', 'a4');
+                
+                // Calculate dimensions
+                const imgWidth = 210; // A4 width in mm
+                const pageHeight = 295; // A4 height in mm
+                const imgHeight = (canvas.height * imgWidth) / canvas.width;
+                let heightLeft = imgHeight;
+                let position = 0;
+                
+                // Add image to PDF
+                const imgData = canvas.toDataURL('image/png');
+                pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+                heightLeft -= pageHeight;
+                
+                // Add new pages if content is longer than one page
+                while (heightLeft >= 0) {
+                    position = heightLeft - imgHeight;
+                    pdf.addPage();
+                    pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+                    heightLeft -= pageHeight;
+                }
+                
+                // Save PDF
+                const fileName = hasArabicContent ? 
+                    `طلب_ملف_ضريبي_شركة_${formData.get('companyName').replace(/\s+/g, '_')}.pdf` :
+                    `Tax_File_Company_${formData.get('companyName').replace(/\s+/g, '_')}.pdf`;
+                pdf.save(fileName);
+            }).catch(error => {
+                // Remove the temporary div in case of error
+                if (document.body.contains(tempDiv)) {
+                    document.body.removeChild(tempDiv);
+                }
+                console.error('Error generating PDF:', error);
+                alert(getLocalizedText(
+                    'Error generating PDF. Please try again.',
+                    'خطأ في إنشاء ملف PDF. يرجى المحاولة مرة أخرى.'
+                ));
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laser Device License - Ejraa</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Tajawal:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar" id="mainNav">
+        <div class="container">
+            <!-- Logo on the left -->
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.png" alt="Ejraa Logo" class="navbar-logo">
+            </a>
+            
+            <!-- Navigation in the center (desktop) -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#home" data-en="Home" data-ar="الرئيسية">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#about" data-en="About" data-ar="عن الشركة">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#packages" data-en="Packages" data-ar="الباقات">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link glow-hover" href="index.html#contact" data-en="Contact" data-ar="تواصل معنا">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Buttons on the right (always visible) -->
+            <div class="d-flex align-items-center gap-2">
+                <!-- Language Toggle -->
+                <button class="custom-lang-btn" id="langToggle">
+                    <i class="fas fa-globe"></i>
+                    <span id="langText">العربية</span>
+                </button>
+                
+                <!-- Dark Mode Toggle -->
+                <button class="custom-dark-btn" id="darkModeToggle">
+                    <i class="fas fa-moon" id="darkModeIcon"></i>
+                </button>
+                
+                <!-- Hamburger Menu Button (mobile only) -->
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Package Header -->
+    <section class="package-header py-5 mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                            <li class="breadcrumb-item"><a href="index.html#packages" data-en="Packages" data-ar="الباقات">Packages</a></li>
+                            <li class="breadcrumb-item active" data-en="Laser Device License" data-ar="ترخيص جهاز الليزر">Laser Device License</li>
+                        </ol>
+                    </nav>
+                    <h1 class="package-title glow-text" data-en="Laser Device License" data-ar="ترخيص جهاز الليزر">Laser Device License</h1>
+                    <p class="package-subtitle" data-en="Professional licensing services for medical laser devices and equipment registration" data-ar="خدمات الترخيص المهنية لأجهزة الليزر الطبية وتسجيل المعدات">Professional licensing services for medical laser devices and equipment registration</p>
+                    <div class="package-price">
+                        <span class="price-label" data-en="Starting from" data-ar="يبدأ من">Starting from</span>
+                        <span class="price-amount" data-en="11,000 EGP" data-ar="11,000 جنيه">11,000 EGP</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="package-icon-large">
+                        <i class="fas fa-laser-pointer"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Laser Device License Information -->
+    <section class="license-conditions py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5 glow-text" data-en="Laser Devices in Medical Facilities" data-ar="أجهزة الليزر في المنشآت الطبية">Laser Devices in Medical Facilities</h2>
+            
+            <!-- Allowed Facilities -->
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="definition-card glow-card">
+                        <h3 class="card-title" data-en="Allowed Facilities" data-ar="المنشآت المسموح بها">Allowed Facilities</h3>
+                        <p data-en="Laser devices are permitted in the following medical facilities:" data-ar="يُسمح بوجود أجهزة الليزر في:">Laser devices are permitted in the following medical facilities:</p>
+                        <ul class="conditions-list">
+                            <li data-en="Private Clinic" data-ar="العيادة الخاصة">Private Clinic</li>
+                            <li data-en="Specialized Clinics" data-ar="العيادات التخصصية">Specialized Clinics</li>
+                            <li data-en="Medical Centers (if the licensed specialty permits laser devices)" data-ar="المراكز الطبية (في حال كان التخصص المرخَّص يسمح بوجود الليزر)">Medical Centers (if the licensed specialty permits laser devices)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Registration Process -->
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <div class="conditions-card glow-card">
+                        <h3 class="card-title" data-en="Registration Process" data-ar="عملية التسجيل">Registration Process</h3>
+                        <div class="alert alert-info">
+                            <i class="fas fa-info-circle me-2"></i>
+                            <span data-en="Laser devices are registered with the Egyptian Medical Syndicate" data-ar="يتم تسجيل جهاز الليزر بنقابة الأطباء">Laser devices are registered with the Egyptian Medical Syndicate</span>
+                        </div>
+                        <p data-en="The registration process involves initial procedures through the Medical Syndicate, followed by completion through the National Institute and Ministry of Health if required." data-ar="تتضمن عملية التسجيل إجراءات أولية من خلال نقابة الأطباء، تليها إجراءات الاستكمال عبر المعهد القومي ووزارة الصحة إذا لزم الأمر.">The registration process involves initial procedures through the Medical Syndicate, followed by completion through the National Institute and Ministry of Health if required.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cost Information -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="cost-card glow-card">
+                        <h3 class="card-title text-center mb-4" data-en="Cost" data-ar="التكلفة">Cost</h3>
+                        
+                        <!-- Initial Cost -->
+                        <div class="row mb-4">
+                            <div class="col-12">
+                                <div class="alert alert-primary">
+                                    <h5 class="alert-heading" data-en="Initial Procedures Cost" data-ar="التكلفة المبدئية للإجراءات الأولية">Initial Procedures Cost</h5>
+                                    <p class="mb-2" data-en="From Medical Syndicate to Free Treatment License:" data-ar="من النقابة إلى العلاج الحر:">From Medical Syndicate to Free Treatment License:</p>
+                                    <h4 class="text-primary mb-0" data-en="11,000 EGP" data-ar="11,000 جنيه">11,000 EGP</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Complete Procedures Cost -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="alert alert-warning">
+                                    <h5 class="alert-heading" data-en="Complete Procedures Cost" data-ar="تكلفة استكمال الإجراءات">Complete Procedures Cost</h5>
+                                    <p class="mb-2" data-en="When completing procedures through National Institute and Ministry of Health:" data-ar="في حالة استكمال الإجراءات عبر المعهد القومي والوزارة:">When completing procedures through National Institute and Ministry of Health:</p>
+                                    <h4 class="text-warning mb-2" data-en="Starting from 12,000 EGP" data-ar="تبدأ من 12,000 جنيه">Starting from 12,000 EGP</h4>
+                                    <p class="mb-0" data-en="Cost varies by governorate due to different inspection fees at the National Institute and Ministry of Health" data-ar="تختلف حسب المحافظة نظرًا لاختلاف رسوم المعاينة بالمعهد القومي ووزارة الصحة">Cost varies by governorate due to different inspection fees at the National Institute and Ministry of Health</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Cost Breakdown Table -->
+                        <div class="table-responsive mt-4">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th data-en="Procedure Type" data-ar="نوع الإجراء">Procedure Type</th>
+                                        <th data-en="Cost" data-ar="التكلفة">Cost</th>
+                                        <th data-en="Notes" data-ar="ملاحظات">Notes</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-en="Initial procedures (Syndicate to Free Treatment)" data-ar="الإجراءات الأولية (من النقابة إلى العلاج الحر)">Initial procedures (Syndicate to Free Treatment)</td>
+                                        <td data-en="11,000 EGP" data-ar="11,000 جنيه">11,000 EGP</td>
+                                        <td data-en="Fixed cost for all governorates" data-ar="تكلفة ثابتة لجميع المحافظات">Fixed cost for all governorates</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-en="Complete procedures (National Institute + Ministry)" data-ar="الإجراءات الكاملة (المعهد القومي + الوزارة)">Complete procedures (National Institute + Ministry)</td>
+                                        <td data-en="Starting from 12,000 EGP" data-ar="تبدأ من 12,000 جنيه">Starting from 12,000 EGP</td>
+                                        <td data-en="Varies by governorate" data-ar="تختلف حسب المحافظة">Varies by governorate</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section class="application-form py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="form-card glow-card">
+                        <h2 class="form-title text-center mb-4 glow-text" data-en="Apply for Laser Device License" data-ar="تقدم بطلب ترخيص جهاز الليزر">Apply for Laser Device License</h2>
+                        <p class="form-subtitle text-center mb-4" data-en="Fill out the form below and we'll contact you within 24 hours" data-ar="املأ النموذج أدناه وسنتواصل معك خلال 24 ساعة">Fill out the form below and we'll contact you within 24 hours</p>
+                        
+                        <form id="laserDeviceForm" class="package-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Full Name *" data-ar="الاسم الكامل *">Full Name *</label>
+                                    <input type="text" class="form-control" name="fullName" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Phone Number *" data-ar="رقم الهاتف *">Phone Number *</label>
+                                    <input type="tel" class="form-control" name="phone" required>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label class="form-label" data-en="Email Address *" data-ar="البريد الإلكتروني *">Email Address *</label>
+                                    <input type="email" class="form-control" name="email" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Medical Specialty *" data-ar="التخصص الطبي *">Medical Specialty *</label>
+                                    <select class="form-select" name="specialty" required>
+                                        <option value="" data-en="Select specialty" data-ar="اختر التخصص">Select specialty</option>
+                                        <option value="dermatology" data-en="Dermatology" data-ar="جلدية">Dermatology</option>
+                                        <option value="plastic-surgery" data-en="Plastic Surgery" data-ar="جراحة تجميل">Plastic Surgery</option>
+                                        <option value="ophthalmology" data-en="Ophthalmology" data-ar="عيون">Ophthalmology</option>
+                                        <option value="dentistry" data-en="Dentistry" data-ar="أسنان">Dentistry</option>
+                                        <option value="gynecology" data-en="Gynecology" data-ar="نساء وتوليد">Gynecology</option>
+                                        <option value="general-surgery" data-en="General Surgery" data-ar="جراحة عامة">General Surgery</option>
+                                        <option value="orthopedics" data-en="Orthopedics" data-ar="عظام">Orthopedics</option>
+                                        <option value="urology" data-en="Urology" data-ar="مسالك بولية">Urology</option>
+                                        <option value="other" data-en="Other" data-ar="أخرى">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Facility Type *" data-ar="نوع المنشأة *">Facility Type *</label>
+                                    <select class="form-select" name="facilityType" required>
+                                        <option value="" data-en="Select facility type" data-ar="اختر نوع المنشأة">Select facility type</option>
+                                        <option value="private-clinic" data-en="Private Clinic" data-ar="عيادة خاصة">Private Clinic</option>
+                                        <option value="specialized-clinic" data-en="Specialized Clinic" data-ar="عيادة متخصصة">Specialized Clinic</option>
+                                        <option value="medical-center" data-en="Medical Center" data-ar="مركز طبي">Medical Center</option>
+                                        <option value="hospital" data-en="Hospital" data-ar="مستشفى">Hospital</option>
+                                        <option value="cosmetic-center" data-en="Cosmetic Center" data-ar="مركز تجميل">Cosmetic Center</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Laser Device Type *" data-ar="نوع جهاز الليزر *">Laser Device Type *</label>
+                                    <select class="form-select" name="deviceType" required>
+                                        <option value="" data-en="Select device type" data-ar="اختر نوع الجهاز">Select device type</option>
+                                        <option value="hair-removal" data-en="Hair Removal Laser" data-ar="ليزر إزالة الشعر">Hair Removal Laser</option>
+                                        <option value="skin-resurfacing" data-en="Skin Resurfacing Laser" data-ar="ليزر تجديد البشرة">Skin Resurfacing Laser</option>
+                                        <option value="pigmentation" data-en="Pigmentation Treatment Laser" data-ar="ليزر علاج التصبغات">Pigmentation Treatment Laser</option>
+                                        <option value="tattoo-removal" data-en="Tattoo Removal Laser" data-ar="ليزر إزالة الوشم">Tattoo Removal Laser</option>
+                                        <option value="surgical" data-en="Surgical Laser" data-ar="ليزر جراحي">Surgical Laser</option>
+                                        <option value="ophthalmic" data-en="Ophthalmic Laser" data-ar="ليزر العيون">Ophthalmic Laser</option>
+                                        <option value="dental" data-en="Dental Laser" data-ar="ليزر الأسنان">Dental Laser</option>
+                                        <option value="therapeutic" data-en="Therapeutic Laser" data-ar="ليزر علاجي">Therapeutic Laser</option>
+                                        <option value="multiple" data-en="Multiple Devices" data-ar="أجهزة متعددة">Multiple Devices</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Device Brand/Model *" data-ar="ماركة/موديل الجهاز *">Device Brand/Model *</label>
+                                    <input type="text" class="form-control" name="deviceBrand" placeholder="e.g., Candela GentleMax Pro" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Number of Devices *" data-ar="عدد الأجهزة *">Number of Devices *</label>
+                                    <select class="form-select" name="deviceCount" required>
+                                        <option value="" data-en="Select number" data-ar="اختر العدد">Select number</option>
+                                        <option value="1" data-en="1 Device" data-ar="جهاز واحد">1 Device</option>
+                                        <option value="2" data-en="2 Devices" data-ar="جهازان">2 Devices</option>
+                                        <option value="3" data-en="3 Devices" data-ar="3 أجهزة">3 Devices</option>
+                                        <option value="4" data-en="4 Devices" data-ar="4 أجهزة">4 Devices</option>
+                                        <option value="5+" data-en="5+ Devices" data-ar="5+ أجهزة">5+ Devices</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Device Status *" data-ar="حالة الجهاز *">Device Status *</label>
+                                    <select class="form-select" name="deviceStatus" required>
+                                        <option value="" data-en="Select status" data-ar="اختر الحالة">Select status</option>
+                                        <option value="new-purchase" data-en="New Purchase" data-ar="شراء جديد">New Purchase</option>
+                                        <option value="already-owned" data-en="Already Owned" data-ar="مملوك بالفعل">Already Owned</option>
+                                        <option value="planning-to-buy" data-en="Planning to Buy" data-ar="أخطط للشراء">Planning to Buy</option>
+                                        <option value="leased" data-en="Leased/Rented" data-ar="مؤجر">Leased/Rented</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Current License Status *" data-ar="حالة الترخيص الحالية *">Current License Status *</label>
+                                    <select class="form-select" name="licenseStatus" required>
+                                        <option value="" data-en="Select status" data-ar="اختر الحالة">Select status</option>
+                                        <option value="not-licensed" data-en="Not Licensed" data-ar="غير مرخص">Not Licensed</option>
+                                        <option value="expired" data-en="Expired License" data-ar="ترخيص منتهي الصلاحية">Expired License</option>
+                                        <option value="need-renewal" data-en="Need Renewal" data-ar="أحتاج تجديد">Need Renewal</option>
+                                        <option value="partial" data-en="Partially Licensed" data-ar="مرخص جزئياً">Partially Licensed</option>
+                                        <option value="first-time" data-en="First Time Application" data-ar="طلب لأول مرة">First Time Application</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label class="form-label" data-en="Facility Address *" data-ar="عنوان المنشأة *">Facility Address *</label>
+                                    <textarea class="form-control" name="address" rows="3" placeholder="Enter complete facility address..." required></textarea>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Service Priority *" data-ar="أولوية الخدمة *">Service Priority *</label>
+                                    <select class="form-select" name="priority" required>
+                                        <option value="" data-en="Select priority" data-ar="اختر الأولوية">Select priority</option>
+                                        <option value="standard" data-en="Standard (3-4 weeks)" data-ar="عادي (3-4 أسابيع)">Standard (3-4 weeks)</option>
+                                        <option value="expedited" data-en="Expedited (7-10 days)" data-ar="معجل (7-10 أيام)">Expedited (7-10 days)</option>
+                                        <option value="emergency" data-en="Emergency (3-5 days)" data-ar="طارئ (3-5 أيام)">Emergency (3-5 days)</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-en="Preferred Start Date" data-ar="تاريخ البدء المفضل">Preferred Start Date</label>
+                                    <input type="date" class="form-control" name="startDate">
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <label class="form-label" data-en="Additional Notes" data-ar="ملاحظات إضافية">Additional Notes</label>
+                                    <textarea class="form-control" name="notes" rows="4" placeholder="Device specifications, special requirements, or questions..."></textarea>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <div class="d-flex gap-3 justify-content-center flex-wrap">
+                                        <button type="button" class="btn btn-success btn-lg px-4" id="sendWhatsApp">
+                                            <i class="fab fa-whatsapp me-2"></i>
+                                            <span data-en="Send to WhatsApp" data-ar="إرسال للواتساب">Send to WhatsApp</span>
+                                        </button>
+                                        <button type="button" class="btn btn-danger btn-lg px-4" id="exportPDF">
+                                            <i class="fas fa-file-pdf me-2"></i>
+                                            <span data-en="Export as PDF" data-ar="تصدير كـ PDF">Export as PDF</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float" id="whatsappFloat">
+        <a href="https://wa.me/201044273608" target="_blank" class="whatsapp-link">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jsPDF for PDF export with Arabic support -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <!-- html2canvas for better text rendering -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+    
+    <script>
+        // Function to detect if text contains Arabic characters
+        function containsArabic(text) {
+            const arabicRegex = /[\u0600-\u06FF\u0750-\u077F]/;
+            return arabicRegex.test(text);
+        }
+        
+        // Function to get current language
+        function getCurrentLanguage() {
+            return document.documentElement.getAttribute('dir') === 'rtl' ? 'ar' : 'en';
+        }
+        
+        // Function to get localized text
+        function getLocalizedText(enText, arText) {
+            return getCurrentLanguage() === 'ar' ? arText : enText;
+        }
+        
+        // Function to get specialty display text
+        function getSpecialtyDisplayText(value) {
+            const specialties = {
+                'dermatology': { en: 'Dermatology', ar: 'جلدية' },
+                'plastic-surgery': { en: 'Plastic Surgery', ar: 'جراحة تجميل' },
+                'ophthalmology': { en: 'Ophthalmology', ar: 'عيون' },
+                'dentistry': { en: 'Dentistry', ar: 'أسنان' },
+                'gynecology': { en: 'Gynecology', ar: 'نساء وتوليد' },
+                'general-surgery': { en: 'General Surgery', ar: 'جراحة عامة' },
+                'orthopedics': { en: 'Orthopedics', ar: 'عظام' },
+                'urology': { en: 'Urology', ar: 'مسالك بولية' },
+                'other': { en: 'Other', ar: 'أخرى' }
+            };
+            
+            if (specialties[value]) {
+                return getCurrentLanguage() === 'ar' ? specialties[value].ar : specialties[value].en;
+            }
+            return value;
+        }
+        
+        // Function to get facility type display text
+        function getFacilityTypeDisplayText(value) {
+            const facilityTypes = {
+                'private-clinic': { en: 'Private Clinic', ar: 'عيادة خاصة' },
+                'specialized-clinic': { en: 'Specialized Clinic', ar: 'عيادة متخصصة' },
+                'medical-center': { en: 'Medical Center', ar: 'مركز طبي' },
+                'hospital': { en: 'Hospital', ar: 'مستشفى' },
+                'cosmetic-center': { en: 'Cosmetic Center', ar: 'مركز تجميل' }
+            };
+            
+            if (facilityTypes[value]) {
+                return getCurrentLanguage() === 'ar' ? facilityTypes[value].ar : facilityTypes[value].en;
+            }
+            return value;
+        }
+        
+        // Function to get device type display text
+        function getDeviceTypeDisplayText(value) {
+            const deviceTypes = {
+                'hair-removal': { en: 'Hair Removal Laser', ar: 'ليزر إزالة الشعر' },
+                'skin-resurfacing': { en: 'Skin Resurfacing Laser', ar: 'ليزر تجديد البشرة' },
+                'pigmentation': { en: 'Pigmentation Treatment Laser', ar: 'ليزر علاج التصبغات' },
+                'tattoo-removal': { en: 'Tattoo Removal Laser', ar: 'ليزر إزالة الوشم' },
+                'surgical': { en: 'Surgical Laser', ar: 'ليزر جراحي' },
+                'ophthalmic': { en: 'Ophthalmic Laser', ar: 'ليزر العيون' },
+                'dental': { en: 'Dental Laser', ar: 'ليزر الأسنان' },
+                'therapeutic': { en: 'Therapeutic Laser', ar: 'ليزر علاجي' },
+                'multiple': { en: 'Multiple Devices', ar: 'أجهزة متعددة' }
+            };
+            
+            if (deviceTypes[value]) {
+                return getCurrentLanguage() === 'ar' ? deviceTypes[value].ar : deviceTypes[value].en;
+            }
+            return value;
+        }
+        
+        // Function to get device count display text
+        function getDeviceCountDisplayText(value) {
+            const counts = {
+                '1': { en: '1 Device', ar: 'جهاز واحد' },
+                '2': { en: '2 Devices', ar: 'جهازان' },
+                '3': { en: '3 Devices', ar: '3 أجهزة' },
+                '4': { en: '4 Devices', ar: '4 أجهزة' },
+                '5+': { en: '5+ Devices', ar: '5+ أجهزة' }
+            };
+            
+            if (counts[value]) {
+                return getCurrentLanguage() === 'ar' ? counts[value].ar : counts[value].en;
+            }
+            return value;
+        }
+        
+        // Function to get device status display text
+        function getDeviceStatusDisplayText(value) {
+            const statuses = {
+                'new-purchase': { en: 'New Purchase', ar: 'شراء جديد' },
+                'already-owned': { en: 'Already Owned', ar: 'مملوك بالفعل' },
+                'planning-to-buy': { en: 'Planning to Buy', ar: 'أخطط للشراء' },
+                'leased': { en: 'Leased/Rented', ar: 'مؤجر' }
+            };
+            
+            if (statuses[value]) {
+                return getCurrentLanguage() === 'ar' ? statuses[value].ar : statuses[value].en;
+            }
+            return value;
+        }
+        
+        // Function to get license status display text
+        function getLicenseStatusDisplayText(value) {
+            const statuses = {
+                'not-licensed': { en: 'Not Licensed', ar: 'غير مرخص' },
+                'expired': { en: 'Expired License', ar: 'ترخيص منتهي الصلاحية' },
+                'need-renewal': { en: 'Need Renewal', ar: 'أحتاج تجديد' },
+                'partial': { en: 'Partially Licensed', ar: 'مرخص جزئياً' },
+                'first-time': { en: 'First Time Application', ar: 'طلب لأول مرة' }
+            };
+            
+            if (statuses[value]) {
+                return getCurrentLanguage() === 'ar' ? statuses[value].ar : statuses[value].en;
+            }
+            return value;
+        }
+        
+        // Function to get priority display text
+        function getPriorityDisplayText(value) {
+            const priorities = {
+                'standard': { en: 'Standard (3-4 weeks)', ar: 'عادي (3-4 أسابيع)' },
+                'expedited': { en: 'Expedited (7-10 days)', ar: 'معجل (7-10 أيام)' },
+                'emergency': { en: 'Emergency (3-5 days)', ar: 'طارئ (3-5 أيام)' }
+            };
+            
+            if (priorities[value]) {
+                return getCurrentLanguage() === 'ar' ? priorities[value].ar : priorities[value].en;
+            }
+            return value;
+        }
+        
+        // WhatsApp functionality
+        document.getElementById('sendWhatsApp').addEventListener('click', function() {
+            const form = document.getElementById('laserDeviceForm');
+            const formData = new FormData(form);
+            
+            // Check if required fields are filled
+            const requiredFields = ['fullName', 'phone', 'email', 'specialty', 'facilityType', 'deviceType', 'deviceBrand', 'deviceCount', 'deviceStatus', 'licenseStatus', 'address', 'priority'];
+            let isValid = true;
+            let missingFields = [];
+            
+            requiredFields.forEach(field => {
+                if (!formData.get(field) || formData.get(field).trim() === '') {
+                    isValid = false;
+                    missingFields.push(field);
+                }
+            });
+            
+            if (!isValid) {
+                const alertMessage = getLocalizedText(
+                    'Please fill in all required fields: ' + missingFields.join(', '),
+                    'يرجى ملء جميع الحقول المطلوبة: ' + missingFields.join(', ')
+                );
+                alert(alertMessage);
+                return;
+            }
+            
+            // Create WhatsApp message based on current language
+            let message;
+            if (getCurrentLanguage() === 'ar') {
+                message = `*طلب ترخيص جهاز الليزر*\n\n`;
+                message += `*الاسم الكامل:* ${formData.get('fullName')}\n`;
+                message += `*رقم الهاتف:* ${formData.get('phone')}\n`;
+                message += `*البريد الإلكتروني:* ${formData.get('email')}\n`;
+                message += `*التخصص الطبي:* ${getSpecialtyDisplayText(formData.get('specialty'))}\n`;
+                message += `*نوع المنشأة:* ${getFacilityTypeDisplayText(formData.get('facilityType'))}\n`;
+                message += `*نوع جهاز الليزر:* ${getDeviceTypeDisplayText(formData.get('deviceType'))}\n`;
+                message += `*ماركة/موديل الجهاز:* ${formData.get('deviceBrand')}\n`;
+                message += `*عدد الأجهزة:* ${getDeviceCountDisplayText(formData.get('deviceCount'))}\n`;
+                message += `*حالة الجهاز:* ${getDeviceStatusDisplayText(formData.get('deviceStatus'))}\n`;
+                message += `*حالة الترخيص الحالية:* ${getLicenseStatusDisplayText(formData.get('licenseStatus'))}\n`;
+                message += `*عنوان المنشأة:* ${formData.get('address')}\n`;
+                message += `*أولوية الخدمة:* ${getPriorityDisplayText(formData.get('priority'))}\n`;
+                if (formData.get('startDate')) {
+                    message += `*تاريخ البدء المفضل:* ${formData.get('startDate')}\n`;
+                }
+                if (formData.get('notes')) {
+                    message += `*ملاحظات إضافية:* ${formData.get('notes')}\n`;
+                }
+            } else {
+                message = `*Laser Device License Application*\n\n`;
+                message += `*Full Name:* ${formData.get('fullName')}\n`;
+                message += `*Phone Number:* ${formData.get('phone')}\n`;
+                message += `*Email:* ${formData.get('email')}\n`;
+                message += `*Medical Specialty:* ${getSpecialtyDisplayText(formData.get('specialty'))}\n`;
+                message += `*Facility Type:* ${getFacilityTypeDisplayText(formData.get('facilityType'))}\n`;
+                message += `*Laser Device Type:* ${getDeviceTypeDisplayText(formData.get('deviceType'))}\n`;
+                message += `*Device Brand/Model:* ${formData.get('deviceBrand')}\n`;
+                message += `*Number of Devices:* ${getDeviceCountDisplayText(formData.get('deviceCount'))}\n`;
+                message += `*Device Status:* ${getDeviceStatusDisplayText(formData.get('deviceStatus'))}\n`;
+                message += `*Current License Status:* ${getLicenseStatusDisplayText(formData.get('licenseStatus'))}\n`;
+                message += `*Facility Address:* ${formData.get('address')}\n`;
+                message += `*Service Priority:* ${getPriorityDisplayText(formData.get('priority'))}\n`;
+                if (formData.get('startDate')) {
+                    message += `*Preferred Start Date:* ${formData.get('startDate')}\n`;
+                }
+                if (formData.get('notes')) {
+                    message += `*Additional Notes:* ${formData.get('notes')}\n`;
+                }
+            }
+            
+            // Encode message for URL
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappURL = `https://wa.me/201044273608?text=${encodedMessage}`;
+            
+            // Open WhatsApp
+            window.open(whatsappURL, '_blank');
+        });
+        
+        // PDF export functionality
+        document.getElementById('exportPDF').addEventListener('click', function() {
+            const form = document.getElementById('laserDeviceForm');
+            const formData = new FormData(form);
+            
+            // Check if required fields are filled
+            const requiredFields = ['fullName', 'phone', 'email', 'specialty', 'facilityType', 'deviceType', 'deviceBrand', 'deviceCount', 'deviceStatus', 'licenseStatus', 'address', 'priority'];
+            let isValid = true;
+            let missingFields = [];
+            
+            requiredFields.forEach(field => {
+                if (!formData.get(field) || formData.get(field).trim() === '') {
+                    isValid = false;
+                    missingFields.push(field);
+                }
+            });
+            
+            if (!isValid) {
+                const alertMessage = getLocalizedText(
+                    'Please fill in all required fields: ' + missingFields.join(', '),
+                    'يرجى ملء جميع الحقول المطلوبة: ' + missingFields.join(', ')
+                );
+                alert(alertMessage);
+                return;
+            }
+            
+            // Check if content contains Arabic
+            const hasArabicContent = containsArabic(formData.get('fullName')) || 
+                                   containsArabic(formData.get('deviceBrand')) ||
+                                   containsArabic(formData.get('address')) || 
+                                   containsArabic(formData.get('notes') || '') ||
+                                   getCurrentLanguage() === 'ar';
+            
+            // Create HTML content for PDF
+            const title = getLocalizedText('Laser Device License Application', 'طلب ترخيص جهاز الليزر');
+            const fullNameLabel = getLocalizedText('Full Name:', 'الاسم الكامل:');
+            const phoneLabel = getLocalizedText('Phone Number:', 'رقم الهاتف:');
+            const emailLabel = getLocalizedText('Email:', 'البريد الإلكتروني:');
+            const specialtyLabel = getLocalizedText('Medical Specialty:', 'التخصص الطبي:');
+            const facilityTypeLabel = getLocalizedText('Facility Type:', 'نوع المنشأة:');
+            const deviceTypeLabel = getLocalizedText('Laser Device Type:', 'نوع جهاز الليزر:');
+            const deviceBrandLabel = getLocalizedText('Device Brand/Model:', 'ماركة/موديل الجهاز:');
+            const deviceCountLabel = getLocalizedText('Number of Devices:', 'عدد الأجهزة:');
+            const deviceStatusLabel = getLocalizedText('Device Status:', 'حالة الجهاز:');
+            const licenseStatusLabel = getLocalizedText('Current License Status:', 'حالة الترخيص الحالية:');
+            const addressLabel = getLocalizedText('Facility Address:', 'عنوان المنشأة:');
+            const priorityLabel = getLocalizedText('Service Priority:', 'أولوية الخدمة:');
+            const startDateLabel = getLocalizedText('Preferred Start Date:', 'تاريخ البدء المفضل:');
+            const notesLabel = getLocalizedText('Additional Notes:', 'ملاحظات إضافية:');
+            const footerText = getLocalizedText(
+                `Generated on: ${new Date().toLocaleDateString()}`,
+                `تم الإنشاء في: ${new Date().toLocaleDateString('ar-EG')}`
+            );
+            
+            const htmlContent = `
+                <div style="font-family: 'Tajawal', 'Inter', Arial, sans-serif; padding: 40px; max-width: 800px; margin: 0 auto; direction: ${hasArabicContent ? 'rtl' : 'ltr'}; text-align: ${hasArabicContent ? 'right' : 'left'};">
+                    <h1 style="color: #2c3e50; margin-bottom: 30px; text-align: center; font-size: 24px; border-bottom: 2px solid #3498db; padding-bottom: 10px;">
+                        ${title}
+                    </h1>
+                    
+                    <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${fullNameLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('fullName')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${phoneLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('phone')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${emailLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('email')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${specialtyLabel}</strong>
+                            <span style="color: #34495e;">${getSpecialtyDisplayText(formData.get('specialty'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${facilityTypeLabel}</strong>
+                            <span style="color: #34495e;">${getFacilityTypeDisplayText(formData.get('facilityType'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${deviceTypeLabel}</strong>
+                            <span style="color: #34495e;">${getDeviceTypeDisplayText(formData.get('deviceType'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${deviceBrandLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('deviceBrand')}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${deviceCountLabel}</strong>
+                            <span style="color: #34495e;">${getDeviceCountDisplayText(formData.get('deviceCount'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${deviceStatusLabel}</strong>
+                            <span style="color: #34495e;">${getDeviceStatusDisplayText(formData.get('deviceStatus'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${licenseStatusLabel}</strong>
+                            <span style="color: #34495e;">${getLicenseStatusDisplayText(formData.get('licenseStatus'))}</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: block; margin-bottom: 5px;">${addressLabel}</strong>
+                            <div style="color: #34495e; padding: 10px; background: white; border-radius: 4px; border: 1px solid #dee2e6;">
+                                ${formData.get('address').replace(/\n/g, '<br>')}
+                            </div>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${priorityLabel}</strong>
+                            <span style="color: #34495e;">${getPriorityDisplayText(formData.get('priority'))}</span>
+                        </div>
+                        
+                        ${formData.get('startDate') ? `
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: inline-block; min-width: 200px;">${startDateLabel}</strong>
+                            <span style="color: #34495e;">${formData.get('startDate')}</span>
+                        </div>
+                        ` : ''}
+                        
+                        ${formData.get('notes') ? `
+                        <div style="margin-bottom: 15px;">
+                            <strong style="color: #2c3e50; display: block; margin-bottom: 5px;">${notesLabel}</strong>
+                            <div style="color: #34495e; padding: 10px; background: white; border-radius: 4px; border: 1px solid #dee2e6;">
+                                ${formData.get('notes').replace(/\n/g, '<br>')}
+                            </div>
+                        </div>
+                        ` : ''}
+                    </div>
+                    
+                    <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 12px;">
+                        ${footerText}
+                    </div>
+                </div>
+            `;
+            
+            // Create a temporary div to hold the HTML content
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = htmlContent;
+            tempDiv.style.position = 'absolute';
+            tempDiv.style.left = '-9999px';
+            tempDiv.style.top = '-9999px';
+            tempDiv.style.width = '800px';
+            document.body.appendChild(tempDiv);
+            
+            // Use html2canvas to convert HTML to canvas, then to PDF
+            html2canvas(tempDiv, {
+                scale: 2,
+                useCORS: true,
+                allowTaint: true,
+                backgroundColor: '#ffffff',
+                width: 800,
+                height: tempDiv.scrollHeight
+            }).then(canvas => {
+                // Remove the temporary div
+                document.body.removeChild(tempDiv);
+                
+                // Create PDF
+                const { jsPDF } = window.jspdf;
+                const pdf = new jsPDF('p', 'mm', 'a4');
+                
+                // Calculate dimensions
+                const imgWidth = 210; // A4 width in mm
+                const pageHeight = 295; // A4 height in mm
+                const imgHeight = (canvas.height * imgWidth) / canvas.width;
+                let heightLeft = imgHeight;
+                let position = 0;
+                
+                // Add image to PDF
+                const imgData = canvas.toDataURL('image/png');
+                pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+                heightLeft -= pageHeight;
+                
+                // Add new pages if content is longer than one page
+                while (heightLeft >= 0) {
+                    position = heightLeft - imgHeight;
+                    pdf.addPage();
+                    pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+                    heightLeft -= pageHeight;
+                }
+                
+                // Save PDF
+                const fileName = hasArabicContent ? 
+                    `طلب_ترخيص_ليزر_${formData.get('fullName').replace(/\s+/g, '_')}.pdf` :
+                    `Laser_Device_License_${formData.get('fullName').replace(/\s+/g, '_')}.pdf`;
+                pdf.save(fileName);
+            }).catch(error => {
+                // Remove the temporary div in case of error
+                if (document.body.contains(tempDiv)) {
+                    document.body.removeChild(tempDiv);
+                }
+                console.error('Error generating PDF:', error);
+                alert(getLocalizedText(
+                    'Error generating PDF. Please try again.',
+                    'خطأ في إنشاء ملف PDF. يرجى المحاولة مرة أخرى.'
+                ));
+            });
+        });
+    </script>
+</body>
+</html>
