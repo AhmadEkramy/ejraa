@@ -1220,6 +1220,7 @@ body {
     }
     
     .step-number {
+        margin-top: 1rem;
         margin-right: 0;
         margin-bottom: 1rem;
     }
